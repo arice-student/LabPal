@@ -4,11 +4,9 @@ import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
+import java.time.Period;
 import java.util.HashSet;
-import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -18,11 +16,10 @@ import java.util.Set;
  */
 @Entity(name = "User")
 @Table(name = "user")
-
 @NoArgsConstructor
 @RequiredArgsConstructor
 @Data
-@EqualsAndHashCode
+
 public class User {
     @Column(name = "first_name")
     @NonNull
@@ -46,39 +43,19 @@ public class User {
     private LocalDate dateOfBirth;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<Order> orders = new HashSet<>();
-
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Role> roles = new HashSet<>();
 
     /**
-     * Gets age.
+     * Calculate age from date of birth
+     * Adapted from: https://www.baeldung.com/java-get-age
      *
-     * @return the age
+     * @return current age
      */
     public int getAge() {
+        LocalDate currentDate = LocalDate.now();
 
-        return (int)ChronoUnit.YEARS.between(dateOfBirth, LocalDate.now());
-    }
+        return Period.between(dateOfBirth, currentDate).getYears();
 
-    /**
-     * Add order.
-     *
-     * @param order the order
-     */
-    public void addOrder(Order order) {
-        orders.add(order);
-        order.setUser(this);
-    }
-
-    /**
-     * Remove order.
-     *
-     * @param order the order
-     */
-    public void removeOrder(Order order) {
-        orders.remove(order);
-        order.setUser(null);
     }
 
     /**

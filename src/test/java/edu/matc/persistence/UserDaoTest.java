@@ -1,6 +1,5 @@
 package edu.matc.persistence;
 
-import edu.matc.entity.Order;
 import edu.matc.entity.Role;
 import edu.matc.entity.User;
 import edu.matc.test.util.Database;
@@ -87,27 +86,6 @@ class UserDaoTest {
         User insertedUser = (User)userDao.getById(id);
         assertEquals(newUser, insertedUser);
         assertEquals(1, insertedUser.getRoles().size());
-    }
-
-    /**
-     * Verify successful insert of a user
-     */
-    @Test
-    void insertWithOrderSuccess() {
-
-        User newUser = new User("Fred", "Flintstone", "fflintstone", LocalDate.parse("1168-01-01"));
-
-        String orderDescription = "Order 1";
-        Order order = new Order(orderDescription, newUser);
-
-        newUser.addOrder(order);
-
-        int id = userDao.insert(newUser);
-
-        assertNotEquals(0,id);
-        User insertedUser = (User)userDao.getById(id);
-        assertEquals(newUser, insertedUser);
-        assertEquals(1, insertedUser.getOrders().size());
     }
 
     /**
