@@ -1,5 +1,9 @@
 package edu.matc.entity;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -17,14 +21,21 @@ import java.util.Set;
  */
 @Entity(name = "User")
 @Table(name = "user")
+
+@NoArgsConstructor
+@RequiredArgsConstructor
+@Data
 public class User {
     @Column(name = "first_name")
+    @NonNull
     private String firstName;
 
     @Column(name = "last_name")
+    @NonNull
     private String lastName;
 
     @Column(name = "user_name")
+    @NonNull
     private String userName;
 
     @Id
@@ -33,6 +44,7 @@ public class User {
     private int id;
 
     @Column(name = "date_of_birth")
+    @NonNull
     private LocalDate dateOfBirth;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
