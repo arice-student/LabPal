@@ -1,0 +1,1 @@
+INSERT INTO test_sample.role (id, role_name, user_name, user_id) VALUES (1, 'admin', 'jcoyne', 1);

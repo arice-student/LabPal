@@ -1,0 +1,65 @@
+[ERROR] 2021-03-03 06:19:40.569 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:40.806 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:40.864 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:40.903 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:40.939 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:40.979 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:41.029 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:41.109 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:41.150 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:41.247 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:41.365 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:41.409 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:41.437 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:41.478 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:41.689 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:19:41.741 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:41.732 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:41.986 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.025 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.064 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.103 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.134 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.174 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.233 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.293 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.378 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.414 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.497 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.566 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.593 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.617 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:21:42.642 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:56.569 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:56.861 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:56.911 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:56.951 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:56.993 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:57.035 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:57.092 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:57.142 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:57.180 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:57.232 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:57.269 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:57.347 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:57.408 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:57.444 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:57.476 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[ERROR] 2021-03-03 06:24:57.503 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server.
+[DEBUG] 2021-03-03 06:33:27.815 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-03 06:33:28.156 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-03 06:33:29.175 [main] GenericDao - Searching for order with description = Books
+[DEBUG] 2021-03-03 06:33:29.267 [main] GenericDao - Searching for order with description = b
+[DEBUG] 2021-03-03 06:39:02.943 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-03 06:39:03.266 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-03 06:39:04.054 [main] GenericDao - Searching for order with description = Books
+[DEBUG] 2021-03-03 06:39:04.138 [main] GenericDao - Searching for order with description = b
+[DEBUG] 2021-03-03 06:41:03.573 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-03 06:41:03.788 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-03 06:41:04.382 [main] GenericDao - Searching for order with description = Books
+[DEBUG] 2021-03-03 06:41:04.438 [main] GenericDao - Searching for order with description = b
+[DEBUG] 2021-03-03 06:45:47.005 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-03 06:45:47.270 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-03 06:45:48.011 [main] GenericDao - Searching for order with description = Books
+[DEBUG] 2021-03-03 06:45:48.063 [main] GenericDao - Searching for order with description = b
+[DEBUG] 2021-03-03 06:46:38.402 [http-nio-8080-exec-10] GenericDao - Searching for order with lastName = c
