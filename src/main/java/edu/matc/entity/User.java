@@ -1,11 +1,11 @@
 package edu.matc.entity;
 
-import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.time.LocalDate;
-import java.time.Period;
+import java.time.temporal.ChronoUnit;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
@@ -17,21 +17,14 @@ import java.util.Set;
  */
 @Entity(name = "User")
 @Table(name = "user")
-@NoArgsConstructor
-@RequiredArgsConstructor
-@Data
-
 public class User {
     @Column(name = "first_name")
-    @NonNull
     private String firstName;
 
     @Column(name = "last_name")
-    @NonNull
     private String lastName;
 
     @Column(name = "user_name")
-    @NonNull
     private String userName;
 
     @Id
@@ -40,23 +33,139 @@ public class User {
     private int id;
 
     @Column(name = "date_of_birth")
-    @NonNull
     private LocalDate dateOfBirth;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Role> roles = new HashSet<>();
 
     /**
-     * Calculate age from date of birth
-     * Adapted from: https://www.baeldung.com/java-get-age
+     * Instantiates a new User.
+     */
+    public User() {
+    }
+
+    /**
+     * Instantiates a new User.
      *
-     * @return current age
+     * @param firstName   the first name
+     * @param lastName    the last name
+     * @param userName    the user name
+     * @param dateOfBirth the date of birth
+     */
+    public User(String firstName, String lastName, String userName, LocalDate dateOfBirth) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.userName = userName;
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    /**
+     * Gets first name.
+     *
+     * @return the first name
+     */
+    public String getFirstName() {
+        return firstName;
+    }
+
+    /**
+     * Sets first name.
+     *
+     * @param firstName the first name
+     */
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    /**
+     * Gets last name.
+     *
+     * @return the last name
+     */
+    public String getLastName() {
+        return lastName;
+    }
+
+    /**
+     * Sets last name.
+     *
+     * @param lastName the last name
+     */
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    /**
+     * Gets user name.
+     *
+     * @return the user name
+     */
+    public String getUserName() {
+        return userName;
+    }
+
+    /**
+     * Sets user name.
+     *
+     * @param userName the user name
+     */
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    /**
+     * Gets id.
+     *
+     * @return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+
+    /**
+     * Sets id.
+     *
+     * @param id the id
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * Gets date of birth.
+     *
+     * @return the date of birth
+     */
+    public LocalDate getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    /**
+     * Sets date of birth.
+     *
+     * @param dateOfBirth the date of birth
+     */
+    public void setDateOfBirth(LocalDate dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    /**
+     * Gets age.
+     *
+     * @return the age
      */
     public int getAge() {
-        LocalDate currentDate = LocalDate.now();
 
-        return Period.between(dateOfBirth, currentDate).getYears();
+        return (int)ChronoUnit.YEARS.between(dateOfBirth, LocalDate.now());
+    }
 
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
     }
 
     /**
@@ -79,15 +188,34 @@ public class User {
         role.setUser(null);
     }
 
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", userName='" + userName + '\'' +
+                ", id=" + id +
+                ", dateOfBirth=" + dateOfBirth +
+                ", age=" + getAge() +
+                '}';
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
-        return id == user.id && Objects.equals(firstName, user.firstName) &&
+        return id == user.id &&
+                Objects.equals(firstName, user.firstName) &&
                 Objects.equals(lastName, user.lastName) &&
                 Objects.equals(userName, user.userName) &&
-                Objects.equals(dateOfBirth, user.dateOfBirth) &&
-                Objects.equals(roles, user.roles);
+                Objects.equals(dateOfBirth, user.dateOfBirth);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(firstName, lastName, userName, id, dateOfBirth);
     }
 }
