@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.matc.persistence.UserDaoTest" time="4.948" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.matc.persistence.UserDaoTest" time="6.654" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2020.3.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.9+7-LTS"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/Tony/Documents/gitHubRepos/User Display"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Tony/Documents/gitHubRepos/LabPal"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/Tony/Documents/gitHubRepos/User Display"/>
+    <property name="user.dir" value="/Users/Tony/Documents/gitHubRepos/LabPal"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.9+7-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -64,13 +64,13 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="deleteSuccess" classname="edu.matc.persistence.UserDaoTest" time="4.085"/>
-  <testcase name="getByPropertyEqualSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.25"/>
-  <testcase name="getByPropertyLikeSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.103"/>
-  <testcase name="getByIdSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.065"/>
-  <testcase name="updateSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.091"/>
-  <testcase name="insertWithRoleSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.08"/>
-  <testcase name="getAllUsersSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.111"/>
-  <testcase name="insertWithOrderSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.076"/>
-  <testcase name="insertSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.069"/>
+  <testcase name="deleteSuccess" classname="edu.matc.persistence.UserDaoTest" time="5.364"/>
+  <testcase name="getByPropertyEqualSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.264"/>
+  <testcase name="getByPropertyLikeSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.174"/>
+  <testcase name="getByIdSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.08"/>
+  <testcase name="updateSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.102"/>
+  <testcase name="insertWithRoleSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.125"/>
+  <testcase name="getAllUsersSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.242"/>
+  <testcase name="insertWithOrderSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.125"/>
+  <testcase name="insertSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.099"/>
 </testsuite>
