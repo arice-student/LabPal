@@ -1,9 +1,6 @@
 package edu.matc.entity;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -25,6 +22,7 @@ import java.util.Set;
 @NoArgsConstructor
 @RequiredArgsConstructor
 @Data
+@EqualsAndHashCode
 public class User {
     @Column(name = "first_name")
     @NonNull

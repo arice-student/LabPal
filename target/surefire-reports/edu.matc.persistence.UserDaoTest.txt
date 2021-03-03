@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: edu.matc.persistence.UserDaoTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.592 sec - in edu.matc.persistence.UserDaoTest
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.253 sec <<< FAILURE! - in edu.matc.persistence.UserDaoTest
+insertWithRoleSuccess()  Time elapsed: 0.15 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: edu.matc.entity.User@605eb072<User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=63, dateOfBirth=1168-01-01, orders=[], roles=[Role{id=19, roleName='admin', userName= 'fflintstone'}])> but was: edu.matc.entity.User@59f3426f<User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=63, dateOfBirth=1168-01-01, orders=[], roles=[Role{id=19, roleName='admin', userName= 'fflintstone'}])>
+	at edu.matc.persistence.UserDaoTest.insertWithRoleSuccess(UserDaoTest.java:88)
+
+insertWithOrderSuccess()  Time elapsed: 0.093 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: edu.matc.entity.User@716ae973<User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=64, dateOfBirth=1168-01-01, orders=[Order{id=41, description='Order 1'}], roles=[])> but was: edu.matc.entity.User@445058e8<User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=64, dateOfBirth=1168-01-01, orders=[Order{id=41, description='Order 1'}], roles=[])>
+	at edu.matc.persistence.UserDaoTest.insertWithOrderSuccess(UserDaoTest.java:109)
+
