@@ -1,5 +1,6 @@
 package edu.matc.entity;
 
+import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -7,6 +8,10 @@ import java.util.Objects;
 
 @Entity(name = "Role")
 @Table(name = "role")
+@NoArgsConstructor
+@RequiredArgsConstructor
+@Data
+
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -17,56 +22,17 @@ public class Role {
     @JoinColumn(name = "user_id",
             foreignKey = @ForeignKey(name = "role_user_user_id_fk")
     )
+    @NonNull
     private User user;
 
     @Column(name="user_name")
+    @NonNull
     private String userName;
 
 
     @Column(name="role_name")
+    @NonNull
     private String roleName;
-
-    public Role() {
-    }
-
-    public Role(User user, String roleName, String userName) {
-        this.user = user;
-        this.roleName = roleName;
-        this.userName = userName;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public String getRoleName() {
-        return roleName;
-    }
-
-    public void setRoleName(String roleName) {
-        this.roleName = roleName;
-    }
-
-    @Override
-    public String toString() {
-        return "Role{" +
-                "id=" + id +
-                ", roleName='" + roleName + '\'' +
-                ", userName= '" + userName + '\'' +
-                '}';
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -76,11 +42,5 @@ public class Role {
         return id == role.id &&
                 Objects.equals(userName, role.userName) &&
                 Objects.equals(roleName, role.roleName);
-    }
-
-    @Override
-    public int hashCode() {
-
-        return Objects.hash(id,  roleName, userName);
     }
 }

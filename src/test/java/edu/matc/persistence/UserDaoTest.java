@@ -75,8 +75,7 @@ class UserDaoTest {
         User newUser = new User("Fred", "Flintstone", userName, LocalDate.parse("1168-01-01"));
 
         String roleName = "admin";
-        Role role = new Role(newUser,roleName, userName);
-
+        Role role = new Role(newUser,userName, roleName);
         newUser.addRole(role);
 
         int id = userDao.insert(newUser);

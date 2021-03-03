@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.matc.persistence.UserDaoTest" time="5.253" tests="9" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.matc.persistence.UserDaoTest" time="5.856" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2020.3.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,21 +64,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="deleteSuccess" classname="edu.matc.persistence.UserDaoTest" time="4.234"/>
-  <testcase name="getByPropertyEqualSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.279"/>
-  <testcase name="getByPropertyLikeSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.122"/>
-  <testcase name="getByIdSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.067"/>
-  <testcase name="updateSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.101"/>
-  <testcase name="insertWithRoleSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.15">
-    <failure message="expected: edu.matc.entity.User@605eb072&lt;User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=63, dateOfBirth=1168-01-01, orders=[], roles=[Role{id=19, roleName=&apos;admin&apos;, userName= &apos;fflintstone&apos;}])&gt; but was: edu.matc.entity.User@59f3426f&lt;User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=63, dateOfBirth=1168-01-01, orders=[], roles=[Role{id=19, roleName=&apos;admin&apos;, userName= &apos;fflintstone&apos;}])&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: edu.matc.entity.User@605eb072<User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=63, dateOfBirth=1168-01-01, orders=[], roles=[Role{id=19, roleName='admin', userName= 'fflintstone'}])> but was: edu.matc.entity.User@59f3426f<User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=63, dateOfBirth=1168-01-01, orders=[], roles=[Role{id=19, roleName='admin', userName= 'fflintstone'}])>
-	at edu.matc.persistence.UserDaoTest.insertWithRoleSuccess(UserDaoTest.java:88)
-]]></failure>
-  </testcase>
-  <testcase name="getAllUsersSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.121"/>
-  <testcase name="insertWithOrderSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.093">
-    <failure message="expected: edu.matc.entity.User@716ae973&lt;User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=64, dateOfBirth=1168-01-01, orders=[Order{id=41, description=&apos;Order 1&apos;}], roles=[])&gt; but was: edu.matc.entity.User@445058e8&lt;User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=64, dateOfBirth=1168-01-01, orders=[Order{id=41, description=&apos;Order 1&apos;}], roles=[])&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: edu.matc.entity.User@716ae973<User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=64, dateOfBirth=1168-01-01, orders=[Order{id=41, description='Order 1'}], roles=[])> but was: edu.matc.entity.User@445058e8<User(firstName=Fred, lastName=Flintstone, userName=fflintstone, id=64, dateOfBirth=1168-01-01, orders=[Order{id=41, description='Order 1'}], roles=[])>
-	at edu.matc.persistence.UserDaoTest.insertWithOrderSuccess(UserDaoTest.java:109)
-]]></failure>
-  </testcase>
-  <testcase name="insertSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.067"/>
+  <testcase name="deleteSuccess" classname="edu.matc.persistence.UserDaoTest" time="5.074"/>
+  <testcase name="getByPropertyEqualSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.239"/>
+  <testcase name="getByPropertyLikeSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.084"/>
+  <testcase name="getByIdSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.06"/>
+  <testcase name="updateSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.072"/>
+  <testcase name="insertWithRoleSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.088"/>
+  <testcase name="getAllUsersSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.08"/>
+  <testcase name="insertSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.065"/>
 </testsuite>
