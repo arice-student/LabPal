@@ -33,7 +33,7 @@ class ClientDaoTest {
     @Test
     void getAll() {
         List<Client> clients = clientDao.getAll();
-        assertEquals(6, clients.size());
+        assertEquals(4, clients.size());
     }
 
 
@@ -42,11 +42,11 @@ class ClientDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        Client newClient = new Client("Carbs");
-        newClient.setId(10);
+        Client client = new Client("Dairy");
+        client.setId(3);
         Client retrievedClient = (Client)clientDao.getById(3);
         assertNotNull(retrievedClient);
-        assertEquals(newClient, retrievedClient);
+        assertEquals(client, retrievedClient);
     }
 
     /**
@@ -89,9 +89,9 @@ class ClientDaoTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<Client> clients = clientDao.getByPropertyEqual("lastName", "Curry");
+        List<Client> clients = clientDao.getByPropertyEqual("name", "fruit");
         assertEquals(1, clients.size());
-        assertEquals(3, clients.get(0).getId());
+        assertEquals(1, clients.get(0).getId());
     }
 
     /**
@@ -99,7 +99,7 @@ class ClientDaoTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-        List<Client> clients = clientDao.getByPropertyLike("lastName", "c");
-        assertEquals(3, clients.size());
+        List<Client> clients = clientDao.getByPropertyLike("name", "v");
+        assertEquals(1, clients.size());
     }
 }
