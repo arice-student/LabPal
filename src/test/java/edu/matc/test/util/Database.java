@@ -1,5 +1,6 @@
 package edu.matc.test.util;
 
+import lombok.extern.log4j.Log4j2;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -19,6 +20,7 @@ import java.util.Properties;
  * @author pwaite
  */
 
+@Log4j2
 public class Database {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
@@ -40,10 +42,10 @@ public class Database {
         try {
             properties.load (this.getClass().getResourceAsStream("/database.properties"));
         } catch (IOException ioe) {
-            System.out.println("Database.loadProperties()...Cannot load the properties file");
+            log.error("Database.loadProperties()...Cannot load the properties file");
             ioe.printStackTrace();
         } catch (Exception e) {
-            System.out.println("Database.loadProperties()..." + e);
+            log.error("Database.loadProperties()..." + e);
             e.printStackTrace();
         }
 
@@ -77,7 +79,7 @@ public class Database {
             try {
                 connection.close();
             } catch (SQLException e) {
-                System.out.println("Cannot close connection" + e);
+                log.error("Cannot close connection" + e);
             }
         }
 

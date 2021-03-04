@@ -69,3 +69,14 @@ Learned about log4j and JUnit this week.  Additionally, worked on the Exercise 3
 
 - I believe I just finished all the necessary steps for this first check point.  However, to get the application where I want it, I will definitely need to create a lot more wire frames.  In the meantime, there's enough to build the basic framework of the site.
 - The issue that I am having is figuring out to design the Project Management web page.  Every time I think I have a solution, I realize that I have no idea how to implement it.  So this will likely require a lot of trial-and-error.
+
+### Week 5 and Week 6
+
+- For these two weeks, I essentially just focused on the weekly lecture material and getting the weekly assignments done.  I did not do very much for the project.
+
+### Week 7
+
+- It's currently Thursday in Week 7.  I have just gotten to the point where I am able to submit Check Point #2 for review.  It has not been easy to get to that point.  On Tuesday evening, I spent 10 hours straight to try and get everything completed for this check point, however, every time I made a change, an error would occur and it would take me a lot of time (sometimes hours) to fix it.  Eventually, my indie github project was so corrupted that I had to pull a new template project and recreate/setup everything.
+- My plan now is to get the remaining classes setup for all of the tables that I have along with their unit tests.  Also, since I have been having so many issues, my plan is to tie in the other one-to-many and many-to-many relationships later this week once I get everything setup in a minimum capacity and verify that it's working.
+- I have tried to implement Lombok into my project, however, it was causing several of my unit tests to fail, even though it was setup correctly (especially the equals() method).  Therefore, my Role and User tables are setup the traditional way, and my client table is setup using Lombok.  My plan is to try and set everything else using Lombok, but reverting back to the traditional way if issues persist.
+- One thing that I have learned throughout this process is that I am typically used to spending large chunks of time (a few times a week) to work on class work.  However, I am quickly learning that this approach is not ideal for this class.  Moving forward, my plan is to try and tackle a little bit every day, whether that's creating a few Entity classes, unit tests, a jsp page, etc.  This will also help because if I have an error I cannot resolve, it will allow me to step away and come back later after posting a question on Slack.
