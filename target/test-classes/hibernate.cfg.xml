@@ -18,6 +18,7 @@
 
         <mapping class="edu.matc.entity.User"/>
         <mapping class="edu.matc.entity.Role"/>
+        <mapping class="edu.matc.entity.Client"/>
 
 
 

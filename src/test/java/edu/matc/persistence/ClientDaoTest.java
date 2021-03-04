@@ -1,13 +1,9 @@
 package edu.matc.persistence;
 
 import edu.matc.entity.Client;
-import edu.matc.entity.Role;
-import edu.matc.entity.User;
 import edu.matc.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.time.LocalDate;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -32,82 +28,60 @@ class ClientDaoTest {
     }
 
     /**
-     * Verifies gets all users successfully.
+     * Verifies gets all clients successfully.
      */
     @Test
-    void getAllUsersSuccess() {
-        List<User> users = userDao.getAll();
-        assertEquals(6, users.size());
+    void getAll() {
+        List<Client> clients = clientDao.getAll();
+        assertEquals(6, clients.size());
     }
 
 
     /**
-     * Verifies a user is returned correctly based on id search
+     * Verifies a client is returned correctly based on id search
      */
     @Test
     void getByIdSuccess() {
-        User newUser = new User("Barney", "Curry", "bcurry", LocalDate.parse("1947-11-11"));
-        newUser.setId(3);
-        User retrievedUser = (User)userDao.getById(3);
-        assertNotNull(retrievedUser);
-        assertEquals(newUser, retrievedUser);
+        Client newClient = new Client("Carbs");
+        newClient.setId(10);
+        Client retrievedClient = (Client)clientDao.getById(3);
+        assertNotNull(retrievedClient);
+        assertEquals(newClient, retrievedClient);
     }
 
     /**
-     * Verify successful insert of a user
+     * Verify successful insert of a client
      */
     @Test
     void insertSuccess() {
 
-        User newUser = new User("Fred", "Flintstone", "fflintstone", LocalDate.parse("1168-01-01"));
-        int id = userDao.insert(newUser);
+        Client newClient = new Client("Carbs");
+        int id = clientDao.insert(newClient);
         assertNotEquals(0,id);
-        User insertedUser = (User)userDao.getById(id);
-        assertEquals(newUser, insertedUser);
+        Client insertedClient = (Client)clientDao.getById(id);
+        assertEquals(newClient, insertedClient);
     }
 
     /**
-     * Verify successful insert of a user
-     */
-    @Test
-    void insertWithRoleSuccess() {
-
-        String userName = "fflintstone";
-        User newUser = new User("Fred", "Flintstone", userName, LocalDate.parse("1168-01-01"));
-
-        String roleName = "admin";
-        Role role = new Role(newUser,userName, roleName);
-        newUser.addRole(role);
-
-        int id = userDao.insert(newUser);
-
-
-        assertNotEquals(0,id);
-        User insertedUser = (User)userDao.getById(id);
-        assertEquals(newUser, insertedUser);
-        assertEquals(1, insertedUser.getRoles().size());
-    }
-
-    /**
-     * Verify successful delete of user
+     * Verify successful delete of client
      */
     @Test
     void deleteSuccess() {
-        userDao.delete(userDao.getById(3));
-        assertNull(userDao.getById(3));
+        clientDao.delete(clientDao.getById(3));
+        assertNull(clientDao.getById(3));
     }
 
     /**
-     * Verify successful update of user
+     * Verify successful update of client
      */
     @Test
     void updateSuccess() {
-        String newLastName = "Davis";
-        User userToUpdate = (User) userDao.getById(3);
-        userToUpdate.setLastName(newLastName);
-        userDao.saveOrUpdate(userToUpdate);
-        User retrievedUser = (User) userDao.getById(3);
-        assertEquals(userToUpdate, retrievedUser);
+        String newClientName = "Carbs";
+        Client clientToUpdate = (Client) clientDao.getById(3);
+        clientToUpdate.setName(newClientName);
+        clientDao.saveOrUpdate(clientToUpdate);
+        Client retrievedClient = (Client) clientDao.getById(3);
+        assertEquals(clientToUpdate, retrievedClient);
     }
 
     /**
@@ -115,9 +89,9 @@ class ClientDaoTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<User> users = userDao.getByPropertyEqual("lastName", "Curry");
-        assertEquals(1, users.size());
-        assertEquals(3, users.get(0).getId());
+        List<Client> clients = clientDao.getByPropertyEqual("lastName", "Curry");
+        assertEquals(1, clients.size());
+        assertEquals(3, clients.get(0).getId());
     }
 
     /**
@@ -125,7 +99,7 @@ class ClientDaoTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-        List<User> users = userDao.getByPropertyLike("lastName", "c");
-        assertEquals(3, users.size());
+        List<Client> clients = clientDao.getByPropertyLike("lastName", "c");
+        assertEquals(3, clients.size());
     }
 }

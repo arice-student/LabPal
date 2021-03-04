@@ -1,8 +1,6 @@
 package edu.matc.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -10,6 +8,7 @@ import javax.persistence.*;
 @Entity(name = "Client")
 @Table(name = "client")
 @NoArgsConstructor
+@RequiredArgsConstructor
 @AllArgsConstructor
 @Data
 public class Client {
@@ -20,5 +19,6 @@ public class Client {
     private int id;
 
     @Column(name = "name")
+    @NonNull
     private String name;
 }
