@@ -14,5 +14,8 @@
 |Mar 02|3|Worked on Check Point 2.  Had a lot of issues.
 |Mar 03|10|Continued to work on Check Point 2.  Every update led to errors.  Spent most of my time troubleshooting.
 |Mar 04|2|Got Client, Role and User tables setup in indie project.  All unit tests pass for ClientDaoTest and UserDaoTest.  Tables are all created in DB.  Worked on time log, weekly reflection.|
+|Mar 09|1.5|Completed the Week 7 Exercise for User Authentication.|
+|Mar 14|2.5|Researched and completed the Week 7 Security Video.|
+|Mar 15|2.5|Completed Week 8 videos, activities and exercises.
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.
