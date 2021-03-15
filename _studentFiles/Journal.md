@@ -1,4 +1,4 @@
-#Journal
+# Journal
 
 ### Techologies
 *Instructions*: List all technologies, their versions and how they will be used as the project progress.
@@ -10,7 +10,7 @@
 - [x] JUnit 5
 - [x] Bootstrap 5.0
 - [x] Either Balsamiq or Figma (Wireframe)
-- [ ] Project Lombok 1.18.18
+- [x] Project Lombok 1.18.18
 
 ### Stock Photos
 *Instructions*: List all stock photos and their purpose.

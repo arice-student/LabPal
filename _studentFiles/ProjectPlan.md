@@ -1,8 +1,8 @@
-#Project Plan
+# Project Plan
 
 ---
 
-###Week 3
+### Week 3
 - [x] Created a Project Plan file
 - [x] Went through FatBikeTrailReports to Learn what is expected for Checkpoint 1 of the Individual project.
 - [x] Create project repository on GitHub
