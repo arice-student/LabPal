@@ -43,7 +43,7 @@ public class Database {
             properties.load (this.getClass().getResourceAsStream("/database.properties"));
         } catch (IOException ioe) {
             log.error("Database.loadProperties()...Cannot load the properties file");
-            ioe.printStackTrace();
+            log.error("Stack Trace: " + ioe);
         } catch (Exception e) {
             log.error("Database.loadProperties()..." + e);
             e.printStackTrace();
