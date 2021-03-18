@@ -4,32 +4,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+<!--------------------------------------------------------------------------------------------------------------->
     <!-- TODO Figure out how to get the title tag below to work.
     <title>\${title}</title>-->
+<!--------------------------------------------------------------------------------------------------------------->
+    <!-- Code pulled from https://getbootstrap.com/docs/4.6/getting-started/introduction/ -->
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://bootswatch.com/readable/bootstrap.min.css">
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <!-- jQuery slim -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.js" integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="   crossorigin="anonymous"></script>
-
-    <!-- The next two items are to support jQuery datatables. Learn more about datatables here:https://datatables.net -->
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
-    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
-
-    <!-- TODO - Determine if the captcha and datepicker below should be implemented in the future. -->
+<!--------------------------------------------------------------------------------------------------------------->
+    <!-- TODO - Determine if the files below should be implemented in the future. -->
 
     <!-- added for google captcha -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- css for datepicker -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css">
+    <!-- The next two items are to support jQuery datatables. Learn more about datatables here:https://datatables.net -->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+<!--------------------------------------------------------------------------------------------------------------->
 
     <!-- my css -->
     <link rel="stylesheet" href="css/styles.css">
