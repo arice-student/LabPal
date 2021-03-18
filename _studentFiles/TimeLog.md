@@ -17,5 +17,8 @@
 |Mar 09|1.5|Completed the Week 7 Exercise for User Authentication.|
 |Mar 14|2.5|Researched and completed the Week 7 Security Video.|
 |Mar 15|2.5|Completed Week 8 videos, activities and exercises.
+|Mar 16|3|Completed the Custom Tags extra credit work.|
+|Mar 17|6.5|Worked on SOAP and Multithreading extra credit work.  Additionally, completed Week 9 materials and activity.|
+|Mar 18|
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.
