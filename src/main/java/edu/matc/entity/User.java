@@ -27,6 +27,9 @@ public class User {
     @Column(name = "user_name")
     private String userName;
 
+    @Column(name = "password")
+    private String password;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
@@ -50,12 +53,14 @@ public class User {
      * @param firstName   the first name
      * @param lastName    the last name
      * @param userName    the user name
+     * @param password    the password
      * @param dateOfBirth the date of birth
      */
-    public User(String firstName, String lastName, String userName, LocalDate dateOfBirth) {
+    public User(String firstName, String lastName, String userName, String password, LocalDate dateOfBirth) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.userName = userName;
+        this.password = password;
         this.dateOfBirth = dateOfBirth;
     }
 
@@ -160,10 +165,38 @@ public class User {
         return (int)ChronoUnit.YEARS.between(dateOfBirth, LocalDate.now());
     }
 
+    /**
+     * Gets password.
+     *
+     * @return the password
+     */
+    public String getPassword() {
+        return password;
+    }
+
+    /**
+     * Sets password.
+     *
+     * @param password the password
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    /**
+     * Gets roles.
+     *
+     * @return the roles
+     */
     public Set<Role> getRoles() {
         return roles;
     }
 
+    /**
+     * Sets roles.
+     *
+     * @param roles the roles
+     */
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
     }

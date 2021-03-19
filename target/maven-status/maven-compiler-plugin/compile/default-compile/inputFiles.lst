@@ -1,5 +1,6 @@
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/User.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/Role.java
+/Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/controller/SignUp.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/persistence/SessionFactoryProvider.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/persistence/GenericDao.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/Client.java

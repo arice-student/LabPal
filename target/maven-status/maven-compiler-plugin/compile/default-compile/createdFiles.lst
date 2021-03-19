@@ -1,6 +1,0 @@
-edu/matc/persistence/GenericDao.class
-edu/matc/entity/Role.class
-edu/matc/entity/User.class
-edu/matc/persistence/SessionFactoryProvider.class
-edu/matc/entity/Client.class
-edu/matc/controller/SearchUsers.class
