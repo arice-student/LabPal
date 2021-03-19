@@ -24,3 +24,9 @@
 - Converting a String to a LocalDate in Java
   https://mkyong.com/java8/java-8-how-to-convert-string-to-localdate/
   
+## Java
+
+### Servlets
+- Check if a Parameter exists in the Servlet Request
+  https://kodejava.org/how-do-i-check-if-parameter-is-exists-in-servlet-request/
+  
