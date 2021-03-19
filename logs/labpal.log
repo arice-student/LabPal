@@ -2,3 +2,23 @@
 [DEBUG] 2021-03-19 15:35:24.891 [http-nio-8080-exec-3] SignUp - The entire form was not filled out?
 [DEBUG] 2021-03-19 15:35:51.137 [http-nio-8080-exec-6] SignUp - The form was submitted.
 [DEBUG] 2021-03-19 15:35:51.140 [http-nio-8080-exec-6] SignUp - The entire form was not filled out?
+[DEBUG] 2021-03-19 15:43:06.505 [http-nio-8080-exec-5] SignUp - The form was submitted.
+[DEBUG] 2021-03-19 15:43:06.517 [http-nio-8080-exec-5] SignUp - First Name: null
+[DEBUG] 2021-03-19 15:43:06.518 [http-nio-8080-exec-5] SignUp - Last Name: null
+[DEBUG] 2021-03-19 15:43:06.518 [http-nio-8080-exec-5] SignUp - User Name: null
+[DEBUG] 2021-03-19 15:43:06.518 [http-nio-8080-exec-5] SignUp - The entire form was not filled out?
+[DEBUG] 2021-03-19 15:45:27.966 [http-nio-8080-exec-5] SignUp - The form was submitted.
+[DEBUG] 2021-03-19 15:45:27.989 [http-nio-8080-exec-5] SignUp - First Name: asdf
+[DEBUG] 2021-03-19 15:45:27.989 [http-nio-8080-exec-5] SignUp - Last Name: asdf
+[DEBUG] 2021-03-19 15:45:27.990 [http-nio-8080-exec-5] SignUp - User Name: asdfsad
+[DEBUG] 2021-03-19 15:47:45.867 [http-nio-8080-exec-3] SignUp - The form was submitted.
+[DEBUG] 2021-03-19 15:47:45.891 [http-nio-8080-exec-3] SignUp - First Name: asdf
+[DEBUG] 2021-03-19 15:47:45.892 [http-nio-8080-exec-3] SignUp - Last Name: asdf
+[DEBUG] 2021-03-19 15:47:45.892 [http-nio-8080-exec-3] SignUp - User Name: asdf
+[DEBUG] 2021-03-19 15:47:45.892 [http-nio-8080-exec-3] SignUp - User Name: 2021-03-15
+[DEBUG] 2021-03-19 15:55:55.593 [http-nio-8080-exec-3] SignUp - The form was submitted.
+[DEBUG] 2021-03-19 15:55:55.615 [http-nio-8080-exec-3] SignUp - First Name: dfd
+[DEBUG] 2021-03-19 15:55:55.615 [http-nio-8080-exec-3] SignUp - Last Name: ljl
+[DEBUG] 2021-03-19 15:55:55.615 [http-nio-8080-exec-3] SignUp - User Name: sdfg
+[DEBUG] 2021-03-19 15:55:55.616 [http-nio-8080-exec-3] SignUp - User Name: 2021-03-25
+[DEBUG] 2021-03-19 15:55:55.676 [http-nio-8080-exec-3] SignUp - User Information: User{firstName='dfd', lastName='ljl', userName='sdfg', id=0, dateOfBirth=2021-03-25, age=0}

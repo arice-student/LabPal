@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -39,9 +38,14 @@ public class SignUp extends HttpServlet {
 
             logger.debug("The form was submitted.");
 
+            logger.debug("First Name: " + req.getParameter("firstName"));
+            logger.debug("Last Name: " + req.getParameter("lastName"));
+            logger.debug("User Name: " + req.getParameter("userName"));
+            logger.debug("User Name: " + req.getParameter("dateOfBirth"));
+
             // Confirm that the entire form was filled out
             if (req.getParameter("firstName") != null && req.getParameter("lastName") != null &&
-                    req.getParameter("userName") != null && req.getParameter("password") != null ) {
+                    req.getParameter("userName") != null) {
 
                 // If yes, create a new User and add the form information
                 User newUser = new User();
@@ -52,8 +56,7 @@ public class SignUp extends HttpServlet {
 
                 // dateOfBirth is a String, so it needs to be converted to a LocalDate
                 String dateOfBirth = req.getParameter("dateOfBirth");
-                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("YYYY-MM-DD");
-                LocalDate localDate = LocalDate.parse(dateOfBirth, formatter);
+                LocalDate localDate = LocalDate.parse(dateOfBirth);
                 newUser.setDateOfBirth(localDate);
 
                 logger.debug("User Information: " + newUser);

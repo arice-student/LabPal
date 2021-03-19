@@ -15,26 +15,26 @@
                 <div class="form-group row justify-content-center">
                     <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
                     <div class="col-sm-6">
-                        <input type="input" class="form-control" id="firstName">
+                        <input type="input" name="firstName" class="form-control" id="firstName">
                     </div>
                 </div>
                 <div class="form-group row justify-content-center">
                     <label for="lastName" class="col-sm-2 col-form-label">Last Name</label>
                     <div class="col-sm-6">
-                        <input type="input" class="form-control" id="lastName">
+                        <input type="input" name="lastName" class="form-control" id="lastName">
                     </div>
                 </div>
                 <div class="form-group row justify-content-center">
                     <label for="dateOfBirth" class="col-sm-2 col-form-label">Date of Birth</label>
                     <div class="col-sm-6">
-                        <input type="date" class="form-control" id="dateOfBirth">
+                        <input type="date" class="form-control" name="dateOfBirth" id="dateOfBirth">
                     </div>
                 </div>
                 <hr class="w-75" />
                 <div class="form-group row justify-content-center">
                     <label for="userName" class="col-sm-2 col-form-label">User Name</label>
                     <div class="col-sm-6">
-                        <input type="input" class="form-control" id="userName">
+                        <input type="input" class="form-control" name="userName" id="userName">
                     </div>
                 </div>
                 <div class="form-group row justify-content-center">
