@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="Week 2 Exercise.war">
+    <root id="archive" name="labpal.war">
       <element id="artifact" artifact-name="LabPal:war exploded" />
     </root>
   </artifact>

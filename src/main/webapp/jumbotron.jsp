@@ -4,6 +4,6 @@
         <p class="lead">Offering application solutions for managing your laboratory testing services.</p>
         <hr class="my-4 jumbo-hr">
         <p>Manage laboratory information including employees, clients, projects, methods, projects and samples.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Sign Up</a>
+        <a class="btn btn-primary btn-lg" href="signup.jsp" role="button">Sign Up</a>
     </div>
 </div>

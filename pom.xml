@@ -119,13 +119,17 @@
     </dependencies>
 
     <build>
-        <finalName>Week 2 Exercise</finalName>
+        <finalName>labpal</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>${maven-compiler-plugin-version}</version>
+                    <configuration>
+                        <!-- specify UTF-8, ISO-8859-1 or any other file encoding -->
+                        <encoding>UTF-8</encoding>
+                    </configuration>
                 </plugin>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
