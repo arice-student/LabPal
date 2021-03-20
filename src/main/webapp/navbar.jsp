@@ -2,7 +2,7 @@
     <div class="container-fluid">
 
         <!-- Image -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.jsp">
             <img src="images/labpal_logo.png" width="75" height="75" class="d-inline-block align-top" alt="Lab Pal Logo">
         </a>
 
@@ -12,8 +12,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
                 <a class="nav-link mr-2" aria-current="page" href="#">Sign In</a>
-                <a class="nav-link mr-2" href="#">About Us</a>
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link mr-2" href="aboutUs.jsp">About Us</a>
+                <a class="nav-link" href="contact.jsp">Contact</a>
             </div>
         </div>
     </div>

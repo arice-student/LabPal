@@ -10,8 +10,6 @@
         <jsp:include page="navbar.jsp" />
         <jsp:include page="jumbotron.jsp" />
 
-
-
         <main>
             <section>
                 <h2>Implemented Features So Far</h2>

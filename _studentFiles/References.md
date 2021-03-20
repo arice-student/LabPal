@@ -12,6 +12,9 @@
 - Bootstrap Documentation (Version 4.6)
   https://getbootstrap.com/docs/4.6/getting-started/introduction/
   
+## CSS Concepts
+- Sticky Footers
+  https://css-tricks.com/couple-takes-sticky-footer/
 
 - Bootstrap Date Picker (Never figured it out)
   https://bootstrap-datepicker.readthedocs.io/en/latest/
@@ -26,7 +29,14 @@
   
 ## Java
 
+### API Documentation
+- ServletRequest
+  https://docs.oracle.com/javaee/6/api/javax/servlet/ServletRequest.html
+
 ### Servlets
 - Check if a Parameter exists in the Servlet Request
   https://kodejava.org/how-do-i-check-if-parameter-is-exists-in-servlet-request/
-  
+
+## Random
+- Determining what to add to an 'About Us' page
+  https://blog.hubspot.com/marketing/remarkable-about-us-page-examples
