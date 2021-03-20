@@ -37,6 +37,10 @@
 - Check if a Parameter exists in the Servlet Request
   https://kodejava.org/how-do-i-check-if-parameter-is-exists-in-servlet-request/
 
+## Form Validation
+- Pattern Attribute for Emails
+  https://www.w3schools.com/tags/att_input_pattern.asp
+
 ## Random
 - Determining what to add to an 'About Us' page
   https://blog.hubspot.com/marketing/remarkable-about-us-page-examples

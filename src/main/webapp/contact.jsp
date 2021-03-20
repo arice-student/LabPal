@@ -3,25 +3,37 @@
 <%@include file="head.jsp"%>
 
 <!DOCTYPE html>
-<title>LabPal - About Us</title>
+<title>LabPal - Contact Us</title>
 
 <html>
-<body role="document">
-<jsp:include page="navbar.jsp" />
+    <body role="document">
+    <jsp:include page="navbar.jsp" />
 
-<div class="container">
-    <main class="bg-white">
-        <section>
-            <h1>- Our Mission -</h1>
-            <h2>To provide the best laboratory application services on the market.</h2>
-        </section>
-        <section>
-            <h1>About</h1>
-            <p>At Lab Pal, we all come to work every day because we want to help laboratories transition from a paper-based system to an application-based system, while still meeting the qualifications required for GMP, ISO and other regulatory bodies.  To do this, we implement rigorous quality and testing standards.  In addition, we're constantly trying to improve our processes by learning the new technologies, hiring the brightest employees and working diligently with clients to exceed their expectations.</p>
-            <p>Lab Pal was started in 2021 and is located in Madison, Wisconsin.  The software application is setup using the Java programming language and other supplemental technologies such as Maven, Log4j, JUnit, Bootstrap, Project Lombok and more.</p>
-        </section>
-    </main>
-</div>
-<jsp:include page="footer.jsp" />
-</body>
+        <div class="content container-fluid bg-light px-5 mb-4">
+            <h2 class="text-center mb-3">Contact Us</h2>
+            <main class="w-75 m-auto mt-2 pb-4 bg-white">
+                <form method="post" action="signUp" class="m-auto p-3 border rounded-lg">
+                    <div class="form-group row justify-content-center">
+                        <label for="email" class="col-sm-2 col-form-label">Email Address</label>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" class="form-control" id="email"
+                                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center">
+                        <label for="message" class="col-sm-2 col-form-label">Comments</label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12 text-center p-2">
+                            <button type="submit" name="contactUs" value="contactUs" class="btn btn-primary py-2 px-4">Send Form</button>
+                        </div>
+                    </div>
+                </form>
+            </main>
+        </div>
+        <jsp:include page="footer.jsp" />
+    </body>
 </html>

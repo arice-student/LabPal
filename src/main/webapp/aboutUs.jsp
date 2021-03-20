@@ -12,7 +12,7 @@
         <div class="content container-fluid bg-light px-5">
             <main class="bg-white">
                 <section class="text-center pt-2 pb-2 px-2">
-                    <h2>- Our Mission -</h2>
+                    <h2>Our Mission</h2>
                     <p>To provide the best laboratory application services on the market.</p>
                 </section>
                 <section class="text-center pb-2 px-2">
