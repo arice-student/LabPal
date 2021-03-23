@@ -21,6 +21,7 @@
 |Mar 17|6.5|Worked on SOAP and Multithreading extra credit work.  Additionally, completed Week 9 materials and activity.|
 |Mar 18|6.5|Got started on Check Point #3.  Had no idea where to start.  Eventually, created the home page.|
 |Mar 19|5|Troubleshooted IntelliJ issues.  Created signup form.|
+|Mar 20|0.5|Completed the Contact Us form.|
 
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.

@@ -1,2 +1,4 @@
+edu/matc/persistence/ClientDaoTest.class
+edu/matc/persistence/UserDaoTest.class
 edu/matc/test/util/Database.class
 edu/matc/entity/UserTest.class
