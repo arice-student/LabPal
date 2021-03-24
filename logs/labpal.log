@@ -10,3 +10,7 @@
 [DEBUG] 2021-03-23 20:33:15.034 [main] GenericDao - Searching for order with lastName = c
 [DEBUG] 2021-03-23 20:33:15.773 [main] GenericDao - Searching for order with name = fruit
 [DEBUG] 2021-03-23 20:33:15.849 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-23 21:51:07.374 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-23 21:51:07.860 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-23 21:51:09.097 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-23 21:51:09.226 [main] GenericDao - Searching for order with name = v
