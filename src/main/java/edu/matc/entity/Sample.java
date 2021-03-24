@@ -6,8 +6,8 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.time.LocalDate;
 
-@Entity(name = "Project")
-@Table(name = "project")
+@Entity(name = "Sample")
+@Table(name = "sample")
 @NoArgsConstructor
 @RequiredArgsConstructor
 @AllArgsConstructor
@@ -19,15 +19,27 @@ public class Sample {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @Column(name = "client_name")
+    @Column(name = "name")
     @NonNull
-    private String clientName;
+    private String name;
 
-    @Column(name = "start_date")
+    @Column(name = "container")
     @NonNull
-    private LocalDate startDate;
+    private String container;
 
-    @Column(name = "closure_date")
+    @Column(name = "temperature")
     @NonNull
-    private String closureDate;
+    private String temperature;
+
+    @Column(name = "lot")
+    @NonNull
+    private String lot;
+
+    @Column(name = "concentration")
+    @NonNull
+    private String concentration;
+
+    @Column(name = "manufacture_date")
+    @NonNull
+    private LocalDate manufactureDate;
 }
