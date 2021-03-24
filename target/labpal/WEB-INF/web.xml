@@ -2,7 +2,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-  <display-name>User Display Exercise</display-name>
+  <display-name>Lab Pal - User Authentication</display-name>
 
   <!-- Tell the server to use form-based authentication. -->
   <login-config>
@@ -13,6 +13,17 @@
     </form-login-config>
   </login-config>
 
+  <!-- Protect the user admin page. -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>admin</web-resource-name>
+      <url-pattern>/admin.jsp</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>admin</role-name>
+    </auth-constraint>
+  </security-constraint>
+
   <!-- Protect the user search page. -->
   <security-constraint>
     <web-resource-collection>
@@ -20,10 +31,12 @@
       <url-pattern>/search.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
+      <role-name>user</role-name>
       <role-name>admin</role-name>
     </auth-constraint>
   </security-constraint>
 
+  <!-- Protect everything in the adminOnly directory -->
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>admin</web-resource-name>
@@ -34,7 +47,12 @@
     </auth-constraint>
   </security-constraint>
 
+  <!-- Role Types -->
   <security-role>
     <role-name>admin</role-name>
+  </security-role>
+
+  <security-role>
+    <role-name>user</role-name>
   </security-role>
 </web-app>

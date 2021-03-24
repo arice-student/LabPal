@@ -11,12 +11,12 @@
     <title>Login</title>
 </head>
 <body>
-<FORM ACTION="j_security_check" METHOD="POST">
-    <TABLE>
-        <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username">
-        <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
-        <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
-    </TABLE>
-</FORM>
+<form action="j_security_check" method="post">
+    <table>
+        <tr><td>User name: <input type="text" NAME="j_username"></td></tr>
+        <tr><td>Password: <input TYPE="password" NAME="j_password"></td></tr>
+        <tr><th><input type="submit" VALUE="Log In"></th></tr>
+    </table>
+</form>
 </body>
 </html>
