@@ -14,3 +14,36 @@
 [DEBUG] 2021-03-23 21:51:07.860 [main] GenericDao - Searching for order with lastName = c
 [DEBUG] 2021-03-23 21:51:09.097 [main] GenericDao - Searching for order with name = fruit
 [DEBUG] 2021-03-23 21:51:09.226 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-23 22:31:17.971 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-23 22:31:18.247 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-23 22:31:19.215 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-23 22:31:19.330 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-23 22:32:55.748 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-23 22:32:56.034 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-23 22:32:56.620 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-23 22:32:56.665 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-23 22:44:01.099 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-23 22:44:01.351 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-23 22:44:01.946 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-23 22:44:01.980 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-23 22:52:33.720 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-23 22:52:34.119 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-23 22:52:35.278 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-23 22:52:35.336 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-23 22:53:29.895 [http-nio-8080-exec-8] SearchUsers - We got this far!
+[DEBUG] 2021-03-23 22:53:29.917 [http-nio-8080-exec-8] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@4163dbf7
+[DEBUG] 2021-03-23 22:56:32.714 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-23 22:56:32.980 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-23 22:56:33.553 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-23 22:56:33.605 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-23 22:57:10.492 [http-nio-8080-exec-4] SearchUsers - We got this far!
+[DEBUG] 2021-03-23 22:57:10.521 [http-nio-8080-exec-4] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@1eebfce4
+[DEBUG] 2021-03-23 23:00:41.116 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-23 23:00:41.382 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-23 23:00:42.121 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-23 23:00:42.191 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-23 23:01:24.101 [http-nio-8080-exec-5] SearchUsers - We got this far!
+[DEBUG] 2021-03-23 23:01:24.122 [http-nio-8080-exec-5] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@10234380
+[DEBUG] 2021-03-23 23:02:09.817 [http-nio-8080-exec-8] SearchUsers - We got this far!
+[DEBUG] 2021-03-23 23:02:09.818 [http-nio-8080-exec-8] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@ad6c63c
+[DEBUG] 2021-03-23 23:02:09.824 [http-nio-8080-exec-8] GenericDao - Searching for order with lastName = c

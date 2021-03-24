@@ -17,7 +17,7 @@
         <th>Name</th>
         <th>User Name</th>
         <th>Age</th>
-        <th>Orders</th>
+        <th>Roles</th>
         </thead>
         <tbody>
         <c:forEach var="user" items="${users}">
@@ -26,8 +26,8 @@
                 <td>${user.userName}</td>
                 <td>${user.age}</td>
                 <td>
-                <c:forEach var="order" items="${user.orders}">
-                    ${order.id} ${order.description}<br/>
+                <c:forEach var="role" items="${user.roles}">
+                    ${role.id} ${role.roleName}<br/>
                 </c:forEach>
                 </td>
             </tr>

@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 /**
@@ -22,10 +24,14 @@ import java.io.IOException;
 )
 
 public class SearchUsers extends HttpServlet {
+
+    private final Logger logger = LogManager.getLogger(this.getClass());
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        logger.debug("We got this far!");
         GenericDao userDao = new GenericDao(User.class);
+        logger.debug("This is the userDao:" + userDao);
         if (req.getParameter("submit").equals("search")) {
             req.setAttribute("users", userDao.getByPropertyLike("lastName", req.getParameter("searchTerm")));
         } else {

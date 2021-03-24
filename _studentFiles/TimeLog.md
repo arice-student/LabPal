@@ -22,6 +22,7 @@
 |Mar 18|6.5|Got started on Check Point #3.  Had no idea where to start.  Eventually, created the home page.|
 |Mar 19|5|Troubleshooted IntelliJ issues.  Created signup form.|
 |Mar 20|0.5|Completed the Contact Us form.|
+|Mar 23|4.0|Worked on Check Point #3.  Spent most of my time trying to troubleshoot why the user authentication would not work.  Issue was never resolved.  Created remaining entities."|
 
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.
