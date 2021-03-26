@@ -2,6 +2,7 @@ edu/matc/entity/Test.class
 edu/matc/controller/SignUp.class
 edu/matc/entity/ContactForm.class
 edu/matc/controller/SearchUsers.class
+edu/matc/controller/Logout.class
 edu/matc/persistence/GenericDao.class
 edu/matc/entity/Role.class
 edu/matc/entity/User.class

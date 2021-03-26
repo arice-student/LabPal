@@ -73,7 +73,7 @@ public class SignUp extends HttpServlet {
                     req.setAttribute("newUser", newUser);
 
                     // Forward to the dashboard page
-                    RequestDispatcher dispatcher = req.getRequestDispatcher("/dashboard.jsp");
+                    RequestDispatcher dispatcher = req.getRequestDispatcher("/home.jsp");
                     dispatcher.forward(req, resp);
                 }
 

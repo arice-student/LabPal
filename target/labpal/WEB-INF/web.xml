@@ -4,6 +4,8 @@
          version="3.1">
   <display-name>Lab Pal - User Authentication</display-name>
 
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
   <!-- Tell the server to use form-based authentication. -->
   <login-config>
     <auth-method>FORM</auth-method>
@@ -13,22 +15,13 @@
     </form-login-config>
   </login-config>
 
-  <!-- Protect the user admin page. -->
-  <security-constraint>
-    <web-resource-collection>
-      <web-resource-name>admin</web-resource-name>
-      <url-pattern>/admin.jsp</url-pattern>
-    </web-resource-collection>
-    <auth-constraint>
-      <role-name>admin</role-name>
-    </auth-constraint>
-  </security-constraint>
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <!-- Protect the user search page. -->
+  <!-- Access to the Dashboard Directory. -->
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>search</web-resource-name>
-      <url-pattern>/search.jsp</url-pattern>
+      <web-resource-name>dashboard</web-resource-name>
+      <url-pattern>/dashboard/*</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>user</role-name>
@@ -36,16 +29,18 @@
     </auth-constraint>
   </security-constraint>
 
-  <!-- Protect everything in the adminOnly directory -->
+  <!-- Access to the AdminOnly Directory -->
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>admin</web-resource-name>
+      <web-resource-name>adminOnly</web-resource-name>
       <url-pattern>/adminOnly/*</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>admin</role-name>
     </auth-constraint>
   </security-constraint>
+
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
   <!-- Role Types -->
   <security-role>
