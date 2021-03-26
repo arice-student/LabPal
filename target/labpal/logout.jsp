@@ -3,7 +3,7 @@
 <%@include file="head.jsp"%>
 
 <!DOCTYPE html>
-<title>LabPal - About Us</title>
+<title>LabPal - Sign Out</title>
 
 <html>
 <body role="document">

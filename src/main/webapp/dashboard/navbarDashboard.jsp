@@ -2,7 +2,7 @@
     <div class="container-fluid">
 
         <!-- Image -->
-        <a class="navbar-brand" href="index.jsp">
+        <a class="navbar-brand" href="/../index.jsp">
             <img src="../images/labpal_logo.png" width="75" height="75" class="d-inline-block align-top" alt="Lab Pal Logo">
         </a>
 

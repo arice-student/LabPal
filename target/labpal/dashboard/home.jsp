@@ -7,7 +7,7 @@
 
 <html>
 <body role="document">
-<jsp:include page="../navbar.jsp" />
+<jsp:include page="navbarDashboard.jsp" />
 
 <main>
     <h1>Welcome to the Dashboard</h1>

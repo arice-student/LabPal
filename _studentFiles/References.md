@@ -16,6 +16,7 @@
 - Sticky Footers
   https://css-tricks.com/couple-takes-sticky-footer/
 
+
 - Bootstrap Date Picker (Never figured it out)
   https://bootstrap-datepicker.readthedocs.io/en/latest/
   
@@ -36,6 +37,15 @@
 ### Servlets
 - Check if a Parameter exists in the Servlet Request
   https://kodejava.org/how-do-i-check-if-parameter-is-exists-in-servlet-request/
+  
+
+- Logging a user out of a Session
+  https://kodejava.org/how-do-i-invalidate-users-session/
+  
+
+- Additional resource for logging a user out of a session
+  http://www.avajava.com/tutorials/lessons/how-do-i-log-out-of-an-application-that-uses-form-authentication.html?page=1
+
 
 ## Form Validation
 - Pattern Attribute for Emails
@@ -44,3 +54,5 @@
 ## Random
 - Determining what to add to an 'About Us' page
   https://blog.hubspot.com/marketing/remarkable-about-us-page-examples
+- Custom Code Folding in IntelliJ
+  https://blog.jetbrains.com/idea/2012/03/custom-code-folding-regions-in-intellij-idea-111/
