@@ -17,26 +17,15 @@
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <!-- Access to the Dashboard Directory. -->
+  <!-- Protect the user display page. -->
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>dashboard</web-resource-name>
-      <url-pattern>/dashboard/*</url-pattern>
+      <web-resource-name>myDashboard</web-resource-name>
+      <url-pattern>/myDashboard.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
+      <role-name>admin</role-name>
       <role-name>user</role-name>
-      <role-name>admin</role-name>
-    </auth-constraint>
-  </security-constraint>
-
-  <!-- Access to the AdminOnly Directory -->
-  <security-constraint>
-    <web-resource-collection>
-      <web-resource-name>adminOnly</web-resource-name>
-      <url-pattern>/adminOnly/*</url-pattern>
-    </web-resource-collection>
-    <auth-constraint>
-      <role-name>admin</role-name>
     </auth-constraint>
   </security-constraint>
 

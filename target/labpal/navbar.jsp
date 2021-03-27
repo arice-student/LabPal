@@ -11,7 +11,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-link mr-2" aria-current="page" href="/labpal/dashboard/home.jsp">Sign In</a>
+                <a class="nav-link mr-2" aria-current="page" href="/labpal/myDashboard.jsp">My Dashboard</a>
                 <a class="nav-link mr-2" href="/labpal/aboutUs.jsp">About Us</a>
                 <a class="nav-link" href="/labpal/contact.jsp">Contact</a>
             </div>

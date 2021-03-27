@@ -187,3 +187,21 @@
 [DEBUG] 2021-03-27 09:51:34.992 [main] GenericDao - Searching for order with lastName = c
 [DEBUG] 2021-03-27 09:51:35.655 [main] GenericDao - Searching for order with name = fruit
 [DEBUG] 2021-03-27 09:51:35.725 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 09:53:41.656 [http-nio-8080-exec-7] Logout - Session: null
+[DEBUG] 2021-03-27 09:55:28.223 [http-nio-8080-exec-1] Logout - Session: null
+[DEBUG] 2021-03-27 09:56:35.337 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 09:56:35.591 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 09:56:36.066 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 09:56:36.111 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 10:06:49.366 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 10:06:49.635 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 10:06:50.261 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 10:06:50.296 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 10:09:00.485 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 10:09:00.719 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 10:09:01.453 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 10:09:01.513 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 10:12:22.731 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 10:12:23.047 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 10:12:23.735 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 10:12:23.776 [main] GenericDao - Searching for order with name = v
