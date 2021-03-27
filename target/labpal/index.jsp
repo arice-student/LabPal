@@ -20,8 +20,7 @@
             </section>
             <section>
                 <h2>Template Information</h2>
-                <p><a href="dashboard/search.jsp">Click here to search for users (admin only)</a></p>
-                <p><a href="adminOnly/adminSearch.jsp">Click here search in admin directory</a></p>
+                <p><a href="/labpal/search.jsp">Click here to perform a search.</a></p>
             </section>
         </main>
         <jsp:include page="footer.jsp" />

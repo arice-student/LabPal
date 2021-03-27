@@ -22,6 +22,8 @@
     <web-resource-collection>
       <web-resource-name>myDashboard</web-resource-name>
       <url-pattern>/myDashboard.jsp</url-pattern>
+      <url-pattern>/search.jsp</url-pattern>
+      <url-pattern>/results.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>admin</role-name>

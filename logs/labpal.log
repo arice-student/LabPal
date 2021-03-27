@@ -205,3 +205,13 @@
 [DEBUG] 2021-03-27 10:12:23.047 [main] GenericDao - Searching for order with lastName = c
 [DEBUG] 2021-03-27 10:12:23.735 [main] GenericDao - Searching for order with name = fruit
 [DEBUG] 2021-03-27 10:12:23.776 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 10:24:36.908 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 10:24:37.204 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 10:24:37.850 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 10:24:37.933 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 10:29:17.971 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 10:29:18.350 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 10:29:19.985 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 10:29:20.056 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 10:29:57.110 [http-nio-8080-exec-5] SearchUsers - We got this far!
+[DEBUG] 2021-03-27 10:29:57.129 [http-nio-8080-exec-5] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@29e556c7
