@@ -20,6 +20,10 @@
 - Bootstrap Date Picker (Never figured it out)
   https://bootstrap-datepicker.readthedocs.io/en/latest/
   
+## Website Development
+- Using Root Relative URLs (i.e. href="/labpal/aboutUs.jsp")
+  https://stackoverflow.com/questions/5559578/having-links-relative-to-root/5559597
+
 ## Form References
 - The 'Date' input type
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date

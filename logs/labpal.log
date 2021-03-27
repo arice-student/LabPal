@@ -113,3 +113,73 @@
 [DEBUG] 2021-03-26 07:20:54.442 [main] GenericDao - Searching for order with lastName = c
 [DEBUG] 2021-03-26 07:20:55.026 [main] GenericDao - Searching for order with name = fruit
 [DEBUG] 2021-03-26 07:20:55.061 [main] GenericDao - Searching for order with name = v
+[ERROR] 2021-03-27 08:30:39.148 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-03-27 08:31:11.705 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-03-27 08:31:42.882 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-03-27 08:32:13.761 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-03-27 08:32:44.615 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-03-27 08:33:15.533 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-03-27 08:33:46.277 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-03-27 08:34:17.105 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-03-27 08:34:47.925 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-03-27 08:35:18.613 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[DEBUG] 2021-03-27 08:35:32.619 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 08:35:32.715 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 08:35:57.313 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 08:35:57.563 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 08:35:58.061 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 08:35:58.098 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 08:40:46.153 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 08:40:46.412 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 08:40:47.002 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 08:40:47.061 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 08:53:47.225 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 08:53:47.623 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 08:53:48.597 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 08:53:48.734 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 09:05:14.476 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 09:05:14.758 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 09:05:15.281 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 09:05:15.330 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 09:10:33.985 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 09:10:34.250 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 09:10:34.782 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 09:10:34.870 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-03-27 09:14:42.717 [http-nio-8080-exec-9] Logout - Session: null
+[DEBUG] 2021-03-27 09:15:02.195 [http-nio-8080-exec-5] Logout - Session: null
+[ERROR] 2021-03-27 09:20:54.543 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:21:27.066 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:21:58.205 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:22:29.256 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:23:00.151 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:23:30.910 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:24:20.585 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:24:52.847 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:26:59.704 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:27:32.050 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:28:03.183 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:28:34.140 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:29:05.227 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:29:50.549 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:30:22.858 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:30:53.851 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:31:24.666 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:31:55.495 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:32:26.302 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:32:57.137 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:33:28.063 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:34:08.205 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:34:40.426 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:35:11.742 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:35:42.618 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:36:13.588 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:36:44.503 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:37:15.347 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:37:46.132 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:38:16.907 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:38:47.686 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:39:18.417 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:39:49.166 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:40:19.867 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:40:50.613 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[ERROR] 2021-03-27 09:41:21.446 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
