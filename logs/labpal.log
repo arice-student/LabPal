@@ -183,3 +183,7 @@
 [ERROR] 2021-03-27 09:40:19.867 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
 [ERROR] 2021-03-27 09:40:50.613 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
 [ERROR] 2021-03-27 09:41:21.446 [main] Database - java.sql.SQLException: Access denied for user 'arice'@'localhost' (using password: YES)
+[DEBUG] 2021-03-27 09:51:34.721 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-27 09:51:34.992 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-27 09:51:35.655 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-27 09:51:35.725 [main] GenericDao - Searching for order with name = v
