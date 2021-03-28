@@ -24,6 +24,7 @@
 |Mar 20|0.5|Completed the Contact Us form.|
 |Mar 23|4.5|Worked on Check Point #3.  Spent most of my time trying to troubleshoot why the user authentication would not work.  Issue was never resolved.  Created remaining entities."|
 |Mar 26|2.5|Got the user login and logout to work at first, then all of a sudden, the URLs are going to random destinations.  Need to troubleshoot more later.|
-|Mar 27|0.5|Having issues with my URLs.  Changing all URLs to be based on the root-relative URL (
+|Mar 27|2.5|Having issues with my URLs.  Changed all URLs to be based on the root-relative URL.
+|Mar 28|3:15 am - |
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.

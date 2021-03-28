@@ -7,6 +7,10 @@
 
 - Lab Pal company logo
   https://www.freelogodesign.org/
+
+
+- Search Icon for Dashboard
+  https://www.flaticon.com/search?search-type=icons&word=search+icon
   
 ## Bootstrap Concepts
 - Bootstrap Documentation (Version 4.6)
