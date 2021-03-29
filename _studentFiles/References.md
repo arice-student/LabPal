@@ -60,6 +60,17 @@ https://stackoverflow.com/questions/57665645/server-returns-invalid-timezone-go-
 - ServletRequest
   https://docs.oracle.com/javaee/6/api/javax/servlet/ServletRequest.html
 
+### JSP
+- Sessions and Session Scope in JSP
+  https://stackoverflow.com/questions/17590620/are-session-and-sessionscope-the-same-in-jsp-el
+
+
+### JSTL
+- Check if a session attribute exists in a request
+  https://stackoverflow.com/questions/20597043/in-jsp-how-can-i-check-using-jstl-if-certain-session-attribute-exists-in-requ
+- Destroy a Session
+  https://stackoverflow.com/questions/13963720/how-to-effectively-destroy-session-in-java-servlet
+
 ### Servlets
 - Check if a Parameter exists in the Servlet Request
   https://kodejava.org/how-do-i-check-if-parameter-is-exists-in-servlet-request/
@@ -69,9 +80,9 @@ https://stackoverflow.com/questions/57665645/server-returns-invalid-timezone-go-
   https://kodejava.org/how-do-i-invalidate-users-session/
   
 
-- Additional resource for logging a user out of a session
-  http://www.avajava.com/tutorials/lessons/how-do-i-log-out-of-an-application-that-uses-form-authentication.html?page=1
-
+- Creating a login and logout page
+  https://www.codejava.net/coding/how-to-code-login-and-logout-with-java-servlet-jsp-and-mysql
+  
 
 ## Form Validation
 - Pattern Attribute for Emails

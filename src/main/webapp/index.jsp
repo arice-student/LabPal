@@ -19,6 +19,22 @@
                 </ul>
             </section>
             <section>
+                <ul>
+                    <li>Testing new date - Current time: <%= new java.util.Date() %></li>
+                    <li>Testing application.getServerInfo() - Server: <%= application.getServerInfo() %></li>
+                    <li>Testing session.getId() - Session ID: <%= session.getId() %></li>
+                    <li>Testing request.getParameter - The <code>testParam</code> form parameter:<%= request.getParameter("testParam") %></li>
+                    <li>Testing response.getStatus(): <%= response.getStatus() %></li>
+                    <li>Testing application.getAttributeNames(): <%= application.getAttributeNames() %></li>
+                    <li>Testing request.getMethod(): <%= request.getMethod()  %></li>
+                    <li>Testing request.getRequestedSessionId(): <%= request.getRequestedSessionId()  %></li>
+                    <li>Testing session.getAttributeNames(): <%= session.getAttributeNames()  %></li>
+                    <li>Testing request.getSession(false): <%= request.getSession(false)  %></li>
+                    <li>Testing request.getSession(false): <%= request.getSession(false)  %></li>
+
+                </ul>
+            </section>
+            <section>
                 <h2>Template Information</h2>
                 <p><a href="/labpal/search.jsp">Click here to perform a search.</a></p>
             </section>

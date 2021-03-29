@@ -28,6 +28,6 @@
 |Mar 28|3:15 am - 9:30 am, 6.25|Tried to get project deployed to AWS.  Database got corrupted during a MySQL dump.  Troubleshooted, to no avail.  Tried researching Maven Projects for professional development.  Eventually found a reference from Mkyong and FBTR and tried to use those to set it up.  However, ran into issues.|
 |Mar 28|9:30 am - 11:00 am, 1.5|Tried to create a new EC2 instance, but the Manager App in Tomcat is giving a 404 message.||
 |Mar 28|2:30 pm - 4:00 pm, 1.5|Working on getting access to Tomcat Manager App.||
-|Mar 28|8:15 pm - ||
+|Mar 28|8:15 pm - 11:00 pm, 2.75|Studying Servlets, JSTL, JSPs to try and figure out how to have a dynamic Nav Bar for including the Sign Out page.||
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.

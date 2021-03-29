@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
     <div class="container-fluid">
 
@@ -14,6 +15,11 @@
                 <a class="nav-link mr-2" aria-current="page" href="/labpal/myDashboard.jsp">My Dashboard</a>
                 <a class="nav-link mr-2" href="/labpal/aboutUs.jsp">About Us</a>
                 <a class="nav-link" href="/labpal/contact.jsp">Contact</a>
+
+                <c:if test="${!sessionScope.size() != null}">
+                    <a class="nav-link" href="/labpal/logout.jsp">Sign Out</a>
+                </c:if>
+
             </div>
         </div>
     </div>
