@@ -25,6 +25,9 @@
 |Mar 23|4.5|Worked on Check Point #3.  Spent most of my time trying to troubleshoot why the user authentication would not work.  Issue was never resolved.  Created remaining entities."|
 |Mar 26|2.5|Got the user login and logout to work at first, then all of a sudden, the URLs are going to random destinations.  Need to troubleshoot more later.|
 |Mar 27|2.5|Having issues with my URLs.  Changed all URLs to be based on the root-relative URL.
-|Mar 28|3:15 am - |
+|Mar 28|3:15 am - 9:30 am, 6.25|Tried to get project deployed to AWS.  Database got corrupted during a MySQL dump.  Troubleshooted, to no avail.  Tried researching Maven Projects for professional development.  Eventually found a reference from Mkyong and FBTR and tried to use those to set it up.  However, ran into issues.|
+|Mar 28|9:30 am - 11:00 am, 1.5|Tried to create a new EC2 instance, but the Manager App in Tomcat is giving a 404 message.||
+|Mar 28|2:30 pm - 4:00 pm, 1.5|Working on getting access to Tomcat Manager App.||
+|Mar 28|8:15 pm - ||
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.

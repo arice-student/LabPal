@@ -245,3 +245,7 @@
 [DEBUG] 2021-03-28 04:01:40.448 [http-nio-8080-exec-10] SearchUsers - We got this far!
 [DEBUG] 2021-03-28 04:01:40.449 [http-nio-8080-exec-10] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@304fba1a
 [DEBUG] 2021-03-28 04:01:40.450 [http-nio-8080-exec-10] GenericDao - Searching for order with lastName = rice
+[DEBUG] 2021-03-28 15:48:58.283 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-03-28 15:48:58.572 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-03-28 15:48:59.272 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-03-28 15:48:59.347 [main] GenericDao - Searching for order with name = v

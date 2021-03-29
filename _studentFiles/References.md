@@ -27,6 +27,10 @@
 ## Website Development
 - Using Root Relative URLs (i.e. href="/labpal/aboutUs.jsp")
   https://stackoverflow.com/questions/5559578/having-links-relative-to-root/5559597
+  
+## IntelliJ
+- Server Contains Invalid Time Zone Reference
+https://stackoverflow.com/questions/57665645/server-returns-invalid-timezone-go-to-advanced-tab-and-set-servertimezone-prope
 
 ## Form References
 - The 'Date' input type
@@ -36,6 +40,20 @@
 - Converting a String to a LocalDate in Java
   https://mkyong.com/java8/java-8-how-to-convert-string-to-localdate/
   
+
+## MySQL
+- Change a User Password
+  https://linuxize.com/post/how-to-change-mysql-user-password/
+  https://www.cyberciti.biz/faq/mysql-change-user-password/
+  
+
+- Change the Root User Password (ALTER USER 'root'@'localhost' IDENTIFIED BY 'arice';)
+  https://stackoverflow.com/questions/7534056/mysql-root-password-change
+  
+
+- Create a new user in MySQL
+  https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+
 ## Java
 
 ### API Documentation
@@ -64,3 +82,5 @@
   https://blog.hubspot.com/marketing/remarkable-about-us-page-examples
 - Custom Code Folding in IntelliJ
   https://blog.jetbrains.com/idea/2012/03/custom-code-folding-regions-in-intellij-idea-111/
+- Markdown Syntax
+  https://www.markdownguide.org/basic-syntax/
