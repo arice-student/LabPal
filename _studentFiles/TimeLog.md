@@ -29,5 +29,6 @@
 |Mar 28|9:30 am - 11:00 am, 1.5|Tried to create a new EC2 instance, but the Manager App in Tomcat is giving a 404 message.||
 |Mar 28|2:30 pm - 4:00 pm, 1.5|Working on getting access to Tomcat Manager App.||
 |Mar 28|8:15 pm - 11:00 pm, 2.75|Studying Servlets, JSTL, JSPs to try and figure out how to have a dynamic Nav Bar for including the Sign Out page.||
+|Apr 03|5:50 am - |Even though AWS worked when I signed off on 28Mar, when I signed in this morning, it didn't work at all...  Took 30 minutes of troubleshooting, but I finally got it working by re-setting the elastic IP.|
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.

@@ -8,8 +8,8 @@
 - [x] Create project repository on GitHub
 - [x] Create project structure in intellij and push
 - [x] List technologies, versions and how they will be used
-- [ ] Write project plan
-- [ ] Document application flow in text and pictures - I'll use wireframes that have clickable links for the screen design. Use Balsamiq?
+- [x] Write project plan
+- [x] Document application flow in text and pictures - Used Balsamiq.  See images in _studentFiles/DesignDocuments/wireframes
 
 
 ### Indivdual Project, CheckPoint 1 (Week 4)
@@ -27,6 +27,6 @@
 - [x] Log4J is implemented
 
 ### Individual Project, CheckPoint 3 (Week 9)
-- [ ] Deployed to AWS
-- [ ] At least one JSP that displays data from the database is implemented
-- [ ] Authentication Implemented (log in capability)
+- [x] Deployed to AWS
+- [x] At least one JSP that displays data from the database is implemented
+- [x] Authentication Implemented (log in capability)
