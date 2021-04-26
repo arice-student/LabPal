@@ -4,6 +4,8 @@ import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity(name = "ContactForm")
 @Table(name = "contact_form")
@@ -25,6 +27,10 @@ public class ContactForm {
     @Column(name = "message")
     @NonNull
     private String message;
+
+    @Column(name ="date")
+    @NonNull
+    private LocalDate date;
 }
 
 

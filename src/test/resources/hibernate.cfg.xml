@@ -17,9 +17,14 @@
         <property name="hibernate.c3p0.idle_test_period">3000</property>
 
         <mapping class="edu.matc.entity.User"/>
-        <mapping class="edu.matc.entity.Role"/>
         <mapping class="edu.matc.entity.Client"/>
-
+        <mapping class="edu.matc.entity.Role"/>
+        <mapping class="edu.matc.entity.ContactForm"/>
+        <mapping class="edu.matc.entity.Method"/>
+        <mapping class="edu.matc.entity.Project"/>
+        <mapping class="edu.matc.entity.Sample"/>
+        <mapping class="edu.matc.entity.Test"/>
+        <mapping class="edu.matc.entity.TestDescription"/>
 
 
     </session-factory>

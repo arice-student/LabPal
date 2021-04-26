@@ -31,6 +31,7 @@
 |Mar 28|8:15 pm - 11:00 pm, 2.75|Studying Servlets, JSTL, JSPs to try and figure out how to have a dynamic Nav Bar for including the Sign Out page.||
 |Apr 03|5:50 am - 7:20 am, 1.5|Even though AWS worked when I signed off on 28Mar, when I signed in this morning, it didn't work at all...  Took 30 minutes of troubleshooting, but I finally got it working by re-setting the elastic IP.  Updated README file and provided mid-semester feedback.|
 |Apr 03|10:50 am - 12:50 am, 2.0|Read over all of the resources corresponding to Week 10.  Was unable to sync to the Team repository, so it had to be re-created.  Tested things out and everything works again.  Partially completed Week 10, Activity 2.|
-/Apr 03/
+|Apr 25|1:30 pm - 4:30 pm, 2.0|App and tests didn't launch due to time zone error.  Set the time zone in MySQL.  This got the unit tests to work.  But the site still won't launch due to a 500 error.  Started building unit tests, but cleandb.sql is no longer working for any of the classes, even though it was working at first and I was only working within a new test class. |
+|Apr 25|9:30 pm - 11:00 pm, 1.5|Got ContactFormDaoTest and MethodDaoTest working.|
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.
