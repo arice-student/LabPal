@@ -1,2 +1,2 @@
-[DEBUG] 2021-04-25 22:57:32.475 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-04-25 22:57:32.575 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-04-28 21:38:42.779 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-04-28 21:38:42.895 [main] GenericDao - Searching for order with temperature = C

@@ -6,6 +6,9 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.time.LocalDate;
 
+/**
+ * The type Sample.
+ */
 @Entity(name = "Sample")
 @Table(name = "sample")
 @NoArgsConstructor
@@ -42,4 +45,5 @@ public class Sample {
     @Column(name = "manufacture_date")
     @NonNull
     private LocalDate manufactureDate;
+
 }
