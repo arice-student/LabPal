@@ -54,14 +54,9 @@ public class DeleteItemServlet extends HttpServlet {
             }
         }
 
-        HttpSession session = req.getSession();
-        String redirectURL = (String) session.getAttribute("resultURL");
-        logger.debug("Session getAttributeNames(): " + session.getAttributeNames());
-        logger.debug("The Request URI from getAttribute is:" + session.getAttribute("resultURL"));
+        req.setAttribute("message", "The item has been successfully deleted.");
 
-        resp.sendRedirect(redirectURL);
-
-//        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
-//        dispatcher.forward(req, resp);
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/myDashboard.jsp");
+        dispatcher.forward(req, resp);
     }
 }

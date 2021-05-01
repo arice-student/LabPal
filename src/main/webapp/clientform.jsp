@@ -9,8 +9,8 @@
 <body role="document">
 <jsp:include page="navbar.jsp" />
 
-<c:if test="${not empty newClient}">
-    <h4>A new client (${newClient.name}) has just been created.</h4>
+<c:if test="${not empty message}">
+    <h4>${message}</h4>
 </c:if>
 
 <c:if test="${not empty error}">
@@ -19,7 +19,7 @@
 
 <h1 class="mt-3 mb-3 text-center">Client Details</h1>
 <main class="w-75 m-auto mt-2 pb-4">
-    <form method="post" action="processClient" class="m-auto p-3 border rounded-lg">
+    <form method="post" action="processForm" class="m-auto p-3 border rounded-lg">
         <div class="form-group row justify-content-center">
             <label for="clientName" class="col-sm-2 col-form-label">Client Name</label>
             <div class="col-sm-6">
