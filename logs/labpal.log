@@ -604,3 +604,122 @@
 [DEBUG] 2021-05-01 14:58:42.078 [http-nio-8080-exec-8] DeleteItemServlet - In the doGet method of DeleteItem.
 [DEBUG] 2021-05-01 14:58:42.079 [http-nio-8080-exec-8] DeleteItemServlet - The client ID to be deleted: 41
 [DEBUG] 2021-05-01 14:58:42.191 [http-nio-8080-exec-8] DeleteItemServlet - The client ID after deletion: 41
+[DEBUG] 2021-05-01 15:01:22.267 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 15:01:22.579 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 15:01:23.205 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 15:01:23.277 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 15:01:23.654 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 15:01:23.697 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 15:01:24.117 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 15:01:24.162 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 15:01:24.493 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 15:01:24.532 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 15:01:24.877 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 15:01:24.927 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 15:05:46.782 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 15:05:47.084 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 15:05:47.745 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 15:05:47.809 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 15:05:48.121 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 15:05:48.166 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 15:05:48.498 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 15:05:48.556 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 15:05:48.872 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 15:05:48.913 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 15:05:49.221 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 15:05:49.267 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 15:06:57.869 [http-nio-8080-exec-4] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 15:06:58.230 [http-nio-8080-exec-4] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=46, name=asdfasfasfafs), Client(id=39, name=asfasdf), Client(id=42, name=bnvbnbvnvbn), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony), Client(id=40, name=vbnvbn), Client(id=43, name=vbnvbnvbnvbnbvnvbnvbnvbnvbnvbn), Client(id=38, name=werwerwerwer)]
+[DEBUG] 2021-05-01 15:07:01.438 [http-nio-8080-exec-6] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 15:07:01.439 [http-nio-8080-exec-6] DeleteItemServlet - The client ID to be deleted: 3
+[DEBUG] 2021-05-01 15:07:01.508 [http-nio-8080-exec-6] DeleteItemServlet - The client ID after deletion: 3
+[DEBUG] 2021-05-01 15:11:47.423 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 15:11:47.893 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 15:11:48.927 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 15:11:49.021 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 15:11:49.500 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 15:11:49.558 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 15:11:49.888 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 15:11:49.957 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 15:11:50.299 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 15:11:50.346 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 15:11:50.678 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 15:11:50.727 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 15:24:18.696 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 15:24:19.024 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 15:24:19.778 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 15:24:19.838 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 15:24:20.173 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 15:24:20.218 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 15:24:20.614 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 15:24:20.673 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 15:24:20.999 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 15:24:21.088 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 15:24:21.435 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 15:24:21.475 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 15:25:19.905 [http-nio-8080-exec-2] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 15:26:27.819 [http-nio-8080-exec-3] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 15:27:06.383 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 15:27:06.714 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 15:27:07.637 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 15:27:07.746 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 15:27:10.533 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 15:27:10.770 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 15:27:11.919 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 15:27:11.999 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 15:27:12.479 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 15:27:12.550 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 15:27:12.945 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 15:27:13.011 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 15:28:25.493 [http-nio-8080-exec-4] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 15:30:28.537 [http-nio-8080-exec-4] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 15:30:28.647 [http-nio-8080-exec-4] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=46, name=asdfasfasfafs), Client(id=39, name=asfasdf), Client(id=42, name=bnvbnbvnvbn), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=49, name=cvbcbcbcbcvbccccc), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=48, name=eeeeeeeee), Client(id=28, name=erdfgdfgdfg), Client(id=47, name=fgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony), Client(id=40, name=vbnvbn), Client(id=43, name=vbnvbnvbnvbnbvnvbnvbnvbnvbnvbn), Client(id=38, name=werwerwerwer)]
+[DEBUG] 2021-05-01 15:31:14.593 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 15:31:14.881 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 15:31:15.696 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 15:31:15.785 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 15:31:16.262 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 15:31:16.322 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 15:31:16.724 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 15:31:16.771 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 15:31:17.106 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 15:31:17.153 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 15:31:17.530 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 15:31:17.570 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 15:33:30.004 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 15:33:30.278 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 15:33:31.164 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 15:33:31.240 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 15:33:31.682 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 15:33:31.735 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 15:33:32.106 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 15:33:32.164 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 15:33:32.462 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 15:33:32.502 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 15:33:32.797 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 15:33:32.841 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 15:36:06.918 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 15:36:07.201 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 15:36:07.857 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 15:36:07.910 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 15:36:08.274 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 15:36:08.324 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 15:36:08.640 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 15:36:08.683 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 15:36:08.987 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 15:36:09.033 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 15:36:09.320 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 15:36:09.359 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 15:46:55.016 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 15:46:55.282 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 15:46:55.989 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 15:46:56.056 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 15:46:56.493 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 15:46:56.551 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 15:46:56.936 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 15:46:56.987 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 15:46:57.291 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 15:46:57.329 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 15:46:57.654 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 15:46:57.704 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 15:47:35.797 [http-nio-8080-exec-2] ProcessForm - Current Date:2021-05-01

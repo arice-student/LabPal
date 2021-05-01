@@ -20,6 +20,10 @@
                     <h4 class="text-center text-success">${error}</h4>
                 </c:if>
 
+                <c:if test="${not empty success}">
+                    <h4 class="text-center text-success">${success}</h4>
+                </c:if>
+
                 <form action="searchTerm" class="form-inline">
                     <div class="form-group py-3 m-auto">
                         <label for="searchTerm">Search Term: </label>
