@@ -1,126 +1,68 @@
-[DEBUG] 2021-04-30 19:26:26.838 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-04-30 19:26:27.098 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-04-30 19:26:27.638 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-04-30 19:26:27.692 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-04-30 19:26:28.056 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-04-30 19:26:28.103 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-04-30 19:26:28.393 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-04-30 19:26:28.444 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-04-30 19:26:28.755 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-04-30 19:26:28.793 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-04-30 19:26:29.078 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-04-30 19:26:29.124 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-04-30 19:28:05.150 [http-nio-8080-exec-2] SearchUsers - We got this far!
-[DEBUG] 2021-04-30 19:28:05.205 [http-nio-8080-exec-2] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@4e4b0c3e
-[DEBUG] 2021-04-30 19:28:16.192 [http-nio-8080-exec-7] SearchUsers - We got this far!
-[DEBUG] 2021-04-30 19:28:16.194 [http-nio-8080-exec-7] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@40d61ce6
-[DEBUG] 2021-04-30 19:30:22.244 [http-nio-8080-exec-8] SearchUsers - We got this far!
-[DEBUG] 2021-04-30 19:30:22.244 [http-nio-8080-exec-8] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@1148808d
-[DEBUG] 2021-04-30 19:30:55.521 [http-nio-8080-exec-3] SignUp - The form was submitted.
-[DEBUG] 2021-04-30 19:30:55.523 [http-nio-8080-exec-3] SignUp - First Name: vvvv
-[DEBUG] 2021-04-30 19:30:55.524 [http-nio-8080-exec-3] SignUp - Last Name: vvvv
-[DEBUG] 2021-04-30 19:30:55.525 [http-nio-8080-exec-3] SignUp - User Name: gggg
-[DEBUG] 2021-04-30 19:30:55.525 [http-nio-8080-exec-3] SignUp - User Name: 2021-04-13
-[DEBUG] 2021-04-30 19:30:55.562 [http-nio-8080-exec-3] SignUp - User Information: User{firstName='vvvv', lastName='vvvv', userName='gggg', id=0, dateOfBirth=2021-04-13, age=0}
-[DEBUG] 2021-04-30 19:32:49.457 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-04-30 19:32:49.716 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-04-30 19:32:50.361 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-04-30 19:32:50.435 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-04-30 19:32:50.898 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-04-30 19:32:50.953 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-04-30 19:32:51.247 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-04-30 19:32:51.289 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-04-30 19:32:51.560 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-04-30 19:32:51.594 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-04-30 19:32:51.895 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-04-30 19:32:51.940 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-04-30 19:36:56.658 [http-nio-8080-exec-4] SignUp - The form was submitted.
-[DEBUG] 2021-04-30 19:36:56.686 [http-nio-8080-exec-4] SignUp - First Name: ffff
-[DEBUG] 2021-04-30 19:36:56.686 [http-nio-8080-exec-4] SignUp - Last Name: fff
-[DEBUG] 2021-04-30 19:36:56.687 [http-nio-8080-exec-4] SignUp - User Name: ffffff
-[DEBUG] 2021-04-30 19:36:56.687 [http-nio-8080-exec-4] SignUp - User Name: 2021-03-30
-[DEBUG] 2021-04-30 19:36:56.759 [http-nio-8080-exec-4] SignUp - User Information: User{firstName='ffff', lastName='fff', userName='ffffff', id=0, dateOfBirth=2021-03-30, age=0}
-[DEBUG] 2021-04-30 19:37:04.398 [http-nio-8080-exec-4] SignUp - Was User Inserted: 16
-[DEBUG] 2021-04-30 19:44:27.967 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-04-30 19:44:28.211 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-04-30 19:44:28.853 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-04-30 19:44:28.951 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-04-30 19:44:29.375 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-04-30 19:44:29.463 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-04-30 19:44:29.784 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-04-30 19:44:29.823 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-04-30 19:44:30.116 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-04-30 19:44:30.163 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-04-30 19:44:30.449 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-04-30 19:44:30.486 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-04-30 19:45:14.189 [http-nio-8080-exec-1] SignUp - The form was submitted.
-[DEBUG] 2021-04-30 19:45:14.211 [http-nio-8080-exec-1] SignUp - First Name: rr
-[DEBUG] 2021-04-30 19:45:14.212 [http-nio-8080-exec-1] SignUp - Last Name: ttt
-[DEBUG] 2021-04-30 19:45:14.212 [http-nio-8080-exec-1] SignUp - User Name: ttttt
-[DEBUG] 2021-04-30 19:45:14.213 [http-nio-8080-exec-1] SignUp - User Name: 2021-12-07
-[DEBUG] 2021-04-30 19:45:14.258 [http-nio-8080-exec-1] SignUp - User Information: User{firstName='rr', lastName='ttt', userName='ttttt', id=0, dateOfBirth=2021-12-07, age=0}
-[DEBUG] 2021-04-30 19:45:19.932 [http-nio-8080-exec-1] SignUp - Was User Inserted: 17
-[DEBUG] 2021-04-30 19:54:07.737 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-04-30 19:54:08.105 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-04-30 19:54:09.603 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-04-30 19:54:09.662 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-04-30 19:54:10.598 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-04-30 19:54:10.679 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-04-30 19:54:11.108 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-04-30 19:54:11.204 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-04-30 19:54:12.052 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-04-30 19:54:12.127 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-04-30 19:54:12.435 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-04-30 19:54:12.481 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-04-30 19:55:00.395 [http-nio-8080-exec-2] SignUp - The form was submitted.
-[DEBUG] 2021-04-30 19:55:00.410 [http-nio-8080-exec-2] SignUp - First Name: ee
-[DEBUG] 2021-04-30 19:55:00.411 [http-nio-8080-exec-2] SignUp - Last Name: ee
-[DEBUG] 2021-04-30 19:55:00.411 [http-nio-8080-exec-2] SignUp - User Name: eee
-[DEBUG] 2021-04-30 19:55:00.411 [http-nio-8080-exec-2] SignUp - User Name: 2021-04-06
-[DEBUG] 2021-04-30 19:55:00.442 [http-nio-8080-exec-2] SignUp - User Information: User{firstName='ee', lastName='ee', userName='eee', id=0, dateOfBirth=2021-04-06, age=0}
-[DEBUG] 2021-04-30 19:55:05.705 [http-nio-8080-exec-2] SignUp - Was User Inserted: 18
-[DEBUG] 2021-04-30 19:56:00.463 [http-nio-8080-exec-7] SignUp - The form was submitted.
-[DEBUG] 2021-04-30 19:56:00.464 [http-nio-8080-exec-7] SignUp - First Name: yyyy
-[DEBUG] 2021-04-30 19:56:00.464 [http-nio-8080-exec-7] SignUp - Last Name: yyyy
-[DEBUG] 2021-04-30 19:56:00.464 [http-nio-8080-exec-7] SignUp - User Name: yyyyy
-[DEBUG] 2021-04-30 19:56:00.464 [http-nio-8080-exec-7] SignUp - User Name: 2021-04-10
-[DEBUG] 2021-04-30 19:56:00.464 [http-nio-8080-exec-7] SignUp - User Information: User{firstName='yyyy', lastName='yyyy', userName='yyyyy', id=0, dateOfBirth=2021-04-10, age=0}
-[DEBUG] 2021-04-30 19:56:00.483 [http-nio-8080-exec-7] SignUp - Was User Inserted: 19
-[DEBUG] 2021-04-30 20:15:07.197 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-04-30 20:15:07.448 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-04-30 20:15:08.028 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-04-30 20:15:08.077 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-04-30 20:15:08.440 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-04-30 20:15:08.496 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-04-30 20:15:08.806 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-04-30 20:15:08.851 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-04-30 20:15:09.146 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-04-30 20:15:09.185 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-04-30 20:15:09.494 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-04-30 20:15:09.532 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-04-30 20:16:20.574 [http-nio-8080-exec-5] SignUp - The form was submitted.
-[DEBUG] 2021-04-30 20:16:20.589 [http-nio-8080-exec-5] SignUp - First Name: uuu
-[DEBUG] 2021-04-30 20:16:20.589 [http-nio-8080-exec-5] SignUp - Last Name: uuu
-[DEBUG] 2021-04-30 20:16:20.590 [http-nio-8080-exec-5] SignUp - User Name: uuu
-[DEBUG] 2021-04-30 20:16:20.590 [http-nio-8080-exec-5] SignUp - User Name: 1999-01-01
-[DEBUG] 2021-04-30 20:16:20.640 [http-nio-8080-exec-5] SignUp - User Information: User{firstName='uuu', lastName='uuu', userName='uuu', id=0, dateOfBirth=1999-01-01, age=22}
-[DEBUG] 2021-04-30 20:16:26.719 [http-nio-8080-exec-5] SignUp - Was User Inserted: 20
-[DEBUG] 2021-04-30 20:19:04.548 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-04-30 20:19:04.804 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-04-30 20:19:05.402 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-04-30 20:19:05.455 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-04-30 20:19:05.764 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-04-30 20:19:05.813 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-04-30 20:19:06.117 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-04-30 20:19:06.176 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-04-30 20:19:06.535 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-04-30 20:19:06.578 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-04-30 20:19:06.887 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-04-30 20:19:06.925 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-04-30 20:22:18.341 [http-nio-8080-exec-5] SignUp - The form was submitted.
-[DEBUG] 2021-04-30 20:22:18.367 [http-nio-8080-exec-5] SignUp - First Name: rrrr
-[DEBUG] 2021-04-30 20:22:18.368 [http-nio-8080-exec-5] SignUp - Last Name: rrr
-[DEBUG] 2021-04-30 20:22:18.368 [http-nio-8080-exec-5] SignUp - User Name: rrr
-[DEBUG] 2021-04-30 20:22:18.368 [http-nio-8080-exec-5] SignUp - User Name: 2021-04-15
-[DEBUG] 2021-04-30 20:22:18.415 [http-nio-8080-exec-5] SignUp - User Information: User{firstName='rrrr', lastName='rrr', userName='rrr', id=0, dateOfBirth=2021-04-15, age=0}
-[DEBUG] 2021-04-30 20:22:25.777 [http-nio-8080-exec-5] SignUp - Was User Inserted: 21
+[DEBUG] 2021-05-01 08:25:13.445 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 08:25:13.739 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 08:25:14.424 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 08:25:14.497 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 08:25:14.953 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 08:25:15.030 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 08:25:15.429 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 08:25:15.481 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 08:25:15.786 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 08:25:15.824 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 08:25:16.097 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 08:25:16.144 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 08:30:27.885 [http-nio-8080-exec-8] SearchUsers - We got this far!
+[DEBUG] 2021-05-01 08:30:27.925 [http-nio-8080-exec-8] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@51dfb0d0
+[DEBUG] 2021-05-01 08:31:10.319 [http-nio-8080-exec-5] GenericDao - Searching for order with name = null
+[DEBUG] 2021-05-01 08:31:10.398 [http-nio-8080-exec-5] SearchTerm - The value of clients is: []
+[DEBUG] 2021-05-01 08:33:42.168 [http-nio-8080-exec-8] GenericDao - Searching for order with name = null
+[DEBUG] 2021-05-01 08:33:42.229 [http-nio-8080-exec-8] SearchTerm - The value of clients is: []
+[DEBUG] 2021-05-01 08:38:01.255 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 08:38:01.492 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 08:38:02.059 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 08:38:02.119 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 08:38:02.466 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 08:38:02.508 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 08:38:02.835 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 08:38:02.871 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 08:38:03.179 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 08:38:03.222 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 08:38:03.577 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 08:38:03.645 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 08:42:30.874 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 08:42:31.129 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 08:42:31.839 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 08:42:31.901 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 08:42:32.275 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 08:42:32.320 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 08:42:32.635 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 08:42:32.682 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 08:42:32.985 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 08:42:33.030 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 08:42:33.304 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 08:42:33.342 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 08:43:16.308 [http-nio-8080-exec-5] GenericDao - Searching for order with name = client_name
+[DEBUG] 2021-05-01 08:43:16.691 [http-nio-8080-exec-5] SearchTerm - The value of clients is: []
+[DEBUG] 2021-05-01 08:44:25.771 [http-nio-8080-exec-3] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@227e0200
+[DEBUG] 2021-05-01 08:44:25.771 [http-nio-8080-exec-3] ProcessClient - The 'submit parameter value is:process_client
+[DEBUG] 2021-05-01 08:44:25.771 [http-nio-8080-exec-3] ProcessClient - The client form was submitted.
+[DEBUG] 2021-05-01 08:44:25.771 [http-nio-8080-exec-3] ProcessClient - Client Name: client_name
+[DEBUG] 2021-05-01 08:44:25.777 [http-nio-8080-exec-3] ProcessClient - Client Information: Client(id=0, name=client_name)
+[DEBUG] 2021-05-01 08:44:25.888 [http-nio-8080-exec-3] ProcessClient - Was Client Inserted: 8
+[DEBUG] 2021-05-01 08:44:33.149 [http-nio-8080-exec-8] GenericDao - Searching for order with name = client_name
+[DEBUG] 2021-05-01 08:44:33.174 [http-nio-8080-exec-8] SearchTerm - The value of clients is: [Client(id=8, name=client_name)]
+[DEBUG] 2021-05-01 08:48:28.585 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 08:48:28.851 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 08:48:29.490 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 08:48:29.536 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 08:48:29.914 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 08:48:29.962 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 08:48:30.294 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 08:48:30.343 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 08:48:30.634 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 08:48:30.670 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 08:48:30.970 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 08:48:31.008 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 08:49:41.106 [http-nio-8080-exec-10] GenericDao - Searching for order with name = C
+[DEBUG] 2021-05-01 08:49:41.559 [http-nio-8080-exec-10] SearchTerm - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F)]
+[DEBUG] 2021-05-01 08:50:07.840 [http-nio-8080-exec-2] GenericDao - Searching for order with name = D
+[DEBUG] 2021-05-01 08:50:07.856 [http-nio-8080-exec-2] SearchTerm - The value of clients is: [Client(id=4, name=Company D)]

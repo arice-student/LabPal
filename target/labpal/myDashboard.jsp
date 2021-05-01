@@ -14,6 +14,44 @@
             <section class="container">
 
 
+                <form action="searchTerm" class="form-inline">
+                    <div class="form-group">
+                        <label for="searchTerm">Search Term: </label>
+                        <input type="text" class="form-control ml-2" id="searchTerm" name="searchTerm" aria-describedby="searchTermHelp" placeholder="Enter Search Term">
+
+                        <div class="input-group ml-2">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="selectType">Search Type</label>
+                            </div>
+                            <select class="custom-select" id="selectType" name="selectType">
+                                <option selected>Choose...</option>
+                                <optgroup label="Client">
+                                    <option value="client_name">Client: Name</option>
+                                </optgroup>
+                                <optgroup label="Method">
+                                    <option value="method_id">Method: ID</option>
+                                    <option value="method_title">Method: Title</option>
+                                    <option value="method_client">Method: Client</option>
+                                </optgroup>
+                                <option value="method">Method ID</option>
+                                <option value="project">Project ID</option>
+                                <option value="sample">Sample ID</option>
+                                <option value="test">Test ID</option>
+                                <option value="testDescription">Test Description</option>
+                                <option value="user">User</option>
+                            </select>
+                        </div>
+                        <button type="submit" name="submit" value="search" class="btn btn-primary">Search</button>
+                    </div>
+                </form>
+
+
+
+
+
+
+
+
                 <div class="row row-cols-sm-3 row-cols-md-4 row-cols-md-6">
                     <div class="col mb-4">
                         <div class="card h-100">
@@ -22,9 +60,8 @@
                             </a>
                             <div class="card-body">
                                 <h5 class="card-title">Clients</h5>
-                                <p class="card-text"><a href="/client">Add Client</a></p>
+                                <p class="card-text"><a href="/clientform.jsp">Add Client</a></p>
                                 <p class="card-text">View Clients</p>
-                                <p class="card-text">Remove Client</p>
                             </div>
                         </div>
                     </div>

@@ -33,7 +33,8 @@
 |Apr 03|10:50 am - 12:50 am, 2.0|Read over all of the resources corresponding to Week 10.  Was unable to sync to the Team repository, so it had to be re-created.  Tested things out and everything works again.  Partially completed Week 10, Activity 2.|
 |Apr 25|1:30 pm - 4:30 pm, 2.0|App and tests didn't launch due to time zone error.  Set the time zone in MySQL.  This got the unit tests to work.  But the site still won't launch due to a 500 error.  Started building unit tests, but cleandb.sql is no longer working for any of the classes, even though it was working at first and I was only working within a new test class. |
 |Apr 25|9:30 pm - 11:00 pm, 1.5|Got ContactFormDaoTest and MethodDaoTest working.|
-|Apr 28|8:45 pm - 9:45 pm|Reviewed Classes.  Created SampleDaoTest.|
-|Apr 30|6:15 pm - 
+|Apr 28|8:45 pm - 9:45 pm, 1.0|Reviewed Classes.  Created SampleDaoTest.|
+|Apr 30|6:15 pm - 9:15 pm, 3.0|Got client form to work.  Worked on Dashboard.|
+|May 01|6:45 am - |
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.
