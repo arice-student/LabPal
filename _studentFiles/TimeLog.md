@@ -34,5 +34,6 @@
 |Apr 25|1:30 pm - 4:30 pm, 2.0|App and tests didn't launch due to time zone error.  Set the time zone in MySQL.  This got the unit tests to work.  But the site still won't launch due to a 500 error.  Started building unit tests, but cleandb.sql is no longer working for any of the classes, even though it was working at first and I was only working within a new test class. |
 |Apr 25|9:30 pm - 11:00 pm, 1.5|Got ContactFormDaoTest and MethodDaoTest working.|
 |Apr 28|8:45 pm - 9:45 pm|Reviewed Classes.  Created SampleDaoTest.|
+|Apr 30|6:15 pm - 
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.

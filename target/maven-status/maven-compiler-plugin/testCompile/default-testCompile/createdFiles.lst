@@ -1,6 +1,8 @@
 edu/matc/persistence/ClientDaoTest.class
 edu/matc/persistence/UserDaoTest.class
 edu/matc/persistence/ContactFormDaoTest.class
+edu/matc/persistence/TestDescriptionDaoTest.class
 edu/matc/test/util/Database.class
 edu/matc/entity/UserTest.class
 edu/matc/persistence/MethodDaoTest.class
+edu/matc/persistence/SampleDaoTest.class

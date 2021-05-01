@@ -58,7 +58,7 @@ class MethodDaoTest {
     void insertSuccess() {
 
         Method newMethod = new Method(3, "FTIR Method", "Grape", "draft", LocalDate.parse("2020-02-02"));
-        newMethod.setId(10);
+        // newMethod.setId(10);
         int id = methodDao.insert(newMethod);
         assertNotEquals(0,id);
         Method insertedMethod = (Method)methodDao.getById(id);

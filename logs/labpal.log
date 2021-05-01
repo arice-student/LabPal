@@ -1,2 +1,66 @@
-[DEBUG] 2021-04-28 21:38:42.779 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-04-28 21:38:42.895 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-04-30 18:55:46.318 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-04-30 18:55:46.559 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-04-30 18:55:47.212 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-04-30 18:55:47.356 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-04-30 18:55:47.854 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-04-30 18:55:47.904 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-04-30 18:55:48.349 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-04-30 18:55:48.399 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-04-30 18:55:48.760 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-04-30 18:55:48.801 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-04-30 18:55:49.462 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-04-30 18:55:49.516 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-04-30 18:57:15.519 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-04-30 18:57:15.996 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-04-30 18:57:17.096 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-04-30 18:57:17.179 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-04-30 18:57:17.657 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-04-30 18:57:17.706 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-04-30 18:57:17.983 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-04-30 18:57:18.022 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-04-30 18:57:18.298 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-04-30 18:57:18.335 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-04-30 18:57:18.638 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-04-30 18:57:18.676 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-04-30 19:06:16.884 [http-nio-8080-exec-9] Logout - Session: null
+[DEBUG] 2021-04-30 19:08:35.433 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-04-30 19:08:36.040 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-04-30 19:08:37.340 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-04-30 19:08:37.443 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-04-30 19:08:38.054 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-04-30 19:08:38.140 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-04-30 19:08:38.761 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-04-30 19:08:38.873 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-04-30 19:08:39.393 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-04-30 19:08:39.438 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-04-30 19:08:39.795 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-04-30 19:08:39.856 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-04-30 19:12:57.783 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-04-30 19:12:58.264 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-04-30 19:12:59.106 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-04-30 19:12:59.181 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-04-30 19:12:59.629 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-04-30 19:12:59.723 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-04-30 19:13:00.183 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-04-30 19:13:00.239 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-04-30 19:13:00.569 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-04-30 19:13:00.621 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-04-30 19:13:01.144 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-04-30 19:13:01.260 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-04-30 19:15:35.934 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-04-30 19:15:36.339 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-04-30 19:15:37.295 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-04-30 19:15:37.378 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-04-30 19:15:37.888 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-04-30 19:15:37.968 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-04-30 19:15:38.324 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-04-30 19:15:38.381 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-04-30 19:15:38.725 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-04-30 19:15:38.770 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-04-30 19:15:39.058 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-04-30 19:15:39.104 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-04-30 19:17:39.552 [http-nio-8080-exec-3] SearchUsers - We got this far!
+[DEBUG] 2021-04-30 19:17:39.590 [http-nio-8080-exec-3] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@391d4862
+[DEBUG] 2021-04-30 19:17:47.524 [http-nio-8080-exec-6] SearchUsers - We got this far!
+[DEBUG] 2021-04-30 19:17:47.524 [http-nio-8080-exec-6] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@50ac91f9
+[DEBUG] 2021-04-30 19:19:46.403 [http-nio-8080-exec-5] Logout - Session: null
