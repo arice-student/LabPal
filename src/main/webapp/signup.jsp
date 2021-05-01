@@ -9,6 +9,14 @@
     <body role="document">
         <jsp:include page="navbar.jsp" />
 
+        <c:if test="${not empty newUser}">
+            <h4>Account "${newUser.userName}" has just been created.  Click 'My Dashboard' to sign in now.</h4>
+        </c:if>
+
+        <c:if test="${not empty error}">
+            <h4>{${error}</h4>
+        </c:if>
+
         <h1 class="mt-3 mb-3 text-center">Sign Up to Join Lab Pal</h1>
         <main class="w-75 m-auto mt-2 pb-4">
             <form method="post" action="signUp" class="m-auto p-3 border rounded-lg">

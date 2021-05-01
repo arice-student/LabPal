@@ -63,7 +63,8 @@ https://stackoverflow.com/questions/57665645/server-returns-invalid-timezone-go-
 ### JSP
 - Sessions and Session Scope in JSP
   https://stackoverflow.com/questions/17590620/are-session-and-sessionscope-the-same-in-jsp-el
-
+- Checking if Parameter Exists
+  https://stackoverflow.com/questions/10932677/check-if-parameter-exists-in-expression-language
 
 ### JSTL
 - Check if a session attribute exists in a request

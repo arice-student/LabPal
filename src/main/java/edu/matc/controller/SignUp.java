@@ -31,6 +31,7 @@ public class SignUp extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        req.setAttribute("testing", "This is a Test.");
         GenericDao userDao = new GenericDao(User.class);
 
         // Confirm that the form was submitted
@@ -73,7 +74,7 @@ public class SignUp extends HttpServlet {
                     req.setAttribute("newUser", newUser);
 
                     // Forward to the dashboard page
-                    RequestDispatcher dispatcher = req.getRequestDispatcher("/myDashboard.jsp");
+                    RequestDispatcher dispatcher = req.getRequestDispatcher("/signup.jsp");
                     dispatcher.forward(req, resp);
                 }
 
