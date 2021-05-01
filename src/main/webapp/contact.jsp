@@ -9,6 +9,8 @@
     <body role="document">
     <jsp:include page="navbar.jsp" />
 
+    <jsp:include page="checkForMessage.jsp" />
+
         <div class="content container-fluid bg-light px-5 mb-4">
             <h2 class="text-center mb-3">Contact Us</h2>
             <main class="w-75 m-auto mt-2 pb-4 bg-white">

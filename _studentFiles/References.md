@@ -7,12 +7,8 @@
 ## Images
 - Hero image on the main page
   https://pixabay.com/photos/laboratory-analysis-chemistry-2815641/
-  
-
 - Lab Pal company logo
   https://www.freelogodesign.org/
-
-
 - Search Icon for Dashboard
   https://www.flaticon.com/search?search-type=icons&word=search+icon
   
@@ -23,8 +19,6 @@
 ## CSS Concepts
 - Sticky Footers
   https://css-tricks.com/couple-takes-sticky-footer/
-
-
 - Bootstrap Date Picker (Never figured it out)
   https://bootstrap-datepicker.readthedocs.io/en/latest/
   
@@ -39,22 +33,15 @@ https://stackoverflow.com/questions/57665645/server-returns-invalid-timezone-go-
 ## Form References
 - The 'Date' input type
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
-  
-
 - Converting a String to a LocalDate in Java
   https://mkyong.com/java8/java-8-how-to-convert-string-to-localdate/
   
-
 ## MySQL
 - Change a User Password
   https://linuxize.com/post/how-to-change-mysql-user-password/
   https://www.cyberciti.biz/faq/mysql-change-user-password/
-  
-
 - Change the Root User Password (ALTER USER 'root'@'localhost' IDENTIFIED BY 'arice';)
   https://stackoverflow.com/questions/7534056/mysql-root-password-change
-  
-
 - Create a new user in MySQL
   https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
 

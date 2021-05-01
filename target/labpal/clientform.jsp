@@ -9,13 +9,7 @@
 <body role="document">
 <jsp:include page="navbar.jsp" />
 
-<c:if test="${not empty message}">
-    <h4>${message}</h4>
-</c:if>
-
-<c:if test="${not empty error}">
-    <h4>${error}</h4>
-</c:if>
+<jsp:include page="checkForMessage.jsp" />
 
 <h1 class="mt-3 mb-3 text-center">Client Details</h1>
 <main class="w-75 m-auto mt-2 pb-4">

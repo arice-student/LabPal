@@ -15,7 +15,7 @@
 
         <div class="container-fluid">
 
-            <c:set var="resultURL" scope="session" value="${pageContext.request.requestURI}" />
+            <jsp:include page="checkForMessage.jsp" />
 
             <h2>Search Results: </h2>
 
@@ -40,7 +40,7 @@
                                 ${role.id} ${role.roleName}<br/>
                             </c:forEach>
                             <td><a href="/editEntity"></a>Edit User</td>
-                            <td><a href="/confirmDeletion.jsp"></a>Delete User</td>
+                            <td><a href="/"></a>Delete User</td>
                             </td>
                         </tr>
 

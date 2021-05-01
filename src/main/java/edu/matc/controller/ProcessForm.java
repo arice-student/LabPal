@@ -45,6 +45,7 @@ public class ProcessForm extends HttpServlet {
             int insertStatus;
 
             switch (getSubmitType) {
+                //<editor-fold desc="Process Client">
                 case "process_client":
                     // redirectURL = "/clientform.jsp";
                     workingDao = new GenericDao(Client.class);
@@ -65,8 +66,11 @@ public class ProcessForm extends HttpServlet {
                         dispatcher.forward(req, resp);
                     }
                     break;
+                    //</editor-fold>
+
+                //<editor-fold desc="Process ContactUs">
                 case "contactUs":
-                    // redirectURL = "/clientform.jsp";
+                    redirectURL = "/contact.jsp";
                     workingDao = new GenericDao(ContactForm.class);
 
                     ContactForm newContactForm = new ContactForm();
@@ -90,6 +94,7 @@ public class ProcessForm extends HttpServlet {
                         dispatcher.forward(req, resp);
                     }
                     break;
+                    //</editor-fold>
 
                 case "method_name":
             }

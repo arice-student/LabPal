@@ -7,6 +7,9 @@
 <html>
     <body role="document">
         <jsp:include page="navbar.jsp" />
+
+        <jsp:include page="checkForMessage.jsp" />
+
         <div class="content container-fluid bg-light px-5">
             <main class="bg-white">
                 <section class="text-center pt-2 pb-2 px-2">

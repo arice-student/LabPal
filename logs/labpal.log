@@ -723,3 +723,17 @@
 [DEBUG] 2021-05-01 15:46:57.654 [main] GenericDao - Searching for order with temperature = 25C
 [DEBUG] 2021-05-01 15:46:57.704 [main] GenericDao - Searching for order with temperature = C
 [DEBUG] 2021-05-01 15:47:35.797 [http-nio-8080-exec-2] ProcessForm - Current Date:2021-05-01
+[DEBUG] 2021-05-01 16:00:42.363 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 16:00:42.656 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 16:00:43.462 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 16:00:43.525 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 16:00:43.939 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 16:00:43.999 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 16:00:44.308 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 16:00:44.349 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 16:00:44.706 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 16:00:44.809 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 16:00:45.113 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 16:00:45.235 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 16:03:35.309 [http-nio-8080-exec-5] ProcessForm - Current Date:2021-05-01
+[DEBUG] 2021-05-01 16:04:23.563 [http-nio-8080-exec-7] ProcessForm - Current Date:2021-05-01
