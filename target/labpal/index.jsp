@@ -36,7 +36,7 @@
             </section>
             <section>
                 <h2>Template Information</h2>
-                <p><a href="/labpal/search.jsp">Click here to perform a search.</a></p>
+                <p><a href="/search.jsp">Click here to perform a search.</a></p>
             </section>
         </main>
         <jsp:include page="footer.jsp" />

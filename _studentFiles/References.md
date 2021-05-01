@@ -25,7 +25,7 @@
   https://bootstrap-datepicker.readthedocs.io/en/latest/
   
 ## Website Development
-- Using Root Relative URLs (i.e. href="/labpal/aboutUs.jsp")
+- Using Root Relative URLs (i.e. href="/aboutUs.jsp")
   https://stackoverflow.com/questions/5559578/having-links-relative-to-root/5559597
   
 ## IntelliJ

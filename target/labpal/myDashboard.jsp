@@ -17,7 +17,7 @@
                 <div class="row row-cols-sm-3 row-cols-md-4 row-cols-md-6">
                     <div class="col mb-4">
                         <div class="card h-100">
-                            <a href="/labpal/search.jsp">
+                            <a href="/search.jsp">
                                 <img src="images/searchIcon.svg" class="card-img-top img-fluid max-width:100 height:auto img-thumbnail" alt="Search Icon">
                             </a>
                             <div class="card-body">

@@ -41,7 +41,7 @@ public class Logout extends HttpServlet {
         session = request.getSession(false);
         logger.debug("Session: " + session);
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/labpal/logout.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/logout.jsp");
         dispatcher.forward(request, response);
     }
 
