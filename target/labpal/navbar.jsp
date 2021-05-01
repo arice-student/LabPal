@@ -16,7 +16,9 @@
                 <a class="nav-link mr-2" href="/aboutUs.jsp">About Us</a>
                 <a class="nav-link" href="/contact.jsp">Contact</a>
 
-
+                <c:if test="${request.getRemoteUser() != null}">
+                    <a class="nav-link" href="/logout.jsp">Sign Out</a>
+                </c:if>
 <%--                <c:if test="${!sessionScope.size() != null}">--%>
 <%--                    <a class="nav-link" href="/labpal/logout.jsp">Sign Out</a>--%>
 <%--                </c:if>--%>

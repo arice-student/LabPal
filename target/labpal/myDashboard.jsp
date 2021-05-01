@@ -15,11 +15,11 @@
 
 
                 <form action="searchTerm" class="form-inline">
-                    <div class="form-group">
+                    <div class="form-group py-3 m-auto">
                         <label for="searchTerm">Search Term: </label>
                         <input type="text" class="form-control ml-2" id="searchTerm" name="searchTerm" aria-describedby="searchTermHelp" placeholder="Enter Search Term">
 
-                        <div class="input-group ml-2">
+                        <div class="input-group mx-2">
                             <div class="input-group-prepend">
                                 <label class="input-group-text" for="selectType">Search Type</label>
                             </div>
@@ -61,7 +61,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Clients</h5>
                                 <p class="card-text"><a href="/clientform.jsp">Add Client</a></p>
-                                <p class="card-text">View Clients</p>
+                                <p class="card-text"><a href="viewAll?viewClients">View Clients</a></p>
                             </div>
                         </div>
                     </div>

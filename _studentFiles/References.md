@@ -1,5 +1,9 @@
 # LabPal References
 
+## Tomcat Authentication
+- How to access the Tomcat User
+  https://docs.oracle.com/cd/E17802_01/webservices/webservices/docs/1.5/api/javax/servlet/http/HttpServletRequest.html#getRemoteUser()
+
 ## Images
 - Hero image on the main page
   https://pixabay.com/photos/laboratory-analysis-chemistry-2815641/

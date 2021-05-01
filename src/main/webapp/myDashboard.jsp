@@ -61,7 +61,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Clients</h5>
                                 <p class="card-text"><a href="/clientform.jsp">Add Client</a></p>
-                                <p class="card-text"><a href="viewAll">View Clients</a></p>
+                                <p class="card-text"><a href="viewAll?viewClients">View Clients</a></p>
                             </div>
                         </div>
                     </div>

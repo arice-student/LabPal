@@ -1,5 +1,6 @@
 edu/matc/entity/Test.class
 edu/matc/controller/SignUp.class
+edu/matc/controller/ViewAll.class
 edu/matc/controller/ProcessClient.class
 edu/matc/entity/ContactForm.class
 edu/matc/controller/SearchUsers.class

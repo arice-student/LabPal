@@ -29,15 +29,15 @@ public class ViewAll extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        if (req.getParameter("submit").equals("viewAll")) {
+        logger.debug("In the doGet method.");
+        if (req.getParameterMap().containsKey("viewAll")) {
 
             // Determine the search type and create the appropriate Dao based on that search type
-            String getSearchType = req.getParameter("selectType");
+            String getSearchType = req.getParameter("viewAll");
             GenericDao workingDao;
 
             switch (getSearchType) {
-                case "client_name":
+                case "viewClients":
                     workingDao = new GenericDao(Client.class);
                     req.setAttribute("clients", workingDao.getAll());
                     logger.debug("The value of clients is: " + req.getAttribute("clients"));
