@@ -79,15 +79,22 @@ https://stackoverflow.com/questions/57665645/server-returns-invalid-timezone-go-
 ### Servlets
 - Check if a Parameter exists in the Servlet Request
   https://kodejava.org/how-do-i-check-if-parameter-is-exists-in-servlet-request/
-  
-
 - Logging a user out of a Session
   https://kodejava.org/how-do-i-invalidate-users-session/
-  
-
 - Creating a login and logout page
   https://www.codejava.net/coding/how-to-code-login-and-logout-with-java-servlet-jsp-and-mysql
+- Redirect to a page after a login
+  https://stackoverflow.com/questions/1921230/redirect-back-to-a-page-after-a-login
   
+### Expression Language
+- EL Scope
+  https://docs.oracle.com/cd/E26180_01/Platform.94/PageDevGuide/html/s0203elvariablescopes01.html
+  
+### HTTP Requests
+- List of Userful Methods of ServletRequest and HttpServletRequest
+  https://www.javajee.com/list-of-useful-methods-of-servletrequest-and-httpservletrequest
+- Difference between getAttribute() and getParameter()
+  https://stackoverflow.com/questions/5243754/difference-between-getattribute-and-getparameter
 
 ## Form Validation
 - Pattern Attribute for Emails

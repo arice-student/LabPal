@@ -64,5 +64,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="getAge" classname="edu.matc.entity.UserTest" time="0.055"/>
+  <testcase name="getAge" classname="edu.matc.entity.UserTest" time="0.06"/>
 </testsuite>

@@ -5,9 +5,6 @@
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <!--------------------------------------------------------------------------------------------------------------->
-    <!-- TODO Figure out how to get the title tag below to work.
-    <title>\${title}</title>-->
-<!--------------------------------------------------------------------------------------------------------------->
     <!-- Code pulled from https://getbootstrap.com/docs/4.6/getting-started/introduction/ -->
 
     <!-- Bootstrap CSS -->
@@ -18,15 +15,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
 <!--------------------------------------------------------------------------------------------------------------->
-    <!-- TODO - Determine if the files below should be implemented in the future. -->
-
-    <!-- added for google captcha -->
-    <script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- css for datepicker -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css">
     <!-- The next two items are to support jQuery datatables. Learn more about datatables here:https://datatables.net -->
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
-    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
 <!--------------------------------------------------------------------------------------------------------------->
 
     <!-- my css -->

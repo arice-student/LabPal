@@ -20,7 +20,7 @@ import org.apache.logging.log4j.Logger;
  */
 
 @WebServlet(
-        urlPatterns = {"/viewAll"}
+        urlPatterns = {"/viewAllServlet"}
 )
 
 public class ViewAll extends HttpServlet {
@@ -37,7 +37,7 @@ public class ViewAll extends HttpServlet {
             GenericDao workingDao;
 
             switch (getSearchType) {
-                case "viewClients":
+                case "clients":
                     workingDao = new GenericDao(Client.class);
                     req.setAttribute("clients", workingDao.getAll());
                     logger.debug("The value of clients is: " + req.getAttribute("clients"));

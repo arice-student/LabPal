@@ -15,7 +15,7 @@
 
         <div class="container-fluid">
 
-
+            <c:set var="resultURL" scope="session" value="${pageContext.request.requestURI}" />
 
             <h2>Search Results: </h2>
 
@@ -26,6 +26,8 @@
                     <th>User Name</th>
                     <th>Age</th>
                     <th>Roles</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                     </thead>
                     <tbody>
                     <c:forEach var="user" items="${users}">
@@ -37,6 +39,8 @@
                             <c:forEach var="role" items="${user.roles}">
                                 ${role.id} ${role.roleName}<br/>
                             </c:forEach>
+                            <td><a href="/editEntity"></a>Edit User</td>
+                            <td><a href="/confirmDeletion.jsp"></a>Delete User</td>
                             </td>
                         </tr>
 
@@ -51,12 +55,16 @@
                     <thead>
                         <th>Id</th>
                         <th>Name</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
                     </thead>
                     <tbody>
                     <c:forEach var="client" items="${clients}">
                         <tr>
                             <td>${client.id} ${user.lastName}</td>
                             <td>${client.name}</td>
+                            <td><a href="/editEntity"></a>Edit</td>
+                            <td><a href="/deleteItem?deleteItem=client&clientID=${client.id}">Delete</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>

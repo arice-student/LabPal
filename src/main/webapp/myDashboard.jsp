@@ -55,13 +55,23 @@
                 <div class="row row-cols-sm-3 row-cols-md-4 row-cols-md-6">
                     <div class="col mb-4">
                         <div class="card h-100">
+                            <img src="images/customer.svg" class="card-img-top img-fluid max-width:100 height:auto img-thumbnail" alt="Customer Icon">
+                            <div class="card-body">
+                                <h5 class="card-title">Clients</h5>
+                                <p class="card-text"><a href="/clientform.jsp">Add Client</a></p>
+                                <p class="card-text"><a href="viewAllServlet?viewAll=clients">View Clients</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
                             <a href="/search.jsp">
                                 <img src="images/searchIcon.svg" class="card-img-top img-fluid max-width:100 height:auto img-thumbnail" alt="Search Icon">
                             </a>
                             <div class="card-body">
                                 <h5 class="card-title">Clients</h5>
                                 <p class="card-text"><a href="/clientform.jsp">Add Client</a></p>
-                                <p class="card-text"><a href="viewAll?viewClients">View Clients</a></p>
+                                <p class="card-text"><a href="viewAllServlet?viewAll=clients">View Clients</a></p>
                             </div>
                         </div>
                     </div>

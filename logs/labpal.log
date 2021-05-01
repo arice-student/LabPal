@@ -126,3 +126,350 @@
 [DEBUG] 2021-05-01 09:55:59.525 [main] GenericDao - Searching for order with testName = pear
 [DEBUG] 2021-05-01 09:55:59.820 [main] GenericDao - Searching for order with temperature = 25C
 [DEBUG] 2021-05-01 09:55:59.865 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 10:35:40.255 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 10:35:40.734 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 10:35:41.723 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 10:35:41.794 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 10:35:42.264 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 10:35:42.307 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 10:35:42.636 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 10:35:42.689 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 10:35:43.004 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 10:35:43.053 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 10:35:43.375 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 10:35:43.423 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 10:37:38.706 [http-nio-8080-exec-6] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 10:40:56.683 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 10:40:57.000 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 10:40:57.973 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 10:40:58.045 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 10:40:58.574 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 10:40:58.646 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 10:40:59.042 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 10:40:59.102 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 10:40:59.430 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 10:40:59.471 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 10:40:59.804 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 10:40:59.965 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 10:41:40.757 [http-nio-8080-exec-5] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 10:41:48.039 [http-nio-8080-exec-5] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg)]
+[DEBUG] 2021-05-01 10:49:54.317 [http-nio-8080-exec-9] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 10:49:54.356 [http-nio-8080-exec-9] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg)]
+[DEBUG] 2021-05-01 11:19:10.953 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 11:19:11.730 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 11:19:13.058 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 11:19:13.169 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 11:19:13.869 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 11:19:14.066 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 11:19:15.308 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 11:19:15.419 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 11:19:16.683 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 11:19:16.823 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 11:19:17.604 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 11:19:17.698 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 11:21:27.106 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 11:21:27.751 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 11:21:29.060 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 11:21:29.168 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 11:21:29.831 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 11:21:29.938 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 11:21:30.542 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 11:21:30.707 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 11:21:31.508 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 11:21:31.594 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 11:21:32.266 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 11:21:32.348 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 11:23:32.308 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 11:23:33.015 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 11:23:34.642 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 11:23:34.733 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 11:23:35.462 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 11:23:35.543 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 11:23:36.162 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 11:23:36.240 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 11:23:37.035 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 11:23:37.132 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 11:23:37.735 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 11:23:37.824 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 11:24:53.603 [http-nio-8080-exec-7] SearchUsers - We got this far!
+[DEBUG] 2021-05-01 11:24:53.662 [http-nio-8080-exec-7] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@4a400cf9
+[DEBUG] 2021-05-01 11:25:31.000 [http-nio-8080-exec-6] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@5e29d974
+[DEBUG] 2021-05-01 11:25:31.001 [http-nio-8080-exec-6] ProcessClient - The 'submit parameter value is:process_client
+[DEBUG] 2021-05-01 11:25:31.002 [http-nio-8080-exec-6] ProcessClient - The client form was submitted.
+[DEBUG] 2021-05-01 11:25:31.002 [http-nio-8080-exec-6] ProcessClient - Client Name: Yup
+[DEBUG] 2021-05-01 11:25:31.010 [http-nio-8080-exec-6] ProcessClient - Client Information: Client(id=0, name=Yup)
+[DEBUG] 2021-05-01 11:25:31.175 [http-nio-8080-exec-6] ProcessClient - Was Client Inserted: 9
+[DEBUG] 2021-05-01 11:25:34.778 [http-nio-8080-exec-1] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 11:25:34.812 [http-nio-8080-exec-1] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
+[DEBUG] 2021-05-01 12:27:57.936 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 12:27:58.565 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 12:27:59.906 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 12:28:00.001 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 12:28:00.832 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 12:28:00.937 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 12:28:01.635 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 12:28:01.750 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 12:28:02.316 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 12:28:02.405 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 12:28:03.001 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 12:28:03.104 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 12:29:13.594 [http-nio-8080-exec-1] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 12:29:27.703 [http-nio-8080-exec-1] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
+[DEBUG] 2021-05-01 12:31:03.312 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 12:31:03.932 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 12:31:05.332 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 12:31:05.458 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 12:31:06.209 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 12:31:06.340 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 12:31:07.071 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 12:31:07.169 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 12:31:07.962 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 12:31:08.181 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 12:31:09.349 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 12:31:09.432 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 12:32:15.107 [http-nio-8080-exec-4] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 12:32:28.950 [http-nio-8080-exec-4] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
+[DEBUG] 2021-05-01 12:32:36.750 [http-nio-8080-exec-8] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 12:32:36.752 [http-nio-8080-exec-8] DeleteItemServlet - The client ID to be deleted: null
+[DEBUG] 2021-05-01 12:36:17.174 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 12:36:17.820 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 12:36:19.533 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 12:36:19.711 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 12:36:20.788 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 12:36:20.984 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 12:36:21.804 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 12:36:21.921 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 12:36:22.705 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 12:36:22.842 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 12:36:23.700 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 12:36:23.849 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 12:38:50.135 [http-nio-8080-exec-7] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 12:39:03.706 [http-nio-8080-exec-7] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
+[DEBUG] 2021-05-01 12:39:07.947 [http-nio-8080-exec-9] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 12:39:07.950 [http-nio-8080-exec-9] DeleteItemServlet - The client ID to be deleted: 9
+[DEBUG] 2021-05-01 12:39:48.266 [http-nio-8080-exec-1] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 12:39:48.266 [http-nio-8080-exec-1] DeleteItemServlet - The client ID to be deleted: 8
+[DEBUG] 2021-05-01 12:42:51.463 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 12:42:51.945 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 12:42:53.540 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 12:42:53.666 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 12:42:54.592 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 12:42:54.725 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 12:42:55.628 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 12:42:55.737 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 12:42:56.623 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 12:42:56.730 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 12:42:57.424 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 12:42:57.521 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 12:44:01.045 [http-nio-8080-exec-6] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 12:44:16.739 [http-nio-8080-exec-6] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
+[DEBUG] 2021-05-01 12:44:24.375 [http-nio-8080-exec-9] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 12:44:24.378 [http-nio-8080-exec-9] DeleteItemServlet - The client ID to be deleted: 9
+[DEBUG] 2021-05-01 12:46:26.655 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 12:46:27.299 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 12:46:28.842 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 12:46:28.939 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 12:46:29.650 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 12:46:29.731 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 12:46:30.391 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 12:46:30.467 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 12:46:31.079 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 12:46:31.159 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 12:46:31.802 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 12:46:31.919 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 12:47:33.637 [http-nio-8080-exec-6] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 12:47:48.741 [http-nio-8080-exec-6] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
+[DEBUG] 2021-05-01 12:47:51.684 [http-nio-8080-exec-9] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 12:47:51.685 [http-nio-8080-exec-9] DeleteItemServlet - The client ID to be deleted: 9
+[DEBUG] 2021-05-01 12:47:51.868 [http-nio-8080-exec-9] DeleteItemServlet - The client ID after deletion: 9
+[DEBUG] 2021-05-01 12:48:02.997 [http-nio-8080-exec-10] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 12:48:03.035 [http-nio-8080-exec-10] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg)]
+[DEBUG] 2021-05-01 12:48:20.137 [http-nio-8080-exec-3] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 12:48:20.138 [http-nio-8080-exec-3] DeleteItemServlet - The client ID to be deleted: 7
+[DEBUG] 2021-05-01 12:48:20.177 [http-nio-8080-exec-3] DeleteItemServlet - The client ID after deletion: 7
+[DEBUG] 2021-05-01 12:55:16.835 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 12:55:17.662 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 12:55:19.231 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 12:55:19.368 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 12:55:20.191 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 12:55:20.456 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 12:55:21.228 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 12:55:21.304 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 12:55:21.970 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 12:55:22.095 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 12:55:22.890 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 12:55:22.968 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 12:56:32.426 [http-nio-8080-exec-6] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 12:56:53.491 [http-nio-8080-exec-6] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me), Client(id=13, name=dfghdfgh), Client(id=14, name=ertyretyery), Client(id=12, name=sdgsd)]
+[DEBUG] 2021-05-01 12:56:56.535 [http-nio-8080-exec-1] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 12:56:56.541 [http-nio-8080-exec-1] DeleteItemServlet - The client ID to be deleted: 12
+[DEBUG] 2021-05-01 12:56:56.727 [http-nio-8080-exec-1] DeleteItemServlet - The client ID after deletion: 12
+[DEBUG] 2021-05-01 13:02:47.037 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 13:02:47.327 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 13:02:47.931 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 13:02:47.990 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 13:02:48.364 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 13:02:48.418 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 13:02:48.711 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 13:02:48.768 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 13:02:49.139 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 13:02:49.178 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 13:02:49.566 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 13:02:49.627 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 13:03:27.183 [http-nio-8080-exec-7] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:03:33.557 [http-nio-8080-exec-7] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me), Client(id=13, name=dfghdfgh), Client(id=14, name=ertyretyery)]
+[DEBUG] 2021-05-01 13:03:40.435 [http-nio-8080-exec-10] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 13:03:40.436 [http-nio-8080-exec-10] DeleteItemServlet - The client ID to be deleted: 14
+[DEBUG] 2021-05-01 13:03:40.523 [http-nio-8080-exec-10] DeleteItemServlet - The client ID after deletion: 14
+[DEBUG] 2021-05-01 13:03:40.523 [http-nio-8080-exec-10] DeleteItemServlet - Referer value is: http://localhost:8080/viewAllServlet?viewAll=clients
+[DEBUG] 2021-05-01 13:05:11.812 [http-nio-8080-exec-8] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:05:11.846 [http-nio-8080-exec-8] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me), Client(id=13, name=dfghdfgh)]
+[DEBUG] 2021-05-01 13:15:37.478 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 13:15:37.765 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 13:15:38.414 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 13:15:38.471 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 13:15:38.882 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 13:15:38.946 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 13:15:39.245 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 13:15:39.284 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 13:15:39.603 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 13:15:39.646 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 13:15:39.930 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 13:15:40.014 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 13:16:15.890 [http-nio-8080-exec-7] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:16:21.686 [http-nio-8080-exec-7] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me), Client(id=13, name=dfghdfgh)]
+[DEBUG] 2021-05-01 13:17:56.892 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 13:17:57.485 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 13:17:58.335 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 13:17:58.398 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 13:17:58.810 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 13:17:58.869 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 13:17:59.303 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 13:17:59.344 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 13:17:59.642 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 13:17:59.683 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 13:17:59.983 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 13:18:00.070 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 13:18:34.984 [http-nio-8080-exec-5] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:18:41.519 [http-nio-8080-exec-5] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me), Client(id=13, name=dfghdfgh)]
+[DEBUG] 2021-05-01 13:18:43.808 [http-nio-8080-exec-7] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 13:18:43.808 [http-nio-8080-exec-7] DeleteItemServlet - The Request URI from getAttribute is:null
+[DEBUG] 2021-05-01 13:18:43.809 [http-nio-8080-exec-7] DeleteItemServlet - The Request URI from getParameter is:null
+[DEBUG] 2021-05-01 13:18:43.809 [http-nio-8080-exec-7] DeleteItemServlet - The client ID to be deleted: 13
+[DEBUG] 2021-05-01 13:18:43.908 [http-nio-8080-exec-7] DeleteItemServlet - The client ID after deletion: 13
+[DEBUG] 2021-05-01 13:18:43.909 [http-nio-8080-exec-7] DeleteItemServlet - Referer value is: http://localhost:8080/viewAllServlet?viewAll=clients
+[DEBUG] 2021-05-01 13:18:53.278 [http-nio-8080-exec-10] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:18:53.299 [http-nio-8080-exec-10] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me)]
+[DEBUG] 2021-05-01 13:23:14.129 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 13:23:14.452 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 13:23:15.175 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 13:23:15.245 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 13:23:15.605 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 13:23:15.659 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 13:23:15.963 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 13:23:16.005 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 13:23:16.323 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 13:23:16.363 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 13:23:16.693 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 13:23:16.749 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 13:24:51.073 [http-nio-8080-exec-8] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:24:57.554 [http-nio-8080-exec-8] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me)]
+[DEBUG] 2021-05-01 13:25:00.359 [http-nio-8080-exec-10] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 13:25:00.360 [http-nio-8080-exec-10] DeleteItemServlet - The Request URI from getAttribute is:null
+[DEBUG] 2021-05-01 13:25:00.361 [http-nio-8080-exec-10] DeleteItemServlet - The Request URI from getParameter is:null
+[DEBUG] 2021-05-01 13:25:00.361 [http-nio-8080-exec-10] DeleteItemServlet - The client ID to be deleted: 10
+[DEBUG] 2021-05-01 13:25:00.464 [http-nio-8080-exec-10] DeleteItemServlet - The client ID after deletion: 10
+[DEBUG] 2021-05-01 13:25:00.464 [http-nio-8080-exec-10] DeleteItemServlet - Referer value is: http://localhost:8080/viewAllServlet?viewAll=clients
+[DEBUG] 2021-05-01 13:38:33.724 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 13:38:34.022 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 13:38:34.869 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 13:38:34.949 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 13:38:35.386 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 13:38:35.427 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 13:38:35.775 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 13:38:35.826 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 13:38:36.323 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 13:38:36.368 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 13:38:36.672 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 13:38:36.742 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 13:39:09.653 [http-nio-8080-exec-6] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:39:15.863 [http-nio-8080-exec-6] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=20, name=eeeee), Client(id=19, name=iiiii), Client(id=23, name=rwerwerwer), Client(id=22, name=werwer)]
+[DEBUG] 2021-05-01 13:39:30.175 [http-nio-8080-exec-1] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 13:39:30.176 [http-nio-8080-exec-1] DeleteItemServlet - The client ID to be deleted: 22
+[DEBUG] 2021-05-01 13:39:30.297 [http-nio-8080-exec-1] DeleteItemServlet - The client ID after deletion: 22
+[DEBUG] 2021-05-01 13:39:30.298 [http-nio-8080-exec-1] DeleteItemServlet - Session getAttributeNames(): java.util.Collections$3@3f458d38
+[DEBUG] 2021-05-01 13:39:30.298 [http-nio-8080-exec-1] DeleteItemServlet - The Request URI from getAttribute is:pageContext.request.requestURI
+[DEBUG] 2021-05-01 13:41:23.065 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-01 13:41:23.358 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-01 13:41:24.057 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-01 13:41:24.128 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-01 13:41:24.716 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-01 13:41:24.766 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-01 13:41:25.158 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-01 13:41:25.203 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-01 13:41:25.530 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-01 13:41:25.572 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-01 13:41:25.881 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-01 13:41:25.963 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-01 13:42:30.567 [http-nio-8080-exec-8] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:42:40.837 [http-nio-8080-exec-8] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=20, name=eeeee), Client(id=19, name=iiiii), Client(id=23, name=rwerwerwer)]
+[DEBUG] 2021-05-01 13:42:57.237 [http-nio-8080-exec-10] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 13:42:57.238 [http-nio-8080-exec-10] DeleteItemServlet - The client ID to be deleted: 23
+[DEBUG] 2021-05-01 13:42:57.327 [http-nio-8080-exec-10] DeleteItemServlet - The client ID after deletion: 23
+[DEBUG] 2021-05-01 13:42:57.327 [http-nio-8080-exec-10] DeleteItemServlet - Session getAttributeNames(): java.util.Collections$3@2efc3035
+[DEBUG] 2021-05-01 13:42:57.327 [http-nio-8080-exec-10] DeleteItemServlet - The Request URI from getAttribute is:/results.jsp
+[DEBUG] 2021-05-01 13:44:23.999 [http-nio-8080-exec-7] GenericDao - Searching for order with name = c
+[DEBUG] 2021-05-01 13:44:24.098 [http-nio-8080-exec-7] SearchTerm - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F)]
+[DEBUG] 2021-05-01 13:45:15.643 [http-nio-8080-exec-5] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:45:15.666 [http-nio-8080-exec-5] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=20, name=eeeee), Client(id=19, name=iiiii)]
+[DEBUG] 2021-05-01 13:46:10.327 [http-nio-8080-exec-9] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:46:10.348 [http-nio-8080-exec-9] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=20, name=eeeee), Client(id=19, name=iiiii)]
+[DEBUG] 2021-05-01 13:46:16.895 [http-nio-8080-exec-3] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@7108610f
+[DEBUG] 2021-05-01 13:46:16.895 [http-nio-8080-exec-3] ProcessClient - The 'submit parameter value is:process_client
+[DEBUG] 2021-05-01 13:46:16.895 [http-nio-8080-exec-3] ProcessClient - The client form was submitted.
+[DEBUG] 2021-05-01 13:46:16.895 [http-nio-8080-exec-3] ProcessClient - Client Name: hgjghj
+[DEBUG] 2021-05-01 13:46:16.896 [http-nio-8080-exec-3] ProcessClient - Client Information: Client(id=0, name=hgjghj)
+[DEBUG] 2021-05-01 13:46:16.965 [http-nio-8080-exec-3] ProcessClient - Was Client Inserted: 24
+[DEBUG] 2021-05-01 13:46:19.060 [http-nio-8080-exec-4] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@52bebd0a
+[DEBUG] 2021-05-01 13:46:19.060 [http-nio-8080-exec-4] ProcessClient - The 'submit parameter value is:process_client
+[DEBUG] 2021-05-01 13:46:19.060 [http-nio-8080-exec-4] ProcessClient - The client form was submitted.
+[DEBUG] 2021-05-01 13:46:19.060 [http-nio-8080-exec-4] ProcessClient - Client Name: ghjghjghj
+[DEBUG] 2021-05-01 13:46:19.060 [http-nio-8080-exec-4] ProcessClient - Client Information: Client(id=0, name=ghjghjghj)
+[DEBUG] 2021-05-01 13:46:19.084 [http-nio-8080-exec-4] ProcessClient - Was Client Inserted: 25
+[DEBUG] 2021-05-01 13:46:20.669 [http-nio-8080-exec-5] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@52263c6c
+[DEBUG] 2021-05-01 13:46:20.669 [http-nio-8080-exec-5] ProcessClient - The 'submit parameter value is:process_client
+[DEBUG] 2021-05-01 13:46:20.670 [http-nio-8080-exec-5] ProcessClient - The client form was submitted.
+[DEBUG] 2021-05-01 13:46:20.670 [http-nio-8080-exec-5] ProcessClient - Client Name: ghjghjghjghj
+[DEBUG] 2021-05-01 13:46:20.670 [http-nio-8080-exec-5] ProcessClient - Client Information: Client(id=0, name=ghjghjghjghj)
+[DEBUG] 2021-05-01 13:46:20.692 [http-nio-8080-exec-5] ProcessClient - Was Client Inserted: 26
+[DEBUG] 2021-05-01 13:46:22.878 [http-nio-8080-exec-6] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@29b6c909
+[DEBUG] 2021-05-01 13:46:22.878 [http-nio-8080-exec-6] ProcessClient - The 'submit parameter value is:process_client
+[DEBUG] 2021-05-01 13:46:22.879 [http-nio-8080-exec-6] ProcessClient - The client form was submitted.
+[DEBUG] 2021-05-01 13:46:22.879 [http-nio-8080-exec-6] ProcessClient - Client Name: gjtghnvnvbn
+[DEBUG] 2021-05-01 13:46:22.879 [http-nio-8080-exec-6] ProcessClient - Client Information: Client(id=0, name=gjtghnvnvbn)
+[DEBUG] 2021-05-01 13:46:22.894 [http-nio-8080-exec-6] ProcessClient - Was Client Inserted: 27
+[DEBUG] 2021-05-01 13:46:24.470 [http-nio-8080-exec-7] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@5374c1cc
+[DEBUG] 2021-05-01 13:46:24.471 [http-nio-8080-exec-7] ProcessClient - The 'submit parameter value is:process_client
+[DEBUG] 2021-05-01 13:46:24.471 [http-nio-8080-exec-7] ProcessClient - The client form was submitted.
+[DEBUG] 2021-05-01 13:46:24.471 [http-nio-8080-exec-7] ProcessClient - Client Name: erdfgdfgdfg
+[DEBUG] 2021-05-01 13:46:24.471 [http-nio-8080-exec-7] ProcessClient - Client Information: Client(id=0, name=erdfgdfgdfg)
+[DEBUG] 2021-05-01 13:46:24.493 [http-nio-8080-exec-7] ProcessClient - Was Client Inserted: 28
+[DEBUG] 2021-05-01 13:46:25.752 [http-nio-8080-exec-9] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@7598751d
+[DEBUG] 2021-05-01 13:46:25.753 [http-nio-8080-exec-9] ProcessClient - The 'submit parameter value is:process_client
+[DEBUG] 2021-05-01 13:46:25.753 [http-nio-8080-exec-9] ProcessClient - The client form was submitted.
+[DEBUG] 2021-05-01 13:46:25.753 [http-nio-8080-exec-9] ProcessClient - Client Name: dfgdfgdfg
+[DEBUG] 2021-05-01 13:46:25.753 [http-nio-8080-exec-9] ProcessClient - Client Information: Client(id=0, name=dfgdfgdfg)
+[DEBUG] 2021-05-01 13:46:25.768 [http-nio-8080-exec-9] ProcessClient - Was Client Inserted: 29
+[DEBUG] 2021-05-01 13:46:28.701 [http-nio-8080-exec-1] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:46:28.733 [http-nio-8080-exec-1] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj), Client(id=26, name=ghjghjghjghj), Client(id=27, name=gjtghnvnvbn), Client(id=24, name=hgjghj), Client(id=19, name=iiiii)]
+[DEBUG] 2021-05-01 13:46:35.160 [http-nio-8080-exec-3] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-01 13:46:35.160 [http-nio-8080-exec-3] DeleteItemServlet - The client ID to be deleted: 19
+[DEBUG] 2021-05-01 13:46:35.179 [http-nio-8080-exec-3] DeleteItemServlet - The client ID after deletion: 19
+[DEBUG] 2021-05-01 13:46:35.179 [http-nio-8080-exec-3] DeleteItemServlet - Session getAttributeNames(): java.util.Collections$3@6e931a45
+[DEBUG] 2021-05-01 13:46:35.179 [http-nio-8080-exec-3] DeleteItemServlet - The Request URI from getAttribute is:/results.jsp
+[DEBUG] 2021-05-01 13:47:40.990 [http-nio-8080-exec-8] GenericDao - Searching for order with name = c
+[DEBUG] 2021-05-01 13:47:41.006 [http-nio-8080-exec-8] SearchTerm - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F)]
+[DEBUG] 2021-05-01 13:47:48.541 [http-nio-8080-exec-4] ViewAll - In the doGet method.
+[DEBUG] 2021-05-01 13:47:48.564 [http-nio-8080-exec-4] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj), Client(id=26, name=ghjghjghjghj), Client(id=27, name=gjtghnvnvbn), Client(id=24, name=hgjghj)]
+[DEBUG] 2021-05-01 13:48:02.172 [http-nio-8080-exec-8] GenericDao - Searching for order with name = c
+[DEBUG] 2021-05-01 13:48:02.185 [http-nio-8080-exec-8] SearchTerm - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F)]
