@@ -36,5 +36,7 @@
 |Apr 28|8:45 pm - 9:45 pm, 1.0|Reviewed Classes.  Created SampleDaoTest.|
 |Apr 30|6:15 pm - 8:15 pm, 2.0|Got client form to work.  Worked on Dashboard.|
 |May 01|6:45 am - 10:00 am, 3.25|Got the search bar to work for the client.|
+|May 01|11:30 am - 4:00 pm, 4.5|Got the Contact Us form to work and steamlined some classes to make future additions easier.|
+|May 01|8:00 pm - , ||
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.

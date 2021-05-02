@@ -36,13 +36,6 @@ public class SignUp extends HttpServlet {
         // Confirm that the form was submitted
         if (req.getParameter("submit").equals("signup")) {
 
-            logger.debug("The form was submitted.");
-
-            logger.debug("First Name: " + req.getParameter("firstName"));
-            logger.debug("Last Name: " + req.getParameter("lastName"));
-            logger.debug("User Name: " + req.getParameter("userName"));
-            logger.debug("User Name: " + req.getParameter("dateOfBirth"));
-
             // Confirm that the entire form was filled out
             if (req.getParameter("firstName") != null && req.getParameter("lastName") != null &&
                     req.getParameter("userName") != null) {

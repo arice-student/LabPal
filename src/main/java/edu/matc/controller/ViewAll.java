@@ -29,8 +29,10 @@ public class ViewAll extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        logger.debug("In the doGet method.");
+        logger.debug("In the doGet method of ViewAll.");
         if (req.getParameterMap().containsKey("viewAll")) {
+
+            logger.debug("Parameter viewAll exits.");
 
             // Determine the search type and create the appropriate Dao based on that search type
             String getSearchType = req.getParameter("viewAll");
@@ -42,11 +44,34 @@ public class ViewAll extends HttpServlet {
                     req.setAttribute("clients", workingDao.getAll());
                     logger.debug("The value of clients is: " + req.getAttribute("clients"));
                     break;
-                case "method_id":
-                case "method_name":
-                case "method_client": {
+                case "users":
+                    workingDao = new GenericDao(User.class);
+                    req.setAttribute("users", workingDao.getAll());
+                    break;
+                case "testDescriptions":
+                    workingDao = new GenericDao(TestDescription.class);
+                    req.setAttribute("testDescriptions", workingDao.getAll());
+                    break;
+                case "methods":
                     workingDao = new GenericDao(Method.class);
-                }
+                    req.setAttribute("methods", workingDao.getAll());
+                    break;
+                case "samples":
+                    workingDao = new GenericDao(Sample.class);
+                    req.setAttribute("samples", workingDao.getAll());
+                    break;
+                case "projects":
+                    workingDao = new GenericDao(Method.class);
+                    req.setAttribute("projects", workingDao.getAll());
+                    break;
+                case "tests":
+                    workingDao = new GenericDao(Method.class);
+                    req.setAttribute("tests", workingDao.getAll());
+                    break;
+                case "contacts":
+                    workingDao = new GenericDao(Method.class);
+                    req.setAttribute("contacts", workingDao.getAll());
+                    break;
             }
         }
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");

@@ -39,8 +39,8 @@
                             <c:forEach var="role" items="${user.roles}">
                                 ${role.id} ${role.roleName}<br/>
                             </c:forEach>
-                            <td><a href="/editEntity"></a>Edit User</td>
-                            <td><a href="/"></a>Delete User</td>
+                            <td><a href="/editEntity?editItem=user&userID=${user.id}"></a>Edit User</td>
+                            <td><a href="/deleteItem?deleteItem=user&userID=${user.id}">Delete User</a></td>
                             </td>
                         </tr>
 

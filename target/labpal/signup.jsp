@@ -10,7 +10,7 @@
         <jsp:include page="navbar.jsp" />
 
         <c:if test="${not empty newUser}">
-            <h4>Account "${newUser.userName}" has just been created.  Click 'My Dashboard' to sign in now.</h4>
+            <h5 class="text-center text-success">Account "${newUser.userName}" has just been created.  Click 'My Dashboard' to sign in now.</h5>
         </c:if>
 
         <c:if test="${not empty error}">

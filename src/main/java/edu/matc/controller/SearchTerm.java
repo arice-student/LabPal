@@ -43,7 +43,11 @@ public class SearchTerm extends HttpServlet {
                     req.setAttribute("clients", workingDao.getByPropertyLike("name", getSearchTerm));
                     logger.debug("The value of clients is: " + req.getAttribute("clients"));
                     break;
-                case "method_id":
+                case "user_lastName":
+                    workingDao = new GenericDao(User.class);
+                    req.setAttribute("users", workingDao.getByPropertyLike("lastName", getSearchTerm));
+                    logger.debug("The value of users is: " + req.getAttribute("users"));
+                    break;
                 case "method_name":
                 case "method_client": {
                     workingDao = new GenericDao(Method.class);

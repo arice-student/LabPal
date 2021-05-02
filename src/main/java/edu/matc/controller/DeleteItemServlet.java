@@ -41,10 +41,15 @@ public class DeleteItemServlet extends HttpServlet {
             switch (getItemType) {
                 case "client":
                     int clientID = Integer.parseInt(req.getParameter("clientID"));
-                    logger.debug("The client ID to be deleted: " + clientID);
                     workingDao = new GenericDao(Client.class);
                     workingDao.delete(workingDao.getById(clientID));
-                    logger.debug("The client ID after deletion: " + clientID);
+                    break;
+                case "user":
+                    int userID = Integer.parseInt(req.getParameter("userID"));
+                    logger.debug("The user ID to be deleted: " + userID);
+                    workingDao = new GenericDao(User.class);
+                    workingDao.delete(workingDao.getById(userID));
+                    logger.debug("The user ID after deletion: " + userID);
                     break;
                 case "method_id":
                 case "method_name":
