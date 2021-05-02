@@ -32,23 +32,22 @@ public class ViewAll extends HttpServlet {
         logger.debug("In the doGet method of ViewAll.");
         if (req.getParameterMap().containsKey("viewAll")) {
 
-            logger.debug("Parameter viewAll exits.");
-
             // Determine the search type and create the appropriate Dao based on that search type
             String getSearchType = req.getParameter("viewAll");
+            logger.debug("Search Type is." + getSearchType);
             GenericDao workingDao;
 
             switch (getSearchType) {
                 case "clients":
                     workingDao = new GenericDao(Client.class);
                     req.setAttribute("clients", workingDao.getAll());
-                    logger.debug("The value of clients is: " + req.getAttribute("clients"));
                     break;
                 case "users":
                     workingDao = new GenericDao(User.class);
                     req.setAttribute("users", workingDao.getAll());
                     break;
                 case "testDescriptions":
+                    logger.debug("The value of description is: " + req.getAttribute("testDescriptions"));
                     workingDao = new GenericDao(TestDescription.class);
                     req.setAttribute("testDescriptions", workingDao.getAll());
                     break;
@@ -61,15 +60,15 @@ public class ViewAll extends HttpServlet {
                     req.setAttribute("samples", workingDao.getAll());
                     break;
                 case "projects":
-                    workingDao = new GenericDao(Method.class);
+                    workingDao = new GenericDao(Project.class);
                     req.setAttribute("projects", workingDao.getAll());
                     break;
                 case "tests":
-                    workingDao = new GenericDao(Method.class);
+                    workingDao = new GenericDao(Test.class);
                     req.setAttribute("tests", workingDao.getAll());
                     break;
                 case "contacts":
-                    workingDao = new GenericDao(Method.class);
+                    workingDao = new GenericDao(ContactForm.class);
                     req.setAttribute("contacts", workingDao.getAll());
                     break;
             }

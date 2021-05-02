@@ -30,7 +30,7 @@
                     <tbody>
                     <c:forEach var="client" items="${clients}">
                         <tr>
-                            <td>${client.id} ${user.lastName}</td>
+                            <td>${client.id}</td>
                             <td>${client.name}</td>
                             <td><a href="/editEntity"></a>Edit</td>
                             <td><a href="/deleteItem?deleteItem=client&clientID=${client.id}">Delete</a></td>
@@ -83,7 +83,7 @@
                     <c:forEach var="testDescription" items="${testDescriptions}">
                         <tr>
                             <td>${testDescription.id}</td>
-                            <td>${testDescription.test_name}</td>
+                            <td>${testDescription.testName}</td>
                             <td><a href="/editEntity?editItem=testDescription&id=${testDescription.id}"></a>Edit User</td>
                             <td><a href="/deleteItem?deleteItem=testDescription&id=${user.id}">Delete User</a></td>
                         </tr>
@@ -114,7 +114,7 @@
                             <td>${method.title}</td>
                             <td>${method.client}</td>
                             <td>${method.status}</td>
-                            <td>${method.effective_date}</td>
+                            <td>${method.date}</td>
                             <td><a href="/editEntity?editItem=method&methodID=${method.id}"></a>Edit</td>
                             <td><a href="/deleteItem?deleteItem=method&methodID=${method.id}">Delete</a></td>
                         </tr>
@@ -145,7 +145,7 @@
                             <td>${sample.temperature}</td>
                             <td>${sample.lot}</td>
                             <td>${sample.concentration}</td>
-                            <td>${sample.manufacture_date}</td>
+                            <td>${sample.manufactureDate}</td>
                             <td><a href="/editEntity?editItem=sample&sampleID=${sample.id}"></a>Edit</td>
                             <td><a href="/deleteItem?deleteItem=sample&sampleID=${sample.id}">Delete</a></td>
                         </tr>
@@ -168,9 +168,9 @@
                     <c:forEach var="project" items="${projects}">
                         <tr>
                             <td>${project.id}</td>
-                            <td>${project.client_name}</td>
-                            <td>${project.start_date}</td>
-                            <td>${project.closure_date}</td>
+                            <td>${project.clientName}</td>
+                            <td>${project.startDate}</td>
+                            <td>${project.closureDate}</td>
                             <td><a href="/editEntity?editItem=project&projectID=${project.id}"></a>Edit</td>
                             <td><a href="/deleteItem?deleteItem=project&projectID=${project.id}">Delete</a></td>
                         </tr>
@@ -195,11 +195,11 @@
                     <c:forEach var="test" items="${tests}">
                         <tr>
                             <td>${test.id}</td>
-                            <td>${test.sample_id}</td>
-                            <td>${test.project_id}</td>
-                            <td>${test.test_description}</td>
-                            <td>${test.method_id}</td>
-                            <td>${test.user_name}</td>
+                            <td>${test.sampleId}</td>
+                            <td>${test.projectId}</td>
+                            <td>${test.testDescription}</td>
+                            <td>${test.methodId}</td>
+                            <td>${test.analyst}</td>
                             <td><a href="/editEntity?editItem=test&testID=${test.id}"></a>Edit</td>
                             <td><a href="/deleteItem?deleteItem=test&testID=${test.id}">Delete</a></td>
                         </tr>

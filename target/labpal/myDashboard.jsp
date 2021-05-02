@@ -29,10 +29,27 @@
                                 <optgroup label="Client">
                                     <option value="client_name">Client: Name</option>
                                 </optgroup>
+                                <optgroup label="ContactForm">
+                                    <option value="contact_email">Contact: Email</option>
+                                </optgroup>
                                 <optgroup label="Method">
                                     <option value="method_id">Method: ID</option>
                                     <option value="method_title">Method: Title</option>
                                     <option value="method_client">Method: Client</option>
+                                </optgroup>
+                                <optgroup label="Project">
+                                    <option value="project_id">Project: ID</option>
+                                    <option value="project_client">Project: Client</option>
+                                </optgroup>
+                                <optgroup label="Sample">
+                                    <option value="sample_id">Project: ID</option>
+                                    <option value="sample_client">Project: Name</option>
+                                    <option value="sample_lot">Project: Lot</option>
+                                </optgroup>
+                                <optgroup label="Test">
+                                    <option value="test_id">Project: ID</option>
+                                    <option value="sample_client">Project: Name</option>
+                                    <option value="sample_lot">Project: Lot</option>
                                 </optgroup>
                                 <option value="method">Method ID</option>
                                 <option value="project">Project ID</option>
@@ -49,7 +66,7 @@
                 </form>
 
                 <%-- Dashboard Cards  --%>
-                <div class="row row-cols-sm-3 row-cols-md-4 row-cols-md-6">
+                <div class="row row-cols-md-4 col d-flex justify-content-center">
 
                     <%-- Client Card  --%>
                     <div class="col mb-4">
@@ -82,7 +99,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Test Description</h5>
                                 <p class="card-text"><a href="/testDescriptionForm.jsp">Add Test Description</a></p>
-                                <p class="card-text"><a href="viewAllServlet?viewAll=testDescription">View Test Descriptions</a></p>
+                                <p class="card-text"><a href="viewAllServlet?viewAll=testDescriptions">View Test Descriptions</a></p>
                             </div>
                         </div>
                     </div>
@@ -94,7 +111,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Method</h5>
                                 <p class="card-text"><a href="/methodForm.jsp">Add Method</a></p>
-                                <p class="card-text"><a href="viewAllServlet?viewAll=method">View Methods</a></p>
+                                <p class="card-text"><a href="viewAllServlet?viewAll=methods">View Methods</a></p>
                             </div>
                         </div>
                     </div>
@@ -106,7 +123,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Sample</h5>
                                 <p class="card-text"><a href="/sampleForm.jsp">Add Sample</a></p>
-                                <p class="card-text"><a href="viewAllServlet?viewAll=sample">View Samples</a></p>
+                                <p class="card-text"><a href="viewAllServlet?viewAll=samples">View Samples</a></p>
                             </div>
                         </div>
                     </div>
@@ -118,7 +135,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Project</h5>
                                 <p class="card-text"><a href="/sampleForm.jsp">Add Project</a></p>
-                                <p class="card-text"><a href="viewAllServlet?viewAll=project">View Projects</a></p>
+                                <p class="card-text"><a href="viewAllServlet?viewAll=projects">View Projects</a></p>
                             </div>
                         </div>
                     </div>
@@ -130,7 +147,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Test</h5>
                                 <p class="card-text"><a href="/sampleForm.jsp">Add Test</a></p>
-                                <p class="card-text"><a href="viewAllServlet?viewAll=project">View Tests</a></p>
+                                <p class="card-text"><a href="viewAllServlet?viewAll=tests">View Tests</a></p>
                             </div>
                         </div>
                     </div>
@@ -142,7 +159,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Contact Info</h5>
                                     <p class="card-text"><a href="/contact.jsp">Contact Us</a></p>
-                                    <p class="card-text"><a href="viewAllServlet?viewAll=contact">View Contact Submissions</a></p>
+                                    <p class="card-text"><a href="viewAllServlet?viewAll=contacts">View Contact Submissions</a></p>
                                 </div>
                             </div>
                         </div>
