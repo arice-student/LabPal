@@ -61,7 +61,8 @@ public class SearchTerm extends HttpServlet {
                     break;
                 case "project_id":
                     workingDao = new GenericDao(Project.class);
-                    req.setAttribute("projects", workingDao.getByPropertyLike("id", getSearchTerm));
+                    int projectID = Integer.parseInt(getSearchTerm);
+                    req.setAttribute("projects", workingDao.getById(projectID));
                     break;
                 case "project_client":
                     workingDao = new GenericDao(Project.class);
@@ -69,7 +70,8 @@ public class SearchTerm extends HttpServlet {
                     break;
                 case "sample_id":
                     workingDao = new GenericDao(Sample.class);
-                    req.setAttribute("samples", workingDao.getByPropertyLike("id", getSearchTerm));
+                    int sampleID = Integer.parseInt(getSearchTerm);
+                    req.setAttribute("projects", workingDao.getById(sampleID));
                     break;
                 case "sample_name":
                     workingDao = new GenericDao(Sample.class);
@@ -81,7 +83,7 @@ public class SearchTerm extends HttpServlet {
                     break;
                 case "test_project":
                     workingDao = new GenericDao(Test.class);
-                    req.setAttribute("tests", workingDao.getByPropertyLike("project_id", getSearchTerm));
+                    req.setAttribute("tests", workingDao.getByPropertyLike("projectId", getSearchTerm));
                     break;
                 case "test_analyst":
                     workingDao = new GenericDao(Test.class);
@@ -89,19 +91,19 @@ public class SearchTerm extends HttpServlet {
                     break;
                 case "testdescription_testname":
                     workingDao = new GenericDao(TestDescription.class);
-                    req.setAttribute("testDescriptions", workingDao.getByPropertyLike("test_name", getSearchTerm));
+                    req.setAttribute("testDescriptions", workingDao.getByPropertyLike("testName", getSearchTerm));
                     break;
                 case "user_firstName":
                     workingDao = new GenericDao(User.class);
-                    req.setAttribute("users", workingDao.getByPropertyLike("first_name", getSearchTerm));
+                    req.setAttribute("users", workingDao.getByPropertyLike("firstName", getSearchTerm));
                     break;
                 case "user_lastName":
                     workingDao = new GenericDao(User.class);
-                    req.setAttribute("users", workingDao.getByPropertyLike("last_name", getSearchTerm));
+                    req.setAttribute("users", workingDao.getByPropertyLike("lastName", getSearchTerm));
                     break;
                 case "user_userName":
                     workingDao = new GenericDao(User.class);
-                    req.setAttribute("users", workingDao.getByPropertyLike("user_name", getSearchTerm));
+                    req.setAttribute("users", workingDao.getByPropertyLike("userName", getSearchTerm));
                     break;
             }
         }

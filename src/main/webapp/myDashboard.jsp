@@ -47,14 +47,14 @@
                                     <option value="sample_lot">Project: Lot</option>
                                 </optgroup>
                                 <optgroup label="Test">
-                                    <option value="test_project">Project: ID</option>
-                                    <option value="test_analyst">Project: Name</option>
+                                    <option value="test_project">Test: Project ID</option>
+                                    <option value="test_analyst">Test: Analyst</option>
                                 </optgroup>
                                 <optgroup label="TestDescription">
                                     <option value="testdescription_testname">Test Description: Name</option>
                                 </optgroup>
                                 <optgroup label="User">User/Analyst
-                                    <option value="user_userName">User: UserName</option>
+                                    <option value="user_userName">User: User Name</option>
                                     <option value="user_firstName">User: First Name</option>
                                     <option value="user_lastName">User: Last Name</option>
                                 </optgroup>

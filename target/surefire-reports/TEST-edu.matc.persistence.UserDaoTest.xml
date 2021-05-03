@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.matc.persistence.UserDaoTest" time="250.95" tests="8" errors="8" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.matc.persistence.UserDaoTest" time="8.777" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2021.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,60 +64,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="deleteSuccess" classname="edu.matc.persistence.UserDaoTest" time="33.954">
-    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at edu.matc.persistence.UserDaoTest.deleteSuccess(UserDaoTest.java:95)
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at edu.matc.persistence.UserDaoTest.deleteSuccess(UserDaoTest.java:95)
-</error>
-  </testcase>
-  <testcase name="getByPropertyEqualSuccess" classname="edu.matc.persistence.UserDaoTest" time="31.101">
-    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at edu.matc.persistence.UserDaoTest.getByPropertyEqualSuccess(UserDaoTest.java:117)
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at edu.matc.persistence.UserDaoTest.getByPropertyEqualSuccess(UserDaoTest.java:117)
-</error>
-  </testcase>
-  <testcase name="getByPropertyLikeSuccess" classname="edu.matc.persistence.UserDaoTest" time="30.804">
-    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at edu.matc.persistence.UserDaoTest.getByPropertyLikeSuccess(UserDaoTest.java:127)
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at edu.matc.persistence.UserDaoTest.getByPropertyLikeSuccess(UserDaoTest.java:127)
-</error>
-  </testcase>
-  <testcase name="getByIdSuccess" classname="edu.matc.persistence.UserDaoTest" time="30.936">
-    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at edu.matc.persistence.UserDaoTest.getByIdSuccess(UserDaoTest.java:50)
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at edu.matc.persistence.UserDaoTest.getByIdSuccess(UserDaoTest.java:50)
-</error>
-  </testcase>
-  <testcase name="updateSuccess" classname="edu.matc.persistence.UserDaoTest" time="30.998">
-    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at edu.matc.persistence.UserDaoTest.updateSuccess(UserDaoTest.java:105)
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at edu.matc.persistence.UserDaoTest.updateSuccess(UserDaoTest.java:105)
-</error>
-  </testcase>
-  <testcase name="insertWithRoleSuccess" classname="edu.matc.persistence.UserDaoTest" time="31.349">
-    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at edu.matc.persistence.UserDaoTest.insertWithRoleSuccess(UserDaoTest.java:81)
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at edu.matc.persistence.UserDaoTest.insertWithRoleSuccess(UserDaoTest.java:81)
-</error>
-  </testcase>
-  <testcase name="getAllUsersSuccess" classname="edu.matc.persistence.UserDaoTest" time="30.957">
-    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at edu.matc.persistence.UserDaoTest.getAllUsersSuccess(UserDaoTest.java:38)
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at edu.matc.persistence.UserDaoTest.getAllUsersSuccess(UserDaoTest.java:38)
-</error>
-  </testcase>
-  <testcase name="insertSuccess" classname="edu.matc.persistence.UserDaoTest" time="30.85">
-    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at edu.matc.persistence.UserDaoTest.insertSuccess(UserDaoTest.java:62)
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at edu.matc.persistence.UserDaoTest.insertSuccess(UserDaoTest.java:62)
-</error>
-  </testcase>
+  <testcase name="deleteSuccess" classname="edu.matc.persistence.UserDaoTest" time="7.573"/>
+  <testcase name="getByPropertyEqualSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.327"/>
+  <testcase name="getByPropertyLikeSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.206"/>
+  <testcase name="getByIdSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.165"/>
+  <testcase name="updateSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.166"/>
+  <testcase name="insertWithRoleSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.105"/>
+  <testcase name="getAllUsersSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.141"/>
+  <testcase name="insertSuccess" classname="edu.matc.persistence.UserDaoTest" time="0.082"/>
 </testsuite>
