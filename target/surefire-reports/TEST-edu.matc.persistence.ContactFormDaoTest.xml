@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.matc.persistence.ContactFormDaoTest" time="0.721" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.matc.persistence.ContactFormDaoTest" time="215.952" tests="7" errors="7" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2021.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,11 +64,53 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="deleteSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="0.089"/>
-  <testcase name="getAll" classname="edu.matc.persistence.ContactFormDaoTest" time="0.192"/>
-  <testcase name="getByPropertyEqualSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="0.082"/>
-  <testcase name="getByPropertyLikeSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="0.073"/>
-  <testcase name="getByIdSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="0.09"/>
-  <testcase name="updateSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="0.094"/>
-  <testcase name="insertSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="0.09"/>
+  <testcase name="deleteSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="30.89">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.ContactFormDaoTest.deleteSuccess(ContactFormDaoTest.java:74)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.ContactFormDaoTest.deleteSuccess(ContactFormDaoTest.java:74)
+</error>
+  </testcase>
+  <testcase name="getAll" classname="edu.matc.persistence.ContactFormDaoTest" time="30.681">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.ContactFormDaoTest.getAll(ContactFormDaoTest.java:38)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.ContactFormDaoTest.getAll(ContactFormDaoTest.java:38)
+</error>
+  </testcase>
+  <testcase name="getByPropertyEqualSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="30.91">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.ContactFormDaoTest.getByPropertyEqualSuccess(ContactFormDaoTest.java:96)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.ContactFormDaoTest.getByPropertyEqualSuccess(ContactFormDaoTest.java:96)
+</error>
+  </testcase>
+  <testcase name="getByPropertyLikeSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="30.793">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.ContactFormDaoTest.getByPropertyLikeSuccess(ContactFormDaoTest.java:106)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.ContactFormDaoTest.getByPropertyLikeSuccess(ContactFormDaoTest.java:106)
+</error>
+  </testcase>
+  <testcase name="getByIdSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="30.911">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.ContactFormDaoTest.getByIdSuccess(ContactFormDaoTest.java:50)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.ContactFormDaoTest.getByIdSuccess(ContactFormDaoTest.java:50)
+</error>
+  </testcase>
+  <testcase name="updateSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="30.938">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.ContactFormDaoTest.updateSuccess(ContactFormDaoTest.java:84)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.ContactFormDaoTest.updateSuccess(ContactFormDaoTest.java:84)
+</error>
+  </testcase>
+  <testcase name="insertSuccess" classname="edu.matc.persistence.ContactFormDaoTest" time="30.825">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.ContactFormDaoTest.insertSuccess(ContactFormDaoTest.java:63)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.ContactFormDaoTest.insertSuccess(ContactFormDaoTest.java:63)
+</error>
+  </testcase>
 </testsuite>

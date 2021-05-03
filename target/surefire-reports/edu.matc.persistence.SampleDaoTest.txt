@@ -1,4 +1,46 @@
 -------------------------------------------------------------------------------
 Test set: edu.matc.persistence.SampleDaoTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.727 sec - in edu.matc.persistence.SampleDaoTest
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 216.842 sec <<< FAILURE! - in edu.matc.persistence.SampleDaoTest
+deleteSuccess()  Time elapsed: 31.274 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.SampleDaoTest.deleteSuccess(SampleDaoTest.java:72)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.SampleDaoTest.deleteSuccess(SampleDaoTest.java:72)
+
+getAll()  Time elapsed: 30.826 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.SampleDaoTest.getAll(SampleDaoTest.java:37)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.SampleDaoTest.getAll(SampleDaoTest.java:37)
+
+getByPropertyEqualSuccess()  Time elapsed: 30.934 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.SampleDaoTest.getByPropertyEqualSuccess(SampleDaoTest.java:94)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.SampleDaoTest.getByPropertyEqualSuccess(SampleDaoTest.java:94)
+
+getByPropertyLikeSuccess()  Time elapsed: 30.886 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.SampleDaoTest.getByPropertyLikeSuccess(SampleDaoTest.java:104)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.SampleDaoTest.getByPropertyLikeSuccess(SampleDaoTest.java:104)
+
+getByIdSuccess()  Time elapsed: 30.977 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.SampleDaoTest.getByIdSuccess(SampleDaoTest.java:48)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.SampleDaoTest.getByIdSuccess(SampleDaoTest.java:48)
+
+updateSuccess()  Time elapsed: 30.941 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.SampleDaoTest.updateSuccess(SampleDaoTest.java:82)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.SampleDaoTest.updateSuccess(SampleDaoTest.java:82)
+
+insertSuccess()  Time elapsed: 31.001 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.SampleDaoTest.insertSuccess(SampleDaoTest.java:61)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.SampleDaoTest.insertSuccess(SampleDaoTest.java:61)
+

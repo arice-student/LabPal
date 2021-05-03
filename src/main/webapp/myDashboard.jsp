@@ -42,22 +42,21 @@
                                     <option value="project_client">Project: Client</option>
                                 </optgroup>
                                 <optgroup label="Sample">
-                                    <option value="sample_id">Project: ID</option>
-                                    <option value="sample_client">Project: Name</option>
+                                    <option value="sample_id">Sample: ID</option>
+                                    <option value="sample_name">Sample: Name</option>
                                     <option value="sample_lot">Project: Lot</option>
                                 </optgroup>
                                 <optgroup label="Test">
-                                    <option value="test_id">Project: ID</option>
-                                    <option value="sample_client">Project: Name</option>
-                                    <option value="sample_lot">Project: Lot</option>
+                                    <option value="test_project">Project: ID</option>
+                                    <option value="test_analyst">Project: Name</option>
                                 </optgroup>
-                                <option value="method">Method ID</option>
-                                <option value="project">Project ID</option>
-                                <option value="sample">Sample ID</option>
-                                <option value="test">Test ID</option>
-                                <option value="testDescription">Test Description</option>
-                                <optgroup label="User">
-                                    <option value="user_lastName">User</option>
+                                <optgroup label="TestDescription">
+                                    <option value="testdescription_testname">Test Description: Name</option>
+                                </optgroup>
+                                <optgroup label="User">User/Analyst
+                                    <option value="user_userName">User: UserName</option>
+                                    <option value="user_firstName">User: First Name</option>
+                                    <option value="user_lastName">User: Last Name</option>
                                 </optgroup>
                             </select>
                         </div>

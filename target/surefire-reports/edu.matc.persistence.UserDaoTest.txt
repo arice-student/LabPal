@@ -1,4 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: edu.matc.persistence.UserDaoTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.384 sec - in edu.matc.persistence.UserDaoTest
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 250.95 sec <<< FAILURE! - in edu.matc.persistence.UserDaoTest
+deleteSuccess()  Time elapsed: 33.954 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserDaoTest.deleteSuccess(UserDaoTest.java:95)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserDaoTest.deleteSuccess(UserDaoTest.java:95)
+
+getByPropertyEqualSuccess()  Time elapsed: 31.101 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserDaoTest.getByPropertyEqualSuccess(UserDaoTest.java:117)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserDaoTest.getByPropertyEqualSuccess(UserDaoTest.java:117)
+
+getByPropertyLikeSuccess()  Time elapsed: 30.804 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserDaoTest.getByPropertyLikeSuccess(UserDaoTest.java:127)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserDaoTest.getByPropertyLikeSuccess(UserDaoTest.java:127)
+
+getByIdSuccess()  Time elapsed: 30.936 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserDaoTest.getByIdSuccess(UserDaoTest.java:50)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserDaoTest.getByIdSuccess(UserDaoTest.java:50)
+
+updateSuccess()  Time elapsed: 30.998 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserDaoTest.updateSuccess(UserDaoTest.java:105)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserDaoTest.updateSuccess(UserDaoTest.java:105)
+
+insertWithRoleSuccess()  Time elapsed: 31.349 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserDaoTest.insertWithRoleSuccess(UserDaoTest.java:81)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserDaoTest.insertWithRoleSuccess(UserDaoTest.java:81)
+
+getAllUsersSuccess()  Time elapsed: 30.957 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserDaoTest.getAllUsersSuccess(UserDaoTest.java:38)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserDaoTest.getAllUsersSuccess(UserDaoTest.java:38)
+
+insertSuccess()  Time elapsed: 30.85 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserDaoTest.insertSuccess(UserDaoTest.java:62)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserDaoTest.insertSuccess(UserDaoTest.java:62)
+
