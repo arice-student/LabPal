@@ -1,1187 +1,181 @@
-[DEBUG] 2021-05-01 08:25:13.445 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 08:25:13.739 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 08:25:14.424 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 08:25:14.497 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 08:25:14.953 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 08:25:15.030 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 08:25:15.429 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 08:25:15.481 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 08:25:15.786 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 08:25:15.824 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 08:25:16.097 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 08:25:16.144 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 08:30:27.885 [http-nio-8080-exec-8] SearchUsers - We got this far!
-[DEBUG] 2021-05-01 08:30:27.925 [http-nio-8080-exec-8] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@51dfb0d0
-[DEBUG] 2021-05-01 08:31:10.319 [http-nio-8080-exec-5] GenericDao - Searching for order with name = null
-[DEBUG] 2021-05-01 08:31:10.398 [http-nio-8080-exec-5] SearchTerm - The value of clients is: []
-[DEBUG] 2021-05-01 08:33:42.168 [http-nio-8080-exec-8] GenericDao - Searching for order with name = null
-[DEBUG] 2021-05-01 08:33:42.229 [http-nio-8080-exec-8] SearchTerm - The value of clients is: []
-[DEBUG] 2021-05-01 08:38:01.255 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 08:38:01.492 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 08:38:02.059 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 08:38:02.119 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 08:38:02.466 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 08:38:02.508 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 08:38:02.835 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 08:38:02.871 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 08:38:03.179 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 08:38:03.222 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 08:38:03.577 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 08:38:03.645 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 08:42:30.874 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 08:42:31.129 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 08:42:31.839 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 08:42:31.901 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 08:42:32.275 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 08:42:32.320 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 08:42:32.635 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 08:42:32.682 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 08:42:32.985 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 08:42:33.030 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 08:42:33.304 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 08:42:33.342 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 08:43:16.308 [http-nio-8080-exec-5] GenericDao - Searching for order with name = client_name
-[DEBUG] 2021-05-01 08:43:16.691 [http-nio-8080-exec-5] SearchTerm - The value of clients is: []
-[DEBUG] 2021-05-01 08:44:25.771 [http-nio-8080-exec-3] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@227e0200
-[DEBUG] 2021-05-01 08:44:25.771 [http-nio-8080-exec-3] ProcessClient - The 'submit parameter value is:process_client
-[DEBUG] 2021-05-01 08:44:25.771 [http-nio-8080-exec-3] ProcessClient - The client form was submitted.
-[DEBUG] 2021-05-01 08:44:25.771 [http-nio-8080-exec-3] ProcessClient - Client Name: client_name
-[DEBUG] 2021-05-01 08:44:25.777 [http-nio-8080-exec-3] ProcessClient - Client Information: Client(id=0, name=client_name)
-[DEBUG] 2021-05-01 08:44:25.888 [http-nio-8080-exec-3] ProcessClient - Was Client Inserted: 8
-[DEBUG] 2021-05-01 08:44:33.149 [http-nio-8080-exec-8] GenericDao - Searching for order with name = client_name
-[DEBUG] 2021-05-01 08:44:33.174 [http-nio-8080-exec-8] SearchTerm - The value of clients is: [Client(id=8, name=client_name)]
-[DEBUG] 2021-05-01 08:48:28.585 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 08:48:28.851 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 08:48:29.490 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 08:48:29.536 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 08:48:29.914 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 08:48:29.962 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 08:48:30.294 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 08:48:30.343 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 08:48:30.634 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 08:48:30.670 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 08:48:30.970 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 08:48:31.008 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 08:49:41.106 [http-nio-8080-exec-10] GenericDao - Searching for order with name = C
-[DEBUG] 2021-05-01 08:49:41.559 [http-nio-8080-exec-10] SearchTerm - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F)]
-[DEBUG] 2021-05-01 08:50:07.840 [http-nio-8080-exec-2] GenericDao - Searching for order with name = D
-[DEBUG] 2021-05-01 08:50:07.856 [http-nio-8080-exec-2] SearchTerm - The value of clients is: [Client(id=4, name=Company D)]
-[DEBUG] 2021-05-01 09:16:03.618 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 09:16:03.862 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 09:16:04.600 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 09:16:04.686 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 09:16:05.236 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 09:16:05.296 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 09:16:05.850 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 09:16:05.893 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 09:16:06.216 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 09:16:06.431 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 09:16:07.069 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 09:16:07.299 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 09:35:54.635 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 09:35:54.861 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 09:35:55.398 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 09:35:55.463 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 09:35:55.801 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 09:35:55.850 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 09:35:56.169 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 09:35:56.207 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 09:35:56.520 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 09:35:56.559 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 09:35:56.851 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 09:35:56.896 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 09:45:28.795 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 09:45:29.060 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 09:45:29.862 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 09:45:29.912 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 09:45:30.258 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 09:45:30.305 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 09:45:30.604 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 09:45:30.648 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 09:45:31.019 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 09:45:31.057 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 09:45:31.429 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 09:45:31.481 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 09:51:24.243 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 09:51:24.522 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 09:51:25.336 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 09:51:25.414 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 09:51:25.884 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 09:51:25.929 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 09:51:26.246 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 09:51:26.300 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 09:51:26.593 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 09:51:26.632 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 09:51:26.905 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 09:51:26.951 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 09:55:57.447 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 09:55:57.711 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 09:55:58.359 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 09:55:58.408 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 09:55:58.738 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 09:55:58.782 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 09:55:59.118 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 09:55:59.173 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 09:55:59.481 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 09:55:59.525 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 09:55:59.820 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 09:55:59.865 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 10:35:40.255 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 10:35:40.734 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 10:35:41.723 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 10:35:41.794 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 10:35:42.264 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 10:35:42.307 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 10:35:42.636 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 10:35:42.689 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 10:35:43.004 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 10:35:43.053 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 10:35:43.375 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 10:35:43.423 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 10:37:38.706 [http-nio-8080-exec-6] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 10:40:56.683 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 10:40:57.000 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 10:40:57.973 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 10:40:58.045 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 10:40:58.574 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 10:40:58.646 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 10:40:59.042 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 10:40:59.102 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 10:40:59.430 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 10:40:59.471 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 10:40:59.804 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 10:40:59.965 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 10:41:40.757 [http-nio-8080-exec-5] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 10:41:48.039 [http-nio-8080-exec-5] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg)]
-[DEBUG] 2021-05-01 10:49:54.317 [http-nio-8080-exec-9] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 10:49:54.356 [http-nio-8080-exec-9] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg)]
-[DEBUG] 2021-05-01 11:19:10.953 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 11:19:11.730 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 11:19:13.058 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 11:19:13.169 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 11:19:13.869 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 11:19:14.066 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 11:19:15.308 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 11:19:15.419 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 11:19:16.683 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 11:19:16.823 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 11:19:17.604 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 11:19:17.698 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 11:21:27.106 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 11:21:27.751 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 11:21:29.060 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 11:21:29.168 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 11:21:29.831 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 11:21:29.938 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 11:21:30.542 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 11:21:30.707 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 11:21:31.508 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 11:21:31.594 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 11:21:32.266 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 11:21:32.348 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 11:23:32.308 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 11:23:33.015 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 11:23:34.642 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 11:23:34.733 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 11:23:35.462 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 11:23:35.543 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 11:23:36.162 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 11:23:36.240 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 11:23:37.035 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 11:23:37.132 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 11:23:37.735 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 11:23:37.824 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 11:24:53.603 [http-nio-8080-exec-7] SearchUsers - We got this far!
-[DEBUG] 2021-05-01 11:24:53.662 [http-nio-8080-exec-7] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@4a400cf9
-[DEBUG] 2021-05-01 11:25:31.000 [http-nio-8080-exec-6] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@5e29d974
-[DEBUG] 2021-05-01 11:25:31.001 [http-nio-8080-exec-6] ProcessClient - The 'submit parameter value is:process_client
-[DEBUG] 2021-05-01 11:25:31.002 [http-nio-8080-exec-6] ProcessClient - The client form was submitted.
-[DEBUG] 2021-05-01 11:25:31.002 [http-nio-8080-exec-6] ProcessClient - Client Name: Yup
-[DEBUG] 2021-05-01 11:25:31.010 [http-nio-8080-exec-6] ProcessClient - Client Information: Client(id=0, name=Yup)
-[DEBUG] 2021-05-01 11:25:31.175 [http-nio-8080-exec-6] ProcessClient - Was Client Inserted: 9
-[DEBUG] 2021-05-01 11:25:34.778 [http-nio-8080-exec-1] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 11:25:34.812 [http-nio-8080-exec-1] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
-[DEBUG] 2021-05-01 12:27:57.936 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 12:27:58.565 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 12:27:59.906 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 12:28:00.001 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 12:28:00.832 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 12:28:00.937 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 12:28:01.635 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 12:28:01.750 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 12:28:02.316 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 12:28:02.405 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 12:28:03.001 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 12:28:03.104 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 12:29:13.594 [http-nio-8080-exec-1] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 12:29:27.703 [http-nio-8080-exec-1] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
-[DEBUG] 2021-05-01 12:31:03.312 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 12:31:03.932 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 12:31:05.332 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 12:31:05.458 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 12:31:06.209 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 12:31:06.340 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 12:31:07.071 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 12:31:07.169 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 12:31:07.962 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 12:31:08.181 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 12:31:09.349 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 12:31:09.432 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 12:32:15.107 [http-nio-8080-exec-4] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 12:32:28.950 [http-nio-8080-exec-4] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
-[DEBUG] 2021-05-01 12:32:36.750 [http-nio-8080-exec-8] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 12:32:36.752 [http-nio-8080-exec-8] DeleteItemServlet - The client ID to be deleted: null
-[DEBUG] 2021-05-01 12:36:17.174 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 12:36:17.820 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 12:36:19.533 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 12:36:19.711 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 12:36:20.788 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 12:36:20.984 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 12:36:21.804 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 12:36:21.921 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 12:36:22.705 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 12:36:22.842 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 12:36:23.700 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 12:36:23.849 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 12:38:50.135 [http-nio-8080-exec-7] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 12:39:03.706 [http-nio-8080-exec-7] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
-[DEBUG] 2021-05-01 12:39:07.947 [http-nio-8080-exec-9] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 12:39:07.950 [http-nio-8080-exec-9] DeleteItemServlet - The client ID to be deleted: 9
-[DEBUG] 2021-05-01 12:39:48.266 [http-nio-8080-exec-1] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 12:39:48.266 [http-nio-8080-exec-1] DeleteItemServlet - The client ID to be deleted: 8
-[DEBUG] 2021-05-01 12:42:51.463 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 12:42:51.945 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 12:42:53.540 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 12:42:53.666 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 12:42:54.592 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 12:42:54.725 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 12:42:55.628 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 12:42:55.737 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 12:42:56.623 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 12:42:56.730 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 12:42:57.424 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 12:42:57.521 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 12:44:01.045 [http-nio-8080-exec-6] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 12:44:16.739 [http-nio-8080-exec-6] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
-[DEBUG] 2021-05-01 12:44:24.375 [http-nio-8080-exec-9] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 12:44:24.378 [http-nio-8080-exec-9] DeleteItemServlet - The client ID to be deleted: 9
-[DEBUG] 2021-05-01 12:46:26.655 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 12:46:27.299 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 12:46:28.842 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 12:46:28.939 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 12:46:29.650 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 12:46:29.731 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 12:46:30.391 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 12:46:30.467 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 12:46:31.079 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 12:46:31.159 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 12:46:31.802 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 12:46:31.919 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 12:47:33.637 [http-nio-8080-exec-6] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 12:47:48.741 [http-nio-8080-exec-6] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg), Client(id=9, name=Yup)]
-[DEBUG] 2021-05-01 12:47:51.684 [http-nio-8080-exec-9] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 12:47:51.685 [http-nio-8080-exec-9] DeleteItemServlet - The client ID to be deleted: 9
-[DEBUG] 2021-05-01 12:47:51.868 [http-nio-8080-exec-9] DeleteItemServlet - The client ID after deletion: 9
-[DEBUG] 2021-05-01 12:48:02.997 [http-nio-8080-exec-10] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 12:48:03.035 [http-nio-8080-exec-10] ViewAll - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=7, name=fghfghfghfg)]
-[DEBUG] 2021-05-01 12:48:20.137 [http-nio-8080-exec-3] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 12:48:20.138 [http-nio-8080-exec-3] DeleteItemServlet - The client ID to be deleted: 7
-[DEBUG] 2021-05-01 12:48:20.177 [http-nio-8080-exec-3] DeleteItemServlet - The client ID after deletion: 7
-[DEBUG] 2021-05-01 12:55:16.835 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 12:55:17.662 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 12:55:19.231 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 12:55:19.368 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 12:55:20.191 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 12:55:20.456 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 12:55:21.228 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 12:55:21.304 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 12:55:21.970 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 12:55:22.095 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 12:55:22.890 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 12:55:22.968 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 12:56:32.426 [http-nio-8080-exec-6] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 12:56:53.491 [http-nio-8080-exec-6] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me), Client(id=13, name=dfghdfgh), Client(id=14, name=ertyretyery), Client(id=12, name=sdgsd)]
-[DEBUG] 2021-05-01 12:56:56.535 [http-nio-8080-exec-1] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 12:56:56.541 [http-nio-8080-exec-1] DeleteItemServlet - The client ID to be deleted: 12
-[DEBUG] 2021-05-01 12:56:56.727 [http-nio-8080-exec-1] DeleteItemServlet - The client ID after deletion: 12
-[DEBUG] 2021-05-01 13:02:47.037 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 13:02:47.327 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 13:02:47.931 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 13:02:47.990 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 13:02:48.364 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 13:02:48.418 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 13:02:48.711 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 13:02:48.768 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 13:02:49.139 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 13:02:49.178 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 13:02:49.566 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 13:02:49.627 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 13:03:27.183 [http-nio-8080-exec-7] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:03:33.557 [http-nio-8080-exec-7] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me), Client(id=13, name=dfghdfgh), Client(id=14, name=ertyretyery)]
-[DEBUG] 2021-05-01 13:03:40.435 [http-nio-8080-exec-10] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 13:03:40.436 [http-nio-8080-exec-10] DeleteItemServlet - The client ID to be deleted: 14
-[DEBUG] 2021-05-01 13:03:40.523 [http-nio-8080-exec-10] DeleteItemServlet - The client ID after deletion: 14
-[DEBUG] 2021-05-01 13:03:40.523 [http-nio-8080-exec-10] DeleteItemServlet - Referer value is: http://localhost:8080/viewAllServlet?viewAll=clients
-[DEBUG] 2021-05-01 13:05:11.812 [http-nio-8080-exec-8] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:05:11.846 [http-nio-8080-exec-8] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me), Client(id=13, name=dfghdfgh)]
-[DEBUG] 2021-05-01 13:15:37.478 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 13:15:37.765 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 13:15:38.414 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 13:15:38.471 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 13:15:38.882 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 13:15:38.946 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 13:15:39.245 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 13:15:39.284 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 13:15:39.603 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 13:15:39.646 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 13:15:39.930 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 13:15:40.014 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 13:16:15.890 [http-nio-8080-exec-7] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:16:21.686 [http-nio-8080-exec-7] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me), Client(id=13, name=dfghdfgh)]
-[DEBUG] 2021-05-01 13:17:56.892 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 13:17:57.485 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 13:17:58.335 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 13:17:58.398 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 13:17:58.810 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 13:17:58.869 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 13:17:59.303 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 13:17:59.344 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 13:17:59.642 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 13:17:59.683 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 13:17:59.983 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 13:18:00.070 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 13:18:34.984 [http-nio-8080-exec-5] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:18:41.519 [http-nio-8080-exec-5] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me), Client(id=13, name=dfghdfgh)]
-[DEBUG] 2021-05-01 13:18:43.808 [http-nio-8080-exec-7] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 13:18:43.808 [http-nio-8080-exec-7] DeleteItemServlet - The Request URI from getAttribute is:null
-[DEBUG] 2021-05-01 13:18:43.809 [http-nio-8080-exec-7] DeleteItemServlet - The Request URI from getParameter is:null
-[DEBUG] 2021-05-01 13:18:43.809 [http-nio-8080-exec-7] DeleteItemServlet - The client ID to be deleted: 13
-[DEBUG] 2021-05-01 13:18:43.908 [http-nio-8080-exec-7] DeleteItemServlet - The client ID after deletion: 13
-[DEBUG] 2021-05-01 13:18:43.909 [http-nio-8080-exec-7] DeleteItemServlet - Referer value is: http://localhost:8080/viewAllServlet?viewAll=clients
-[DEBUG] 2021-05-01 13:18:53.278 [http-nio-8080-exec-10] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:18:53.299 [http-nio-8080-exec-10] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me)]
-[DEBUG] 2021-05-01 13:23:14.129 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 13:23:14.452 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 13:23:15.175 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 13:23:15.245 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 13:23:15.605 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 13:23:15.659 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 13:23:15.963 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 13:23:16.005 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 13:23:16.323 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 13:23:16.363 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 13:23:16.693 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 13:23:16.749 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 13:24:51.073 [http-nio-8080-exec-8] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:24:57.554 [http-nio-8080-exec-8] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=10, name=Delete Me)]
-[DEBUG] 2021-05-01 13:25:00.359 [http-nio-8080-exec-10] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 13:25:00.360 [http-nio-8080-exec-10] DeleteItemServlet - The Request URI from getAttribute is:null
-[DEBUG] 2021-05-01 13:25:00.361 [http-nio-8080-exec-10] DeleteItemServlet - The Request URI from getParameter is:null
-[DEBUG] 2021-05-01 13:25:00.361 [http-nio-8080-exec-10] DeleteItemServlet - The client ID to be deleted: 10
-[DEBUG] 2021-05-01 13:25:00.464 [http-nio-8080-exec-10] DeleteItemServlet - The client ID after deletion: 10
-[DEBUG] 2021-05-01 13:25:00.464 [http-nio-8080-exec-10] DeleteItemServlet - Referer value is: http://localhost:8080/viewAllServlet?viewAll=clients
-[DEBUG] 2021-05-01 13:38:33.724 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 13:38:34.022 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 13:38:34.869 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 13:38:34.949 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 13:38:35.386 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 13:38:35.427 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 13:38:35.775 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 13:38:35.826 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 13:38:36.323 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 13:38:36.368 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 13:38:36.672 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 13:38:36.742 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 13:39:09.653 [http-nio-8080-exec-6] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:39:15.863 [http-nio-8080-exec-6] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=20, name=eeeee), Client(id=19, name=iiiii), Client(id=23, name=rwerwerwer), Client(id=22, name=werwer)]
-[DEBUG] 2021-05-01 13:39:30.175 [http-nio-8080-exec-1] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 13:39:30.176 [http-nio-8080-exec-1] DeleteItemServlet - The client ID to be deleted: 22
-[DEBUG] 2021-05-01 13:39:30.297 [http-nio-8080-exec-1] DeleteItemServlet - The client ID after deletion: 22
-[DEBUG] 2021-05-01 13:39:30.298 [http-nio-8080-exec-1] DeleteItemServlet - Session getAttributeNames(): java.util.Collections$3@3f458d38
-[DEBUG] 2021-05-01 13:39:30.298 [http-nio-8080-exec-1] DeleteItemServlet - The Request URI from getAttribute is:pageContext.request.requestURI
-[DEBUG] 2021-05-01 13:41:23.065 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 13:41:23.358 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 13:41:24.057 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 13:41:24.128 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 13:41:24.716 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 13:41:24.766 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 13:41:25.158 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 13:41:25.203 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 13:41:25.530 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 13:41:25.572 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 13:41:25.881 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 13:41:25.963 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 13:42:30.567 [http-nio-8080-exec-8] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:42:40.837 [http-nio-8080-exec-8] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=20, name=eeeee), Client(id=19, name=iiiii), Client(id=23, name=rwerwerwer)]
-[DEBUG] 2021-05-01 13:42:57.237 [http-nio-8080-exec-10] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 13:42:57.238 [http-nio-8080-exec-10] DeleteItemServlet - The client ID to be deleted: 23
-[DEBUG] 2021-05-01 13:42:57.327 [http-nio-8080-exec-10] DeleteItemServlet - The client ID after deletion: 23
-[DEBUG] 2021-05-01 13:42:57.327 [http-nio-8080-exec-10] DeleteItemServlet - Session getAttributeNames(): java.util.Collections$3@2efc3035
-[DEBUG] 2021-05-01 13:42:57.327 [http-nio-8080-exec-10] DeleteItemServlet - The Request URI from getAttribute is:/results.jsp
-[DEBUG] 2021-05-01 13:44:23.999 [http-nio-8080-exec-7] GenericDao - Searching for order with name = c
-[DEBUG] 2021-05-01 13:44:24.098 [http-nio-8080-exec-7] SearchTerm - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F)]
-[DEBUG] 2021-05-01 13:45:15.643 [http-nio-8080-exec-5] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:45:15.666 [http-nio-8080-exec-5] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=20, name=eeeee), Client(id=19, name=iiiii)]
-[DEBUG] 2021-05-01 13:46:10.327 [http-nio-8080-exec-9] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:46:10.348 [http-nio-8080-exec-9] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=20, name=eeeee), Client(id=19, name=iiiii)]
-[DEBUG] 2021-05-01 13:46:16.895 [http-nio-8080-exec-3] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@7108610f
-[DEBUG] 2021-05-01 13:46:16.895 [http-nio-8080-exec-3] ProcessClient - The 'submit parameter value is:process_client
-[DEBUG] 2021-05-01 13:46:16.895 [http-nio-8080-exec-3] ProcessClient - The client form was submitted.
-[DEBUG] 2021-05-01 13:46:16.895 [http-nio-8080-exec-3] ProcessClient - Client Name: hgjghj
-[DEBUG] 2021-05-01 13:46:16.896 [http-nio-8080-exec-3] ProcessClient - Client Information: Client(id=0, name=hgjghj)
-[DEBUG] 2021-05-01 13:46:16.965 [http-nio-8080-exec-3] ProcessClient - Was Client Inserted: 24
-[DEBUG] 2021-05-01 13:46:19.060 [http-nio-8080-exec-4] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@52bebd0a
-[DEBUG] 2021-05-01 13:46:19.060 [http-nio-8080-exec-4] ProcessClient - The 'submit parameter value is:process_client
-[DEBUG] 2021-05-01 13:46:19.060 [http-nio-8080-exec-4] ProcessClient - The client form was submitted.
-[DEBUG] 2021-05-01 13:46:19.060 [http-nio-8080-exec-4] ProcessClient - Client Name: ghjghjghj
-[DEBUG] 2021-05-01 13:46:19.060 [http-nio-8080-exec-4] ProcessClient - Client Information: Client(id=0, name=ghjghjghj)
-[DEBUG] 2021-05-01 13:46:19.084 [http-nio-8080-exec-4] ProcessClient - Was Client Inserted: 25
-[DEBUG] 2021-05-01 13:46:20.669 [http-nio-8080-exec-5] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@52263c6c
-[DEBUG] 2021-05-01 13:46:20.669 [http-nio-8080-exec-5] ProcessClient - The 'submit parameter value is:process_client
-[DEBUG] 2021-05-01 13:46:20.670 [http-nio-8080-exec-5] ProcessClient - The client form was submitted.
-[DEBUG] 2021-05-01 13:46:20.670 [http-nio-8080-exec-5] ProcessClient - Client Name: ghjghjghjghj
-[DEBUG] 2021-05-01 13:46:20.670 [http-nio-8080-exec-5] ProcessClient - Client Information: Client(id=0, name=ghjghjghjghj)
-[DEBUG] 2021-05-01 13:46:20.692 [http-nio-8080-exec-5] ProcessClient - Was Client Inserted: 26
-[DEBUG] 2021-05-01 13:46:22.878 [http-nio-8080-exec-6] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@29b6c909
-[DEBUG] 2021-05-01 13:46:22.878 [http-nio-8080-exec-6] ProcessClient - The 'submit parameter value is:process_client
-[DEBUG] 2021-05-01 13:46:22.879 [http-nio-8080-exec-6] ProcessClient - The client form was submitted.
-[DEBUG] 2021-05-01 13:46:22.879 [http-nio-8080-exec-6] ProcessClient - Client Name: gjtghnvnvbn
-[DEBUG] 2021-05-01 13:46:22.879 [http-nio-8080-exec-6] ProcessClient - Client Information: Client(id=0, name=gjtghnvnvbn)
-[DEBUG] 2021-05-01 13:46:22.894 [http-nio-8080-exec-6] ProcessClient - Was Client Inserted: 27
-[DEBUG] 2021-05-01 13:46:24.470 [http-nio-8080-exec-7] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@5374c1cc
-[DEBUG] 2021-05-01 13:46:24.471 [http-nio-8080-exec-7] ProcessClient - The 'submit parameter value is:process_client
-[DEBUG] 2021-05-01 13:46:24.471 [http-nio-8080-exec-7] ProcessClient - The client form was submitted.
-[DEBUG] 2021-05-01 13:46:24.471 [http-nio-8080-exec-7] ProcessClient - Client Name: erdfgdfgdfg
-[DEBUG] 2021-05-01 13:46:24.471 [http-nio-8080-exec-7] ProcessClient - Client Information: Client(id=0, name=erdfgdfgdfg)
-[DEBUG] 2021-05-01 13:46:24.493 [http-nio-8080-exec-7] ProcessClient - Was Client Inserted: 28
-[DEBUG] 2021-05-01 13:46:25.752 [http-nio-8080-exec-9] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@7598751d
-[DEBUG] 2021-05-01 13:46:25.753 [http-nio-8080-exec-9] ProcessClient - The 'submit parameter value is:process_client
-[DEBUG] 2021-05-01 13:46:25.753 [http-nio-8080-exec-9] ProcessClient - The client form was submitted.
-[DEBUG] 2021-05-01 13:46:25.753 [http-nio-8080-exec-9] ProcessClient - Client Name: dfgdfgdfg
-[DEBUG] 2021-05-01 13:46:25.753 [http-nio-8080-exec-9] ProcessClient - Client Information: Client(id=0, name=dfgdfgdfg)
-[DEBUG] 2021-05-01 13:46:25.768 [http-nio-8080-exec-9] ProcessClient - Was Client Inserted: 29
-[DEBUG] 2021-05-01 13:46:28.701 [http-nio-8080-exec-1] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:46:28.733 [http-nio-8080-exec-1] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj), Client(id=26, name=ghjghjghjghj), Client(id=27, name=gjtghnvnvbn), Client(id=24, name=hgjghj), Client(id=19, name=iiiii)]
-[DEBUG] 2021-05-01 13:46:35.160 [http-nio-8080-exec-3] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 13:46:35.160 [http-nio-8080-exec-3] DeleteItemServlet - The client ID to be deleted: 19
-[DEBUG] 2021-05-01 13:46:35.179 [http-nio-8080-exec-3] DeleteItemServlet - The client ID after deletion: 19
-[DEBUG] 2021-05-01 13:46:35.179 [http-nio-8080-exec-3] DeleteItemServlet - Session getAttributeNames(): java.util.Collections$3@6e931a45
-[DEBUG] 2021-05-01 13:46:35.179 [http-nio-8080-exec-3] DeleteItemServlet - The Request URI from getAttribute is:/results.jsp
-[DEBUG] 2021-05-01 13:47:40.990 [http-nio-8080-exec-8] GenericDao - Searching for order with name = c
-[DEBUG] 2021-05-01 13:47:41.006 [http-nio-8080-exec-8] SearchTerm - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F)]
-[DEBUG] 2021-05-01 13:47:48.541 [http-nio-8080-exec-4] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:47:48.564 [http-nio-8080-exec-4] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj), Client(id=26, name=ghjghjghjghj), Client(id=27, name=gjtghnvnvbn), Client(id=24, name=hgjghj)]
-[DEBUG] 2021-05-01 13:48:02.172 [http-nio-8080-exec-8] GenericDao - Searching for order with name = c
-[DEBUG] 2021-05-01 13:48:02.185 [http-nio-8080-exec-8] SearchTerm - The value of clients is: [Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F)]
-[DEBUG] 2021-05-01 13:49:37.665 [http-nio-8080-exec-5] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:49:37.682 [http-nio-8080-exec-5] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj), Client(id=26, name=ghjghjghjghj), Client(id=27, name=gjtghnvnvbn), Client(id=24, name=hgjghj)]
-[DEBUG] 2021-05-01 13:49:52.630 [http-nio-8080-exec-10] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:49:52.643 [http-nio-8080-exec-10] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj), Client(id=26, name=ghjghjghjghj), Client(id=27, name=gjtghnvnvbn), Client(id=24, name=hgjghj)]
-[DEBUG] 2021-05-01 13:50:56.347 [http-nio-8080-exec-5] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:50:56.359 [http-nio-8080-exec-5] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj), Client(id=26, name=ghjghjghjghj), Client(id=27, name=gjtghnvnvbn), Client(id=24, name=hgjghj)]
-[DEBUG] 2021-05-01 13:56:45.722 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 13:56:45.996 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 13:56:46.669 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 13:56:46.747 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 13:56:47.127 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 13:56:47.180 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 13:56:47.495 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 13:56:47.572 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 13:56:47.864 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 13:56:47.915 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 13:56:48.221 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 13:56:48.262 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 13:57:35.697 [http-nio-8080-exec-8] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:57:42.132 [http-nio-8080-exec-8] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj), Client(id=26, name=ghjghjghjghj), Client(id=27, name=gjtghnvnvbn), Client(id=24, name=hgjghj)]
-[DEBUG] 2021-05-01 13:57:44.410 [http-nio-8080-exec-1] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 13:57:44.411 [http-nio-8080-exec-1] DeleteItemServlet - The client ID to be deleted: 24
-[DEBUG] 2021-05-01 13:57:44.554 [http-nio-8080-exec-1] DeleteItemServlet - The client ID after deletion: 24
-[DEBUG] 2021-05-01 13:58:59.863 [http-nio-8080-exec-7] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:58:59.896 [http-nio-8080-exec-7] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj), Client(id=26, name=ghjghjghjghj), Client(id=27, name=gjtghnvnvbn)]
-[DEBUG] 2021-05-01 13:59:02.180 [http-nio-8080-exec-9] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 13:59:02.181 [http-nio-8080-exec-9] DeleteItemServlet - The client ID to be deleted: 27
-[DEBUG] 2021-05-01 13:59:02.207 [http-nio-8080-exec-9] DeleteItemServlet - The client ID after deletion: 27
-[DEBUG] 2021-05-01 13:59:04.193 [http-nio-8080-exec-1] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 13:59:04.216 [http-nio-8080-exec-1] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj), Client(id=26, name=ghjghjghjghj)]
-[DEBUG] 2021-05-01 13:59:32.676 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 13:59:33.069 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 13:59:34.354 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 13:59:34.455 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 13:59:34.851 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 13:59:34.897 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 13:59:35.205 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 13:59:35.251 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 13:59:35.569 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 13:59:35.627 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 13:59:35.924 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 13:59:35.972 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 14:00:21.804 [http-nio-8080-exec-6] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 14:00:27.957 [http-nio-8080-exec-6] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj), Client(id=26, name=ghjghjghjghj)]
-[DEBUG] 2021-05-01 14:00:40.759 [http-nio-8080-exec-8] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 14:00:40.760 [http-nio-8080-exec-8] DeleteItemServlet - The client ID to be deleted: 26
-[DEBUG] 2021-05-01 14:00:40.872 [http-nio-8080-exec-8] DeleteItemServlet - The client ID after deletion: 26
-[DEBUG] 2021-05-01 14:05:06.712 [http-nio-8080-exec-3] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 14:05:06.744 [http-nio-8080-exec-3] ViewAll - The value of clients is: [Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=25, name=ghjghjghj)]
-[DEBUG] 2021-05-01 14:05:09.049 [http-nio-8080-exec-4] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 14:05:09.049 [http-nio-8080-exec-4] DeleteItemServlet - The client ID to be deleted: 25
-[DEBUG] 2021-05-01 14:05:09.077 [http-nio-8080-exec-4] DeleteItemServlet - The client ID after deletion: 25
-[DEBUG] 2021-05-01 14:05:16.533 [http-nio-8080-exec-9] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@71e339f3
-[DEBUG] 2021-05-01 14:05:16.538 [http-nio-8080-exec-9] ProcessClient - The 'submit parameter value is:process_client
-[DEBUG] 2021-05-01 14:05:16.538 [http-nio-8080-exec-9] ProcessClient - The client form was submitted.
-[DEBUG] 2021-05-01 14:05:16.538 [http-nio-8080-exec-9] ProcessClient - Client Name: dfgdfg
-[DEBUG] 2021-05-01 14:05:16.538 [http-nio-8080-exec-9] ProcessClient - Client Information: Client(id=0, name=dfgdfg)
-[DEBUG] 2021-05-01 14:05:16.678 [http-nio-8080-exec-9] ProcessClient - Was Client Inserted: 30
-[DEBUG] 2021-05-01 14:05:18.902 [http-nio-8080-exec-10] ProcessClient - ClientDao value is: edu.matc.persistence.GenericDao@7bc690c3
-[DEBUG] 2021-05-01 14:05:18.902 [http-nio-8080-exec-10] ProcessClient - The 'submit parameter value is:process_client
-[DEBUG] 2021-05-01 14:05:18.902 [http-nio-8080-exec-10] ProcessClient - The client form was submitted.
-[DEBUG] 2021-05-01 14:05:18.902 [http-nio-8080-exec-10] ProcessClient - Client Name:   cvbcvbcvb
-[DEBUG] 2021-05-01 14:05:18.902 [http-nio-8080-exec-10] ProcessClient - Client Information: Client(id=0, name=  cvbcvbcvb)
-[DEBUG] 2021-05-01 14:05:18.917 [http-nio-8080-exec-10] ProcessClient - Was Client Inserted: 31
-[DEBUG] 2021-05-01 14:36:37.615 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 14:36:37.910 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 14:36:38.591 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 14:36:38.657 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 14:36:38.979 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 14:36:39.053 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 14:36:39.358 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 14:36:39.402 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 14:36:39.737 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 14:36:39.778 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 14:36:40.099 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 14:36:40.140 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 14:41:48.377 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 14:41:48.751 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 14:41:49.434 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 14:41:49.495 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 14:41:49.851 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 14:41:49.918 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 14:41:50.239 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 14:41:50.286 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 14:41:50.635 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 14:41:50.680 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 14:41:51.054 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 14:41:51.116 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 14:42:55.733 [http-nio-8080-exec-4] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 14:42:56.267 [http-nio-8080-exec-4] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=32, name=Testing), Client(id=34, name=tony)]
-[DEBUG] 2021-05-01 14:44:38.710 [http-nio-8080-exec-8] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 14:44:38.734 [http-nio-8080-exec-8] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony)]
-[DEBUG] 2021-05-01 14:44:41.312 [http-nio-8080-exec-1] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 14:44:41.335 [http-nio-8080-exec-1] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony)]
-[DEBUG] 2021-05-01 14:44:41.874 [http-nio-8080-exec-3] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 14:44:41.911 [http-nio-8080-exec-3] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony)]
-[DEBUG] 2021-05-01 14:44:50.002 [http-nio-8080-exec-5] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 14:44:50.024 [http-nio-8080-exec-5] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony), Client(id=38, name=werwerwerwer)]
-[DEBUG] 2021-05-01 14:44:57.747 [http-nio-8080-exec-8] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 14:44:57.766 [http-nio-8080-exec-8] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony), Client(id=38, name=werwerwerwer)]
-[DEBUG] 2021-05-01 14:47:09.590 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 14:47:09.914 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 14:47:10.795 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 14:47:10.886 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 14:47:11.424 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 14:47:11.495 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 14:47:11.840 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 14:47:11.902 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 14:47:12.201 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 14:47:12.265 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 14:47:12.574 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 14:47:12.623 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 14:57:28.436 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 14:57:28.856 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 14:57:29.595 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 14:57:29.654 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 14:57:30.010 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 14:57:30.063 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 14:57:30.413 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 14:57:30.465 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 14:57:30.996 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 14:57:31.118 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 14:57:31.542 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 14:57:31.618 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 14:58:14.803 [http-nio-8080-exec-5] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 14:58:22.440 [http-nio-8080-exec-5] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=39, name=asfasdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony), Client(id=40, name=vbnvbn), Client(id=38, name=werwerwerwer)]
-[DEBUG] 2021-05-01 14:58:35.225 [http-nio-8080-exec-7] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 14:58:35.251 [http-nio-8080-exec-7] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=39, name=asfasdf), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony), Client(id=40, name=vbnvbn), Client(id=38, name=werwerwerwer), Client(id=41, name=wwwwwwwwwwwwwwdddddddddddddd)]
-[DEBUG] 2021-05-01 14:58:42.078 [http-nio-8080-exec-8] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 14:58:42.079 [http-nio-8080-exec-8] DeleteItemServlet - The client ID to be deleted: 41
-[DEBUG] 2021-05-01 14:58:42.191 [http-nio-8080-exec-8] DeleteItemServlet - The client ID after deletion: 41
-[DEBUG] 2021-05-01 15:01:22.267 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 15:01:22.579 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 15:01:23.205 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 15:01:23.277 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 15:01:23.654 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 15:01:23.697 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 15:01:24.117 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 15:01:24.162 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 15:01:24.493 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 15:01:24.532 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 15:01:24.877 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 15:01:24.927 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 15:05:46.782 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 15:05:47.084 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 15:05:47.745 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 15:05:47.809 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 15:05:48.121 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 15:05:48.166 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 15:05:48.498 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 15:05:48.556 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 15:05:48.872 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 15:05:48.913 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 15:05:49.221 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 15:05:49.267 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 15:06:57.869 [http-nio-8080-exec-4] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 15:06:58.230 [http-nio-8080-exec-4] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=46, name=asdfasfasfafs), Client(id=39, name=asfasdf), Client(id=42, name=bnvbnbvnvbn), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=3, name=Company C), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=28, name=erdfgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony), Client(id=40, name=vbnvbn), Client(id=43, name=vbnvbnvbnvbnbvnvbnvbnvbnvbnvbn), Client(id=38, name=werwerwerwer)]
-[DEBUG] 2021-05-01 15:07:01.438 [http-nio-8080-exec-6] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 15:07:01.439 [http-nio-8080-exec-6] DeleteItemServlet - The client ID to be deleted: 3
-[DEBUG] 2021-05-01 15:07:01.508 [http-nio-8080-exec-6] DeleteItemServlet - The client ID after deletion: 3
-[DEBUG] 2021-05-01 15:11:47.423 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 15:11:47.893 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 15:11:48.927 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 15:11:49.021 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 15:11:49.500 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 15:11:49.558 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 15:11:49.888 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 15:11:49.957 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 15:11:50.299 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 15:11:50.346 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 15:11:50.678 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 15:11:50.727 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 15:24:18.696 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 15:24:19.024 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 15:24:19.778 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 15:24:19.838 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 15:24:20.173 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 15:24:20.218 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 15:24:20.614 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 15:24:20.673 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 15:24:20.999 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 15:24:21.088 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 15:24:21.435 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 15:24:21.475 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 15:25:19.905 [http-nio-8080-exec-2] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 15:26:27.819 [http-nio-8080-exec-3] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 15:27:06.383 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 15:27:06.714 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 15:27:07.637 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 15:27:07.746 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 15:27:10.533 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 15:27:10.770 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 15:27:11.919 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 15:27:11.999 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 15:27:12.479 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 15:27:12.550 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 15:27:12.945 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 15:27:13.011 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 15:28:25.493 [http-nio-8080-exec-4] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 15:30:28.537 [http-nio-8080-exec-4] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 15:30:28.647 [http-nio-8080-exec-4] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=46, name=asdfasfasfafs), Client(id=39, name=asfasdf), Client(id=42, name=bnvbnbvnvbn), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=49, name=cvbcbcbcbcvbccccc), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=48, name=eeeeeeeee), Client(id=28, name=erdfgdfgdfg), Client(id=47, name=fgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony), Client(id=40, name=vbnvbn), Client(id=43, name=vbnvbnvbnvbnbvnvbnvbnvbnvbnvbn), Client(id=38, name=werwerwerwer)]
-[DEBUG] 2021-05-01 15:31:14.593 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 15:31:14.881 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 15:31:15.696 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 15:31:15.785 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 15:31:16.262 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 15:31:16.322 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 15:31:16.724 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 15:31:16.771 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 15:31:17.106 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 15:31:17.153 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 15:31:17.530 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 15:31:17.570 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 15:33:30.004 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 15:33:30.278 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 15:33:31.164 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 15:33:31.240 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 15:33:31.682 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 15:33:31.735 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 15:33:32.106 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 15:33:32.164 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 15:33:32.462 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 15:33:32.502 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 15:33:32.797 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 15:33:32.841 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 15:36:06.918 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 15:36:07.201 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 15:36:07.857 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 15:36:07.910 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 15:36:08.274 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 15:36:08.324 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 15:36:08.640 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 15:36:08.683 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 15:36:08.987 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 15:36:09.033 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 15:36:09.320 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 15:36:09.359 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 15:46:55.016 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 15:46:55.282 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 15:46:55.989 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 15:46:56.056 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 15:46:56.493 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 15:46:56.551 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 15:46:56.936 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 15:46:56.987 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 15:46:57.291 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 15:46:57.329 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 15:46:57.654 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 15:46:57.704 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 15:47:35.797 [http-nio-8080-exec-2] ProcessForm - Current Date:2021-05-01
-[DEBUG] 2021-05-01 16:00:42.363 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 16:00:42.656 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 16:00:43.462 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 16:00:43.525 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 16:00:43.939 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 16:00:43.999 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 16:00:44.308 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 16:00:44.349 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 16:00:44.706 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 16:00:44.809 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 16:00:45.113 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 16:00:45.235 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 16:03:35.309 [http-nio-8080-exec-5] ProcessForm - Current Date:2021-05-01
-[DEBUG] 2021-05-01 16:04:23.563 [http-nio-8080-exec-7] ProcessForm - Current Date:2021-05-01
-[DEBUG] 2021-05-01 20:33:48.044 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 20:33:48.453 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 20:33:49.622 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 20:33:49.739 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 20:33:50.521 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 20:33:50.636 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 20:33:51.231 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 20:33:51.294 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 20:33:51.755 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 20:33:51.822 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 20:33:52.276 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 20:33:52.339 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 20:34:48.933 [http-nio-8080-exec-9] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 20:35:00.038 [http-nio-8080-exec-3] SignUp - User Information: User{firstName='dgdfgdf', lastName='dfgdfgdfg', userName='sdgsdgsdfgds', id=0, dateOfBirth=2021-05-28, age=0}
-[DEBUG] 2021-05-01 20:35:19.958 [http-nio-8080-exec-3] SignUp - Was User Inserted: 22
-[DEBUG] 2021-05-01 20:38:24.843 [http-nio-8080-exec-2] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 20:40:07.855 [http-nio-8080-exec-6] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 20:41:17.839 [http-nio-8080-exec-6] ViewAll - In the doGet method.
-[DEBUG] 2021-05-01 20:44:34.929 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 20:44:35.241 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 20:44:35.963 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 20:44:36.026 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 20:44:36.379 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 20:44:36.437 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 20:44:36.742 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 20:44:36.789 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 20:44:37.111 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 20:44:37.153 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 20:44:37.500 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 20:44:37.568 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 20:45:16.545 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 20:45:16.559 [http-nio-8080-exec-8] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 20:45:39.289 [http-nio-8080-exec-4] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 20:45:39.485 [http-nio-8080-exec-4] SearchTerm - The value of users is: [User{firstName='Joe', lastName='Coyne', userName='jcoyne', id=1, dateOfBirth=1964-04-01, age=57}, User{firstName='Barney', lastName='Curry', userName='bcurry', id=3, dateOfBirth=1947-11-11, age=73}, User{firstName='Karen', lastName='Mack', userName='kmack', id=4, dateOfBirth=1986-07-08, age=34}, User{firstName='Anthony', lastName='Rice', userName='arice', id=7, dateOfBirth=1986-05-02, age=34}]
-[DEBUG] 2021-05-01 20:48:04.025 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 20:48:04.308 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 20:48:05.041 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 20:48:05.116 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 20:48:05.485 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 20:48:05.558 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 20:48:05.870 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 20:48:05.921 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 20:48:06.251 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 20:48:06.295 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 20:48:06.619 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 20:48:06.684 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 20:48:49.414 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 20:48:49.431 [http-nio-8080-exec-7] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 20:48:59.377 [http-nio-8080-exec-9] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 20:49:01.832 [http-nio-8080-exec-4] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 20:49:01.833 [http-nio-8080-exec-4] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 20:49:03.878 [http-nio-8080-exec-3] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 20:49:06.321 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 20:49:06.321 [http-nio-8080-exec-7] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 20:49:08.513 [http-nio-8080-exec-9] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 20:49:15.975 [http-nio-8080-exec-2] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 20:49:15.975 [http-nio-8080-exec-2] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 20:49:17.614 [http-nio-8080-exec-4] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 20:49:17.614 [http-nio-8080-exec-4] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 20:53:40.103 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 20:53:40.542 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 20:53:41.930 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 20:53:42.095 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 20:53:42.841 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 20:53:42.975 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 20:53:43.656 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 20:53:43.768 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 20:53:44.292 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 20:53:44.407 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 20:53:44.823 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 20:53:44.918 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 20:56:10.159 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 20:56:10.566 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 20:56:11.350 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 20:56:11.476 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 20:56:12.055 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 20:56:12.105 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 20:56:12.503 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 20:56:12.546 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 20:56:12.884 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 20:56:12.927 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 20:56:13.402 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 20:56:13.498 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 20:56:55.707 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 20:56:55.725 [http-nio-8080-exec-5] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 20:57:06.250 [http-nio-8080-exec-8] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 20:59:10.980 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 20:59:11.313 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 20:59:12.014 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 20:59:12.072 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 20:59:12.409 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 20:59:12.452 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 20:59:12.817 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 20:59:12.960 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 20:59:13.440 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 20:59:13.561 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 20:59:14.042 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 20:59:14.126 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 21:01:03.643 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 21:01:03.953 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 21:01:04.522 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 21:01:04.580 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 21:01:04.931 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 21:01:04.977 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 21:01:05.324 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 21:01:05.365 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 21:01:05.673 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 21:01:05.719 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 21:01:06.093 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 21:01:06.138 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 21:01:42.282 [http-nio-8080-exec-6] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 21:01:42.302 [http-nio-8080-exec-6] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 21:01:52.638 [http-nio-8080-exec-9] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-01 21:01:52.640 [http-nio-8080-exec-9] DeleteItemServlet - The user ID to be deleted: 22
-[DEBUG] 2021-05-01 21:01:52.727 [http-nio-8080-exec-9] DeleteItemServlet - The user ID after deletion: 22
-[DEBUG] 2021-05-01 21:01:55.816 [http-nio-8080-exec-2] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 21:01:55.816 [http-nio-8080-exec-2] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 21:31:19.727 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 21:31:20.109 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 21:31:21.106 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 21:31:21.178 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 21:31:21.653 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 21:31:21.715 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 21:31:22.106 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 21:31:22.171 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 21:31:22.546 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 21:31:22.608 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 21:31:23.000 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 21:31:23.067 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 23:35:25.973 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 23:35:26.275 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 23:35:26.950 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 23:35:27.027 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 23:35:27.498 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 23:35:27.564 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 23:35:27.878 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 23:35:27.926 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 23:35:28.231 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 23:35:28.272 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 23:35:28.578 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 23:35:28.625 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 23:36:03.737 [http-nio-8080-exec-6] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:36:03.760 [http-nio-8080-exec-6] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:36:10.602 [http-nio-8080-exec-6] ViewAll - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=11, name=asdf), Client(id=21, name=asdfaasfd), Client(id=46, name=asdfasfasfafs), Client(id=39, name=asfasdf), Client(id=42, name=bnvbnbvnvbn), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=49, name=cvbcbcbcbcvbccccc), Client(id=30, name=dfgdfg), Client(id=29, name=dfgdfgdfg), Client(id=20, name=eeeee), Client(id=48, name=eeeeeeeee), Client(id=28, name=erdfgdfgdfg), Client(id=47, name=fgdfgdfg), Client(id=35, name=fhfghfgh), Client(id=36, name=gfghfg), Client(id=37, name=sfasdf), Client(id=32, name=Testing), Client(id=34, name=tony), Client(id=40, name=vbnvbn), Client(id=43, name=vbnvbnvbnvbnbvnvbnvbnvbnvbnvbn), Client(id=38, name=werwerwerwer)]
-[DEBUG] 2021-05-01 23:36:17.352 [http-nio-8080-exec-2] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:36:17.352 [http-nio-8080-exec-2] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:36:20.567 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:36:20.568 [http-nio-8080-exec-10] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:36:23.354 [http-nio-8080-exec-6] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:36:23.354 [http-nio-8080-exec-6] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:36:27.063 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:36:27.064 [http-nio-8080-exec-8] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:36:29.843 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:36:29.844 [http-nio-8080-exec-10] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:36:32.019 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:36:32.019 [http-nio-8080-exec-5] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:36:33.903 [http-nio-8080-exec-1] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:36:33.905 [http-nio-8080-exec-1] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:40:22.020 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 23:40:22.309 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 23:40:23.102 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 23:40:23.188 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 23:40:23.746 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 23:40:23.830 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 23:40:24.340 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 23:40:24.433 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 23:40:24.735 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 23:40:24.777 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 23:40:25.103 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 23:40:25.152 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-01 23:44:14.979 [http-nio-8080-exec-6] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:44:14.997 [http-nio-8080-exec-6] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:44:52.168 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:44:52.172 [http-nio-8080-exec-9] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:45:46.469 [http-nio-8080-exec-2] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:45:46.472 [http-nio-8080-exec-2] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:52:27.456 [http-nio-8080-exec-3] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-01 23:52:27.461 [http-nio-8080-exec-3] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-01 23:58:15.629 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-01 23:58:16.096 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-01 23:58:17.565 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-01 23:58:17.675 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-01 23:58:18.355 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-01 23:58:18.437 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-01 23:58:19.241 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-01 23:58:19.289 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-01 23:58:19.824 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-01 23:58:19.876 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-01 23:58:20.187 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-01 23:58:20.235 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-02 00:00:18.864 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:00:18.882 [http-nio-8080-exec-8] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-02 00:00:18.882 [http-nio-8080-exec-8] ViewAll - The value of description is: null
-[DEBUG] 2021-05-02 00:00:53.565 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:00:53.566 [http-nio-8080-exec-5] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-02 00:01:08.908 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:01:08.908 [http-nio-8080-exec-7] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-02 00:01:10.588 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:01:10.588 [http-nio-8080-exec-9] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-02 00:01:12.678 [http-nio-8080-exec-2] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:01:12.679 [http-nio-8080-exec-2] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-02 00:01:17.675 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:01:17.675 [http-nio-8080-exec-10] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-02 00:01:24.738 [http-nio-8080-exec-4] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:01:24.739 [http-nio-8080-exec-4] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-02 00:01:38.061 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:01:38.061 [http-nio-8080-exec-5] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-02 00:03:01.370 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:03:01.371 [http-nio-8080-exec-9] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-02 00:06:22.162 [http-nio-8080-exec-3] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:06:22.164 [http-nio-8080-exec-3] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-02 00:06:25.676 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:06:25.676 [http-nio-8080-exec-10] ViewAll - Parameter viewAll exits.
-[DEBUG] 2021-05-02 00:07:10.893 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-02 00:07:11.164 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-02 00:07:11.761 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-02 00:07:11.850 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-02 00:07:12.214 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-02 00:07:12.264 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-02 00:07:12.568 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-02 00:07:12.619 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-02 00:07:12.930 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-02 00:07:12.969 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-02 00:07:13.272 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-02 00:07:13.324 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-02 00:07:52.421 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:07:52.435 [http-nio-8080-exec-7] ViewAll - Search Type is.clients
-[DEBUG] 2021-05-02 00:08:03.041 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:08:03.042 [http-nio-8080-exec-10] ViewAll - Search Type is.users
-[DEBUG] 2021-05-02 00:08:06.820 [http-nio-8080-exec-1] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:08:06.820 [http-nio-8080-exec-1] ViewAll - Search Type is.contacts
-[DEBUG] 2021-05-02 00:08:10.056 [http-nio-8080-exec-6] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:08:10.057 [http-nio-8080-exec-6] ViewAll - Search Type is.testDescriptions
-[DEBUG] 2021-05-02 00:08:10.057 [http-nio-8080-exec-6] ViewAll - The value of description is: null
-[DEBUG] 2021-05-02 00:08:13.163 [http-nio-8080-exec-4] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:08:13.163 [http-nio-8080-exec-4] ViewAll - Search Type is.methods
-[DEBUG] 2021-05-02 00:08:15.105 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:08:15.105 [http-nio-8080-exec-7] ViewAll - Search Type is.tests
-[DEBUG] 2021-05-02 00:08:17.059 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:08:17.059 [http-nio-8080-exec-9] ViewAll - Search Type is.projects
-[DEBUG] 2021-05-02 00:08:19.053 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:08:19.054 [http-nio-8080-exec-10] ViewAll - Search Type is.samples
-[DEBUG] 2021-05-02 00:09:22.060 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-02 00:09:22.526 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-02 00:09:23.274 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-02 00:09:23.339 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-02 00:09:23.680 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-02 00:09:23.764 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-02 00:09:24.388 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-02 00:09:24.439 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-02 00:09:24.730 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-02 00:09:24.770 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-02 00:09:25.049 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-02 00:09:25.095 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-02 00:10:17.108 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:10:31.135 [http-nio-8080-exec-7] ViewAll - Search Type is.testDescriptions
-[DEBUG] 2021-05-02 00:10:39.108 [http-nio-8080-exec-7] ViewAll - The value of description is: null
-[DEBUG] 2021-05-02 00:14:23.036 [http-nio-8080-exec-6] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:14:23.041 [http-nio-8080-exec-6] ViewAll - Search Type is.testDescriptions
-[DEBUG] 2021-05-02 00:14:23.046 [http-nio-8080-exec-6] ViewAll - The value of description is: null
-[DEBUG] 2021-05-02 00:17:39.526 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:17:39.530 [http-nio-8080-exec-8] ViewAll - Search Type is.methods
-[DEBUG] 2021-05-02 00:19:23.056 [http-nio-8080-exec-2] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:19:23.058 [http-nio-8080-exec-2] ViewAll - Search Type is.samples
-[DEBUG] 2021-05-02 00:20:30.095 [http-nio-8080-exec-1] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:20:30.097 [http-nio-8080-exec-1] ViewAll - Search Type is.projects
-[DEBUG] 2021-05-02 00:21:08.955 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:21:08.957 [http-nio-8080-exec-5] ViewAll - Search Type is.tests
-[DEBUG] 2021-05-02 00:23:19.880 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-02 00:23:20.155 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-02 00:23:20.807 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-02 00:23:20.876 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-02 00:23:21.271 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-02 00:23:21.319 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-02 00:23:21.631 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-02 00:23:21.678 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-02 00:23:21.973 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-02 00:23:22.017 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-02 00:23:22.321 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-02 00:23:22.365 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-02 00:24:00.036 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:24:00.049 [http-nio-8080-exec-7] ViewAll - Search Type is.testDescriptions
-[DEBUG] 2021-05-02 00:24:00.050 [http-nio-8080-exec-7] ViewAll - The value of description is: null
-[DEBUG] 2021-05-02 00:24:08.988 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:24:08.990 [http-nio-8080-exec-10] ViewAll - Search Type is.methods
-[DEBUG] 2021-05-02 00:24:13.307 [http-nio-8080-exec-1] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:24:13.308 [http-nio-8080-exec-1] ViewAll - Search Type is.samples
-[DEBUG] 2021-05-02 00:24:16.145 [http-nio-8080-exec-4] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:24:16.145 [http-nio-8080-exec-4] ViewAll - Search Type is.projects
-[DEBUG] 2021-05-02 00:24:18.496 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:24:18.496 [http-nio-8080-exec-5] ViewAll - Search Type is.tests
-[DEBUG] 2021-05-02 00:24:22.115 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:24:22.116 [http-nio-8080-exec-8] ViewAll - Search Type is.contacts
-[DEBUG] 2021-05-02 00:24:23.929 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:24:23.929 [http-nio-8080-exec-9] ViewAll - Search Type is.tests
-[DEBUG] 2021-05-02 00:29:45.053 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-02 00:29:45.396 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-02 00:29:46.193 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-02 00:29:46.261 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-02 00:29:46.647 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-02 00:29:46.697 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-02 00:29:47.015 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-02 00:29:47.053 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-02 00:29:47.353 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-02 00:29:47.390 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-02 00:29:47.697 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-02 00:29:47.741 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-02 00:30:23.761 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:30:23.778 [http-nio-8080-exec-8] ViewAll - Search Type is.methods
-[DEBUG] 2021-05-02 00:30:33.567 [http-nio-8080-exec-2] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:30:33.567 [http-nio-8080-exec-2] ViewAll - Search Type is.samples
-[DEBUG] 2021-05-02 00:30:35.542 [http-nio-8080-exec-3] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:30:35.543 [http-nio-8080-exec-3] ViewAll - Search Type is.projects
-[DEBUG] 2021-05-02 00:30:37.343 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:30:37.344 [http-nio-8080-exec-7] ViewAll - Search Type is.tests
-[DEBUG] 2021-05-02 00:30:40.624 [http-nio-8080-exec-1] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:30:40.624 [http-nio-8080-exec-1] ViewAll - Search Type is.tests
-[DEBUG] 2021-05-02 00:31:31.758 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-02 00:31:32.405 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-02 00:31:33.400 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-02 00:31:33.472 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-02 00:31:34.193 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-02 00:31:34.284 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-02 00:31:34.861 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-02 00:31:34.985 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-02 00:31:35.587 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-02 00:31:35.659 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-02 00:31:36.233 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-02 00:31:36.340 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-02 00:32:17.577 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:32:17.592 [http-nio-8080-exec-5] ViewAll - Search Type is.tests
-[DEBUG] 2021-05-02 00:32:33.877 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:32:33.878 [http-nio-8080-exec-9] ViewAll - Search Type is.testDescriptions
-[DEBUG] 2021-05-02 00:32:33.878 [http-nio-8080-exec-9] ViewAll - The value of description is: null
-[DEBUG] 2021-05-02 00:32:35.506 [http-nio-8080-exec-1] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-02 00:32:37.546 [http-nio-8080-exec-2] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:32:37.546 [http-nio-8080-exec-2] ViewAll - Search Type is.testDescriptions
-[DEBUG] 2021-05-02 00:32:37.546 [http-nio-8080-exec-2] ViewAll - The value of description is: null
-[DEBUG] 2021-05-02 00:32:38.904 [http-nio-8080-exec-3] DeleteItemServlet - In the doGet method of DeleteItem.
-[DEBUG] 2021-05-02 00:32:41.674 [http-nio-8080-exec-6] ViewAll - In the doGet method of ViewAll.
-[DEBUG] 2021-05-02 00:32:41.676 [http-nio-8080-exec-6] ViewAll - Search Type is.testDescriptions
-[DEBUG] 2021-05-02 00:32:41.676 [http-nio-8080-exec-6] ViewAll - The value of description is: null
-[DEBUG] 2021-05-02 00:32:43.746 [http-nio-8080-exec-7] DeleteItemServlet - In the doGet method of DeleteItem.
-[ERROR] 2021-05-03 06:02:38.801 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:03:11.294 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:03:42.391 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:04:13.202 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:04:44.140 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:05:15.143 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:05:46.493 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:06:17.437 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:06:48.313 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:07:19.211 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:07:49.894 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:08:20.812 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:08:51.608 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:09:22.524 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:09:53.453 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:10:24.292 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:10:55.068 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:11:25.955 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:11:56.722 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:12:27.646 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:12:58.433 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:13:29.292 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:14:00.382 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:14:31.453 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:15:02.212 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:15:32.969 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:16:03.746 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:16:34.741 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:17:05.409 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:17:36.165 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:18:06.952 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:18:38.039 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:19:08.887 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:19:39.777 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:20:10.533 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:20:41.403 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:21:12.477 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:21:43.730 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:22:14.563 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:22:45.506 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:23:16.378 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:23:47.363 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[ERROR] 2021-05-03 06:24:18.304 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
-[DEBUG] 2021-05-03 06:38:49.238 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-03 06:38:49.517 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-03 06:38:50.214 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-03 06:38:50.312 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-03 06:38:50.753 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-03 06:38:50.794 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-03 06:38:51.135 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-03 06:38:51.174 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-03 06:38:51.488 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-03 06:38:51.535 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-03 06:38:51.807 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-03 06:38:51.866 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-03 06:40:29.935 [http-nio-8080-exec-6] GenericDao - Searching for order with name = C
-[DEBUG] 2021-05-03 06:40:30.382 [http-nio-8080-exec-6] SearchTerm - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=49, name=cvbcbcbcbcvbccccc)]
-[DEBUG] 2021-05-03 06:40:48.015 [http-nio-8080-exec-5] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-03 06:41:03.475 [http-nio-8080-exec-4] GenericDao - Searching for order with title = method
-[DEBUG] 2021-05-03 06:41:21.123 [http-nio-8080-exec-7] GenericDao - Searching for order with client_name = a
-[DEBUG] 2021-05-03 06:41:41.357 [http-nio-8080-exec-9] GenericDao - Searching for order with id = 1
-[DEBUG] 2021-05-03 06:45:19.790 [http-nio-8080-exec-1] GenericDao - Searching for order with id = 0
-[DEBUG] 2021-05-03 06:52:53.851 [http-nio-8080-exec-10] GenericDao - Searching for order with title = Method
-[DEBUG] 2021-05-03 06:53:17.240 [http-nio-8080-exec-3] GenericDao - Searching for order with client = e
-[DEBUG] 2021-05-03 06:54:52.807 [http-nio-8080-exec-6] GenericDao - Searching for order with client_name = a
-[DEBUG] 2021-05-03 06:58:50.266 [http-nio-8080-exec-5] GenericDao - Searching for order with name = d
-[DEBUG] 2021-05-03 06:59:07.896 [http-nio-8080-exec-4] GenericDao - Searching for order with lot = a
-[DEBUG] 2021-05-03 06:59:52.942 [http-nio-8080-exec-9] GenericDao - Searching for order with project_id = 2
-[DEBUG] 2021-05-03 07:03:06.369 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-03 07:03:06.676 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-03 07:03:07.307 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-03 07:03:07.351 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-03 07:03:07.741 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-03 07:03:07.798 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-03 07:03:08.205 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-03 07:03:08.259 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-03 07:03:08.599 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-03 07:03:08.636 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-03 07:03:08.963 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-03 07:03:09.008 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-03 07:07:14.724 [http-nio-8080-exec-10] GenericDao - Searching for order with analyst = aa
-[DEBUG] 2021-05-03 07:07:41.191 [http-nio-8080-exec-2] GenericDao - Searching for order with test_name = A
-[DEBUG] 2021-05-03 07:08:50.107 [http-nio-8080-exec-3] GenericDao - Searching for order with user_name = a
-[DEBUG] 2021-05-03 07:09:10.608 [http-nio-8080-exec-4] GenericDao - Searching for order with first_name = a
-[DEBUG] 2021-05-03 07:09:15.779 [http-nio-8080-exec-5] GenericDao - Searching for order with last_name = a
-[DEBUG] 2021-05-03 07:14:51.242 [main] GenericDao - Searching for order with lastName = Curry
-[DEBUG] 2021-05-03 07:14:51.621 [main] GenericDao - Searching for order with lastName = c
-[DEBUG] 2021-05-03 07:14:52.630 [main] GenericDao - Searching for order with email = jcoyne@email.com
-[DEBUG] 2021-05-03 07:14:52.696 [main] GenericDao - Searching for order with email = @
-[DEBUG] 2021-05-03 07:14:53.164 [main] GenericDao - Searching for order with name = fruit
-[DEBUG] 2021-05-03 07:14:53.237 [main] GenericDao - Searching for order with name = v
-[DEBUG] 2021-05-03 07:14:53.612 [main] GenericDao - Searching for order with title = HPLC Method
-[DEBUG] 2021-05-03 07:14:53.698 [main] GenericDao - Searching for order with title = hod
-[DEBUG] 2021-05-03 07:14:54.213 [main] GenericDao - Searching for order with testName = FTIR
-[DEBUG] 2021-05-03 07:14:54.287 [main] GenericDao - Searching for order with testName = pear
-[DEBUG] 2021-05-03 07:14:54.762 [main] GenericDao - Searching for order with temperature = 25C
-[DEBUG] 2021-05-03 07:14:54.820 [main] GenericDao - Searching for order with temperature = C
-[DEBUG] 2021-05-03 07:15:49.991 [http-nio-8080-exec-4] GenericDao - Searching for order with userName = a
-[DEBUG] 2021-05-03 07:16:02.460 [http-nio-8080-exec-5] GenericDao - Searching for order with firstName = a
-[DEBUG] 2021-05-03 07:16:08.515 [http-nio-8080-exec-6] GenericDao - Searching for order with lastName = a
-[DEBUG] 2021-05-03 07:16:19.266 [http-nio-8080-exec-7] GenericDao - Searching for order with testName = a
-[DEBUG] 2021-05-03 07:16:53.839 [http-nio-8080-exec-9] GenericDao - Searching for order with analyst = a
-[DEBUG] 2021-05-03 07:17:04.426 [http-nio-8080-exec-1] GenericDao - Searching for order with id = 1
-[DEBUG] 2021-05-03 07:17:25.788 [http-nio-8080-exec-2] GenericDao - Searching for order with projectId = 1
-[DEBUG] 2021-05-03 07:17:42.298 [http-nio-8080-exec-3] GenericDao - Searching for order with projectId = 2
+[DEBUG] 2021-05-04 23:14:33.011 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-04 23:14:33.284 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-04 23:14:34.004 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-04 23:14:34.065 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-04 23:14:34.415 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-04 23:14:34.453 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-04 23:14:34.732 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-04 23:14:34.775 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-04 23:14:35.050 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-04 23:14:35.088 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-04 23:14:35.371 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-04 23:14:35.411 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-04 23:15:17.221 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-04 23:15:17.234 [http-nio-8080-exec-5] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-04 23:17:43.752 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-04 23:17:44.015 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-04 23:17:44.643 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-04 23:17:44.713 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-04 23:17:45.018 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-04 23:17:45.057 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-04 23:17:45.339 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-04 23:17:45.386 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-04 23:17:45.665 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-04 23:17:45.702 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-04 23:17:45.968 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-04 23:17:46.007 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-04 23:19:35.222 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-04 23:19:35.237 [http-nio-8080-exec-7] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-04 23:25:52.188 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-04 23:25:52.435 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-04 23:25:53.117 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-04 23:25:53.189 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-04 23:25:53.611 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-04 23:25:53.682 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-04 23:25:54.044 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-04 23:25:54.130 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-04 23:25:54.414 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-04 23:25:54.452 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-04 23:25:54.798 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-04 23:25:54.836 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-04 23:26:33.595 [http-nio-8080-exec-4] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-04 23:26:33.608 [http-nio-8080-exec-4] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-04 23:31:06.589 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-04 23:31:06.937 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-04 23:31:07.816 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-04 23:31:07.885 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-04 23:31:08.350 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-04 23:31:08.533 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-04 23:31:08.971 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-04 23:31:09.019 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-04 23:31:09.331 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-04 23:31:09.374 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-04 23:31:09.667 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-04 23:31:09.709 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-04 23:31:46.789 [http-nio-8080-exec-3] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-04 23:31:46.803 [http-nio-8080-exec-3] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-04 23:39:06.971 [http-nio-8080-exec-10] SearchUsers - We got this far!
+[DEBUG] 2021-05-04 23:39:06.976 [http-nio-8080-exec-10] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@8b60906
+[DEBUG] 2021-05-04 23:39:12.654 [http-nio-8080-exec-1] SearchUsers - We got this far!
+[DEBUG] 2021-05-04 23:39:12.654 [http-nio-8080-exec-1] SearchUsers - This is the userDao:edu.matc.persistence.GenericDao@479c930e
+[DEBUG] 2021-05-04 23:41:31.607 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-04 23:41:32.566 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-04 23:41:34.720 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-04 23:41:34.930 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-04 23:41:35.739 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-04 23:41:35.823 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-04 23:41:36.797 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-04 23:41:37.026 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-04 23:41:39.000 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-04 23:41:39.084 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-04 23:41:40.222 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-04 23:41:40.296 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-04 23:42:24.806 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-04 23:42:24.823 [http-nio-8080-exec-5] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-04 23:42:42.987 [http-nio-8080-exec-1] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-04 23:42:42.991 [http-nio-8080-exec-1] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-04 23:45:44.646 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-04 23:45:45.135 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-04 23:45:45.873 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-04 23:45:45.916 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-04 23:45:46.300 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-04 23:45:46.340 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-04 23:45:46.645 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-04 23:45:46.685 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-04 23:45:46.963 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-04 23:45:47.000 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-04 23:45:47.635 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-04 23:45:47.744 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-04 23:46:32.952 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-04 23:46:32.978 [http-nio-8080-exec-5] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-04 23:49:25.662 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-04 23:49:26.230 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-04 23:49:27.036 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-04 23:49:27.097 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-04 23:49:27.463 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-04 23:49:27.508 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-04 23:49:27.857 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-04 23:49:27.903 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-04 23:49:28.272 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-04 23:49:28.315 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-04 23:49:28.652 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-04 23:49:28.720 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-04 23:50:09.744 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-04 23:50:09.766 [http-nio-8080-exec-5] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-04 23:52:31.162 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-04 23:52:31.433 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-04 23:52:32.011 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-04 23:52:32.058 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-04 23:52:32.382 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-04 23:52:32.421 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-04 23:52:32.707 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-04 23:52:32.754 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-04 23:52:33.042 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-04 23:52:33.080 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-04 23:52:33.411 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-04 23:52:33.451 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-04 23:53:12.484 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-04 23:53:12.507 [http-nio-8080-exec-5] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-05 00:00:21.044 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-05 00:00:21.330 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-05 00:00:22.196 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-05 00:00:22.272 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-05 00:00:22.667 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-05 00:00:22.710 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-05 00:00:23.012 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-05 00:00:23.059 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-05 00:00:23.360 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-05 00:00:23.404 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-05 00:00:23.728 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-05 00:00:23.766 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-05 00:00:55.302 [http-nio-8080-exec-3] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-05 00:00:55.321 [http-nio-8080-exec-3] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-05 00:09:15.921 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-05 00:09:15.923 [http-nio-8080-exec-8] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-05 00:26:20.888 [http-nio-8080-exec-6] Logout - Session Attribute Names: java.util.Collections$3@70d56932
+[DEBUG] 2021-05-05 00:26:20.889 [http-nio-8080-exec-6] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-05 00:26:20.890 [http-nio-8080-exec-6] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-05 00:26:20.890 [http-nio-8080-exec-6] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-05 00:26:20.891 [http-nio-8080-exec-6] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-05 00:26:20.891 [http-nio-8080-exec-6] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-05 00:26:20.891 [http-nio-8080-exec-6] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-05 00:26:20.893 [http-nio-8080-exec-6] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-05 00:26:20.893 [http-nio-8080-exec-6] Logout - Session Attribute Names: java.util.Collections$3@957ea4
+[DEBUG] 2021-05-05 00:26:20.894 [http-nio-8080-exec-6] Logout - Request Get Auth Type:null
+[DEBUG] 2021-05-05 00:26:20.894 [http-nio-8080-exec-6] Logout - Request Get User Principal:null
+[DEBUG] 2021-05-05 00:36:49.669 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-05 00:36:49.945 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-05 00:36:50.593 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-05 00:36:50.644 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-05 00:36:50.982 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-05 00:36:51.024 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-05 00:36:51.316 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-05 00:36:51.360 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-05 00:36:51.644 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-05 00:36:51.682 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-05 00:36:51.962 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-05 00:36:51.998 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-05 00:37:46.535 [http-nio-8080-exec-7] Logout - Session Attribute Names: java.util.Collections$3@742a348c
+[DEBUG] 2021-05-05 00:37:46.547 [http-nio-8080-exec-7] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-05 00:37:46.548 [http-nio-8080-exec-7] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-05 00:37:46.548 [http-nio-8080-exec-7] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-05 00:37:46.548 [http-nio-8080-exec-7] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-05 00:37:46.549 [http-nio-8080-exec-7] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-05 00:37:46.549 [http-nio-8080-exec-7] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-05 00:37:46.549 [http-nio-8080-exec-7] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-05 00:37:46.550 [http-nio-8080-exec-7] Logout - Session Attribute Names: java.util.Collections$3@7e180ddc
+[DEBUG] 2021-05-05 00:37:46.550 [http-nio-8080-exec-7] Logout - Request Get Auth Type:null
+[DEBUG] 2021-05-05 00:37:46.551 [http-nio-8080-exec-7] Logout - Request Get User Principal:null
+[DEBUG] 2021-05-05 00:38:12.646 [http-nio-8080-exec-3] Logout - Session Attribute Names: java.util.Collections$3@655bd3f5
+[DEBUG] 2021-05-05 00:38:12.647 [http-nio-8080-exec-3] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-05 00:38:12.647 [http-nio-8080-exec-3] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-05 00:38:12.648 [http-nio-8080-exec-3] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-05 00:38:12.648 [http-nio-8080-exec-3] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-05 00:38:12.648 [http-nio-8080-exec-3] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-05 00:38:12.648 [http-nio-8080-exec-3] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-05 00:38:12.649 [http-nio-8080-exec-3] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-05 00:38:12.649 [http-nio-8080-exec-3] Logout - Session Attribute Names: java.util.Collections$3@4dfa7f25
+[DEBUG] 2021-05-05 00:38:12.649 [http-nio-8080-exec-3] Logout - Request Get Auth Type:null
+[DEBUG] 2021-05-05 00:38:12.649 [http-nio-8080-exec-3] Logout - Request Get User Principal:null
+[DEBUG] 2021-05-05 01:06:57.749 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-05 01:06:57.752 [http-nio-8080-exec-10] ViewAll - Search Type is.clients

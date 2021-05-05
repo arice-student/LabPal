@@ -66,7 +66,7 @@ public class SearchTerm extends HttpServlet {
                     break;
                 case "project_client":
                     workingDao = new GenericDao(Project.class);
-                    req.setAttribute("projects", workingDao.getByPropertyLike("client_name", getSearchTerm));
+                    req.setAttribute("projects", workingDao.getByPropertyLike("clientName", getSearchTerm));
                     break;
                 case "sample_id":
                     workingDao = new GenericDao(Sample.class);

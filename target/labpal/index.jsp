@@ -20,6 +20,10 @@
             </section>
             <section>
                 <ul>
+                    <li>Testing pageContext.request.remoteUser: ${pageContext.request.remoteUser}</li>
+                    <li>Testing request.remoteUser: ${request.remoteUser}</li>
+                    <li>Testing </li>
+
                     <li>Testing new date - Current time: <%= new java.util.Date() %></li>
                     <li>Testing application.getServerInfo() - Server: <%= application.getServerInfo() %></li>
                     <li>Testing session.getId() - Session ID: <%= session.getId() %></li>
@@ -31,7 +35,12 @@
                     <li>Testing session.getAttributeNames(): <%= session.getAttributeNames()  %></li>
                     <li>Testing request.getSession(false): <%= request.getSession(false)  %></li>
                     <li>Testing request.getSession(false): <%= request.getSession(false)  %></li>
+                </ul>
 
+                <ul>
+                    <c:forEach items="${requestScope}" var="p">
+                        <li>${p.key} -> ${p.value}</li>
+                    </c:forEach>
                 </ul>
             </section>
             <section>

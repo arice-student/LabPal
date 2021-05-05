@@ -1,8 +1,15 @@
 # LabPal References
 
+
+
 ## Tomcat Authentication
+- IMPORTANT!! --> Getting the JSP EL Equivalent for request.getRemoteUser()
+  https://stackoverflow.com/questions/2596335/what-is-the-jsp-el-equivalent-for-request-getremoteuser
+  https://docs.oracle.com/javaee/5/tutorial/doc/bnahq.html#bnaij
 - How to access the Tomcat User
   https://docs.oracle.com/cd/E17802_01/webservices/webservices/docs/1.5/api/javax/servlet/http/HttpServletRequest.html#getRemoteUser()
+- JSP session.invalidate() vs request.logout()
+  https://stackoverflow.com/questions/28774049/jsp-session-invalidate-vs-request-logout
 
 ## Images
 - Hero image on the main page
@@ -72,6 +79,8 @@ https://stackoverflow.com/questions/57665645/server-returns-invalid-timezone-go-
   https://www.codejava.net/coding/how-to-code-login-and-logout-with-java-servlet-jsp-and-mysql
 - Redirect to a page after a login
   https://stackoverflow.com/questions/1921230/redirect-back-to-a-page-after-a-login
+- How to get user roles in a JSP / Servlet
+  https://stackoverflow.com/questions/344117/how-to-get-user-roles-in-a-jsp-servlet
   
 ### Expression Language
 - EL Scope

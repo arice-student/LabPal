@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<!--------------------------------------------------------------------------------------------------------------->
+    <!--------------------------------------------------------------------------------------------------------------->
     <!-- Code pulled from https://getbootstrap.com/docs/4.6/getting-started/introduction/ -->
 
     <!-- Bootstrap CSS -->
@@ -14,14 +14,16 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
-<!--------------------------------------------------------------------------------------------------------------->
+
+    <!--------------------------------------------------------------------------------------------------------------->
     <!-- css for datepicker -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css">
     <!-- The next two items are to support jQuery datatables. Learn more about datatables here:https://datatables.net -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
-<!--------------------------------------------------------------------------------------------------------------->
+    <!--------------------------------------------------------------------------------------------------------------->
 
     <!-- my css -->
     <link rel="stylesheet" href="css/styles.css">
+
 </head>

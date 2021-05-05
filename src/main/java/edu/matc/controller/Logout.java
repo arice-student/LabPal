@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.servlet.jsp.PageContext;
 import java.io.IOException;
 
 /**
@@ -31,9 +32,26 @@ public class Logout extends HttpServlet {
             throws ServletException, IOException {
 
         HttpSession session = request.getSession();
+        logger.debug("Session Attribute Names: " + session.getAttributeNames());
+        logger.debug("Request Get Auth Type:" + request.getAuthType());
+        logger.debug("Request Get User Principal:" + request.getUserPrincipal());
+        logger.debug("Request Get User Principal Name:" + request.getUserPrincipal().getName());
+        logger.debug("Request Get User Principal Class:" + request.getUserPrincipal().getClass());
+        logger.debug("Request Get Remote Host:" + request.getRemoteHost());
+        logger.debug("Request Get Remote User: " + request.getRemoteUser());
 
         // Invalidate the session and removes any attribute related to it
-        session.invalidate();
+        // session.invalidate();
+        request.logout();
+
+        logger.debug("AFTER session.invalidate() and request.logout()");
+        logger.debug("Session Attribute Names: " + session.getAttributeNames());
+        logger.debug("Request Get Auth Type:" + request.getAuthType());
+        logger.debug("Request Get User Principal:" + request.getUserPrincipal());
+        logger.debug("Request Get User Principal Name:" + request.getUserPrincipal().getName());
+        logger.debug("Request Get User Principal Class:" + request.getUserPrincipal().getClass());
+        logger.debug("Request Get Remote Host:" + request.getRemoteHost());
+        logger.debug("Request Get Remote User: " + request.getRemoteUser());
 
         // Get an HttpSession related to this request, if no session exist don't
         // create a new one. This is just a check to see after invalidation the
@@ -41,8 +59,9 @@ public class Logout extends HttpServlet {
         session = request.getSession(false);
         logger.debug("Session: " + session);
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/logout.jsp");
-        dispatcher.forward(request, response);
+        //RequestDispatcher dispatcher = request.getRequestDispatcher("/logout.jsp");
+        // dispatcher.forward(request, response);
+        response.sendRedirect("/index.jsp");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
