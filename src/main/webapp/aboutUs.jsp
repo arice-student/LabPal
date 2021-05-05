@@ -15,7 +15,7 @@
                     <h2>Our Mission</h2>
                     <p>To provide the best laboratory application services on the market.</p>
                 </section>
-                <section class="text-center pb-2 px-2">
+                <section class="text-center pb-2 px-2 mb-3">
                     <h2>About</h2>
                     <p>At Lab Pal, we all come to work every day because we want to help laboratories transition from a paper-based system to an application-based system, while still meeting the qualifications required for GMP, ISO and other regulatory bodies.  To do this, we implement rigorous quality and testing standards.  In addition, we're constantly trying to improve our processes by learning the new technologies, hiring the brightest employees and working diligently with clients to exceed their expectations.</p>
                     <p>Lab Pal was started in 2021 and is located in Madison, Wisconsin.  The software application is setup using the Java programming language and other supplemental technologies such as Maven, Log4j, JUnit, Bootstrap, Project Lombok and more.</p>

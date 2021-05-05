@@ -179,3 +179,30 @@
 [DEBUG] 2021-05-05 00:38:12.649 [http-nio-8080-exec-3] Logout - Request Get User Principal:null
 [DEBUG] 2021-05-05 01:06:57.749 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
 [DEBUG] 2021-05-05 01:06:57.752 [http-nio-8080-exec-10] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-05 01:09:02.387 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-05 01:09:02.662 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-05 01:09:03.461 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-05 01:09:03.559 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-05 01:09:04.055 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-05 01:09:04.125 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-05 01:09:04.543 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-05 01:09:04.625 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-05 01:09:05.009 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-05 01:09:05.080 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-05 01:09:05.383 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-05 01:09:05.431 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-05 01:12:10.489 [http-nio-8080-exec-7] Logout - Session Attribute Names: java.util.Collections$3@5de604c3
+[DEBUG] 2021-05-05 01:12:10.510 [http-nio-8080-exec-7] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-05 01:12:10.510 [http-nio-8080-exec-7] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-05 01:12:10.510 [http-nio-8080-exec-7] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-05 01:12:10.511 [http-nio-8080-exec-7] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-05 01:12:10.512 [http-nio-8080-exec-7] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-05 01:12:10.513 [http-nio-8080-exec-7] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-05 01:12:10.513 [http-nio-8080-exec-7] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-05 01:12:10.514 [http-nio-8080-exec-7] Logout - Session Attribute Names: java.util.Collections$3@82cdf74
+[DEBUG] 2021-05-05 01:12:10.515 [http-nio-8080-exec-7] Logout - Request Get Auth Type:null
+[DEBUG] 2021-05-05 01:12:10.515 [http-nio-8080-exec-7] Logout - Request Get User Principal:null
+[DEBUG] 2021-05-05 01:25:49.985 [http-nio-8080-exec-3] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-05 01:25:49.987 [http-nio-8080-exec-3] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-05 01:26:03.746 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-05 01:26:03.746 [http-nio-8080-exec-9] ViewAll - Search Type is.users

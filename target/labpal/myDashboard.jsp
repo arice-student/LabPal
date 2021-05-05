@@ -70,7 +70,7 @@
                     <%-- Client Card  --%>
                     <div class="col mb-4">
                         <div class="card h-100">
-                            <img src="images/customer.svg" class=" m-auto w-75  height:auto img-thumbnail" alt="Customer Icon">
+                            <img src="images/customer.svg" class=" m-auto w-75  height:auto w-75" alt="Customer Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Clients</h5>
                                 <p class="card-text"><a href="/clientform.jsp">Add Client</a></p>
@@ -82,7 +82,7 @@
                     <%-- User Card  --%>
                     <div class="col mb-4">
                         <div class="card h-100">
-                            <img src="images/userIcon.png" class=" m-auto w-75  height:auto img-thumbnail" alt="User Icon">
+                            <img src="images/userIcon.png" class=" m-auto w-75  height:auto w-75" alt="User Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Users</h5>
                                 <p class="card-text"><a href="/signup.jsp">Add User</a></p>
@@ -94,7 +94,7 @@
                     <%-- TestDescription Card  --%>
                     <div class="col mb-4">
                         <div class="card h-100">
-                            <img src="images/descriptionIcon.png" class=" m-auto w-75  height:auto img-thumbnail" alt="Test Description Icon">
+                            <img src="images/descriptionIcon.png" class=" m-auto w-75  height:auto w-75" alt="Test Description Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Test Description</h5>
                                 <p class="card-text"><a href="/testDescriptionForm.jsp">Add Test Description</a></p>
@@ -106,7 +106,7 @@
                     <%-- Method Card  --%>
                     <div class="col mb-4">
                         <div class="card h-100">
-                            <img src="images/methodIcon.png" class=" m-auto w-75  height:auto img-thumbnail" alt="Method Icon">
+                            <img src="images/methodIcon.png" class=" m-auto w-75  height:auto w-75" alt="Method Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Method</h5>
                                 <p class="card-text"><a href="/methodForm.jsp">Add Method</a></p>
@@ -118,7 +118,7 @@
                     <%-- Sample Card  --%>
                     <div class="col mb-4">
                         <div class="card h-100">
-                            <img src="images/sampleIcon.png" class=" m-auto w-75  height:auto img-thumbnail" alt="Sample Icon">
+                            <img src="images/sampleIcon.png" class=" m-auto w-75  height:auto w-75" alt="Sample Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Sample</h5>
                                 <p class="card-text"><a href="/sampleForm.jsp">Add Sample</a></p>
@@ -130,7 +130,7 @@
                     <%-- Project Card  --%>
                     <div class="col mb-4">
                         <div class="card h-100">
-                            <img src="images/projectIcon.png" class=" m-auto w-75  height:auto img-thumbnail" alt="Project Icon">
+                            <img src="images/projectIcon.png" class=" m-auto w-75  height:auto w-75" alt="Project Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Project</h5>
                                 <p class="card-text"><a href="/sampleForm.jsp">Add Project</a></p>
@@ -142,7 +142,7 @@
                     <%-- Test Card  --%>
                     <div class="col mb-4">
                         <div class="card h-100">
-                            <img src="images/testIcon.png" class=" m-auto w-75  height:auto img-thumbnail" alt="Test Icon">
+                            <img src="images/testIcon.png" class=" m-auto w-75  height:auto w-75" alt="Test Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Test</h5>
                                 <p class="card-text"><a href="/sampleForm.jsp">Add Test</a></p>
@@ -154,7 +154,7 @@
                         <%-- Contact Card  --%>
                         <div class="col mb-4">
                             <div class="card h-100">
-                                <img src="images/contactIcon.png" class=" m-auto w-75  height:auto img-thumbnail" alt="Contact Icon">
+                                <img src="images/contactIcon.png" class=" m-auto w-75  height:auto w-75" alt="Contact Icon">
                                 <div class="card-body">
                                     <h5 class="card-title">Contact Info</h5>
                                     <p class="card-text"><a href="/contact.jsp">Contact Us</a></p>

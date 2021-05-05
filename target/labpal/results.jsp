@@ -20,7 +20,7 @@
             <h2>Search Results: </h2>
 
             <c:if test="${not empty clients}">
-                <table id="resultTable" class="display table-sm table-bordered table-striped table-hover" cellspacing="0" width="100%">
+                <table id="resultTable" class="display " cellspacing="0" width="100%">
                     <thead>
                         <th>Id</th>
                         <th>Name</th>
@@ -41,7 +41,7 @@
             </c:if>
 
             <c:if test="${not empty users}">
-                <table id="resultTable" class="display table-sm table-bordered table-striped table-hover" cellspacing="0" width="100%">
+                <table id="resultTable" class="display " cellspacing="0" width="100%">
                     <thead>
                     <th>Name</th>
                     <th>User Name</th>
@@ -72,7 +72,7 @@
             </c:if>
 
             <c:if test="${not empty testDescriptions}">
-                <table id="resultTable" class="display table-sm table-bordered table-striped table-hover" cellspacing="0" width="100%">
+                <table id="resultTable" class="display " cellspacing="0" width="100%">
                     <thead>
                     <th>ID</th>
                     <th>Test Name</th>
@@ -95,7 +95,7 @@
             </c:if>
 
             <c:if test="${not empty methods}">
-                <table id="resultTable" class="display table-sm table-bordered table-striped table-hover" cellspacing="0" width="100%">
+                <table id="resultTable" class="display " cellspacing="0" width="100%">
                     <thead>
                     <th>Method ID</th>
                     <th>Version</th>
@@ -124,7 +124,7 @@
             </c:if>
 
             <c:if test="${not empty samples}">
-                <table id="resultTable" class="display table-sm table-bordered table-striped table-hover" cellspacing="0" width="100%">
+                <table id="resultTable" class="display " cellspacing="0" width="100%">
                     <thead>
                     <th>Sample ID</th>
                     <th>Name</th>
@@ -155,7 +155,7 @@
             </c:if>
 
             <c:if test="${not empty projects}">
-                <table id="resultTable" class="display table-sm table-bordered table-striped table-hover" cellspacing="0" width="100%">
+                <table id="resultTable" class="display " cellspacing="0" width="100%">
                     <thead>
                     <th>Project ID</th>
                     <th>Client Name</th>
@@ -180,7 +180,7 @@
             </c:if>
 
             <c:if test="${not empty tests}">
-                <table id="resultTable" class="display table-sm table-bordered table-striped table-hover" cellspacing="0" width="100%">
+                <table id="resultTable" class="display " cellspacing="0" width="100%">
                     <thead>
                     <th>Test ID</th>
                     <th>Sample ID</th>
@@ -209,7 +209,7 @@
             </c:if>
 
             <c:if test="${not empty contacts}">
-                <table id="resultTable" class="display table-sm table-bordered table-striped table-hover" cellspacing="0" width="100%">
+                <table id="resultTable" class="display " cellspacing="0" width="100%">
                     <thead>
                     <th>Contact ID</th>
                     <th>Email</th>
