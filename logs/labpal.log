@@ -206,3 +206,14 @@
 [DEBUG] 2021-05-05 01:25:49.987 [http-nio-8080-exec-3] ViewAll - Search Type is.clients
 [DEBUG] 2021-05-05 01:26:03.746 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
 [DEBUG] 2021-05-05 01:26:03.746 [http-nio-8080-exec-9] ViewAll - Search Type is.users
+[DEBUG] 2021-05-05 01:27:59.179 [http-nio-8080-exec-2] Logout - Session Attribute Names: java.util.Collections$3@5d4c1fdc
+[DEBUG] 2021-05-05 01:27:59.180 [http-nio-8080-exec-2] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-05 01:27:59.180 [http-nio-8080-exec-2] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-05 01:27:59.180 [http-nio-8080-exec-2] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-05 01:27:59.180 [http-nio-8080-exec-2] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-05 01:27:59.180 [http-nio-8080-exec-2] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-05 01:27:59.180 [http-nio-8080-exec-2] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-05 01:27:59.180 [http-nio-8080-exec-2] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-05 01:27:59.180 [http-nio-8080-exec-2] Logout - Session Attribute Names: java.util.Collections$3@7340194a
+[DEBUG] 2021-05-05 01:27:59.180 [http-nio-8080-exec-2] Logout - Request Get Auth Type:null
+[DEBUG] 2021-05-05 01:27:59.180 [http-nio-8080-exec-2] Logout - Request Get User Principal:null
