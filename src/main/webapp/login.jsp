@@ -13,7 +13,6 @@
     <main class="bg-white w-75 pt-4 m-auto border">
         <h3 class="pb-2 text-center">Login to the Dashboard</h3>
         <section class="text-center pt-2 pb-2 w-75 m-auto">
-            <h4>Login to the Dashboard</h4>
             <form action="j_security_check" method="post">
 
                 <div class="form-group row">

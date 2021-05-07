@@ -44,7 +44,7 @@
                                 <optgroup label="Sample">
                                     <option value="sample_id">Sample: ID</option>
                                     <option value="sample_name">Sample: Name</option>
-                                    <option value="sample_lot">Project: Lot</option>
+                                    <option value="sample_lot">Sample: Lot</option>
                                 </optgroup>
                                 <optgroup label="Test">
                                     <option value="test_project">Test: Project ID</option>

@@ -49,7 +49,9 @@ public class SearchTerm extends HttpServlet {
                     break;
                 case "method_id":
                     workingDao = new GenericDao(Method.class);
-                    req.setAttribute("methods", workingDao.getByPropertyLike("id", getSearchTerm));
+                    int methodID = Integer.parseInt(getSearchTerm);
+                    Method retrievedMethod = (Method) workingDao.getById(methodID);
+                    req.setAttribute("methods", retrievedMethod);
                     break;
                 case "method_title":
                     workingDao = new GenericDao(Method.class);
@@ -62,7 +64,8 @@ public class SearchTerm extends HttpServlet {
                 case "project_id":
                     workingDao = new GenericDao(Project.class);
                     int projectID = Integer.parseInt(getSearchTerm);
-                    req.setAttribute("projects", workingDao.getById(projectID));
+                    Project retrievedProject = (Project) workingDao.getById(projectID);
+                    req.setAttribute("projects", retrievedProject);
                     break;
                 case "project_client":
                     workingDao = new GenericDao(Project.class);
@@ -71,7 +74,8 @@ public class SearchTerm extends HttpServlet {
                 case "sample_id":
                     workingDao = new GenericDao(Sample.class);
                     int sampleID = Integer.parseInt(getSearchTerm);
-                    req.setAttribute("projects", workingDao.getById(sampleID));
+                    Sample retrievedSample = (Sample)workingDao.getById(sampleID);
+                    req.setAttribute("sample", retrievedSample);
                     break;
                 case "sample_name":
                     workingDao = new GenericDao(Sample.class);

@@ -43,6 +43,7 @@
             <c:if test="${not empty users}">
                 <table id="resultTable" class="display " cellspacing="0" width="100%">
                     <thead>
+                    <th>ID</th>
                     <th>Name</th>
                     <th>User Name</th>
                     <th>Age</th>
@@ -53,6 +54,7 @@
                     <tbody>
                     <c:forEach var="user" items="${users}">
                         <tr>
+                            <td>${user.id}</td>
                             <td>${user.firstName} ${user.lastName}</td>
                             <td>${user.userName}</td>
                             <td>${user.age}</td>
@@ -84,11 +86,9 @@
                         <tr>
                             <td>${testDescription.id}</td>
                             <td>${testDescription.testName}</td>
-                            <td><a href="/editEntity?editItem=testDescription&id=${testDescription.id}"></a>Edit User</td>
-                            <td><a href="/deleteItem?deleteItem=testDescription&id=${user.id}">Delete User</a></td>
+                            <td><a href="/editEntity?editItem=testDescription&testDescriptionID=${testDescription.id}"></a>Edit User</td>
+                            <td><a href="/deleteItem?deleteItem=testDescription&testDescriptionID=${testDescription.id}">Delete User</a></td>
                         </tr>
-
-
                     </c:forEach>
                     </tbody>
                 </table>

@@ -51,11 +51,48 @@ public class DeleteItemServlet extends HttpServlet {
                     workingDao.delete(workingDao.getById(userID));
                     logger.debug("The user ID after deletion: " + userID);
                     break;
-                case "method_id":
-                case "method_name":
-                case "method_client": {
+                case "testDescription":
+                    int testDescriptionID = Integer.parseInt(req.getParameter("testDescriptionID"));
+                    logger.debug("The testDescription ID to be deleted: " + testDescriptionID);
+                    workingDao = new GenericDao(TestDescription.class);
+                    workingDao.delete(workingDao.getById(testDescriptionID));
+                    logger.debug("The testDescription ID after deletion: " + testDescriptionID);
+                    break;
+                case "method":
+                    int methodID = Integer.parseInt(req.getParameter("methodID"));
+                    logger.debug("The testDescription ID to be deleted: " + methodID);
                     workingDao = new GenericDao(Method.class);
-                }
+                    workingDao.delete(workingDao.getById(methodID));
+                    logger.debug("The method ID after deletion: " + methodID);
+                    break;
+                case "sample":
+                    int sampleID = Integer.parseInt(req.getParameter("sampleID"));
+                    logger.debug("The sample ID to be deleted: " + sampleID);
+                    workingDao = new GenericDao(Sample.class);
+                    workingDao.delete(workingDao.getById(sampleID));
+                    logger.debug("The method ID after deletion: " + sampleID);
+                    break;
+                case "project":
+                    int projectID = Integer.parseInt(req.getParameter("projectID"));
+                    logger.debug("The sample ID to be deleted: " + projectID);
+                    workingDao = new GenericDao(Project.class);
+                    workingDao.delete(workingDao.getById(projectID));
+                    logger.debug("The method ID after deletion: " + projectID);
+                    break;
+                case "test":
+                    int testID = Integer.parseInt(req.getParameter("testID"));
+                    logger.debug("The sample ID to be deleted: " + testID);
+                    workingDao = new GenericDao(Test.class);
+                    workingDao.delete(workingDao.getById(testID));
+                    logger.debug("The method ID after deletion: " + testID);
+                    break;
+                case "contact":
+                    int contactID = Integer.parseInt(req.getParameter("contactID"));
+                    logger.debug("The sample ID to be deleted: " + contactID);
+                    workingDao = new GenericDao(ContactForm.class);
+                    workingDao.delete(workingDao.getById(contactID));
+                    logger.debug("The method ID after deletion: " + contactID);
+                    break;
             }
         }
 
