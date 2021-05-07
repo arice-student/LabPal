@@ -40,6 +40,6 @@
 |May 01|8:00 pm - 11:00 pm, 3.0|Got ViewAll for all Entities to work.|
 |May 03|6:00 am - 7:15 am, 1.25|Got most of the Search Term options to work except for when searching for IDs.|
 |May 04|9:30 pm - 1:30 am, 4.0|Got DataTables to work.  Updated the formatting and visuals throughout the site.  Got the logout page to work, but still need to figure out how to get it to redirect to the logout.jsp page.|
-|May 06|9:00 pm - ||
+|May 06|9:00 pm - 11:00 pm, 2.0|Got the delete functions to work on all entities.  Tried to figure out how to search for method and project IDs.  Still having issues.|
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.
