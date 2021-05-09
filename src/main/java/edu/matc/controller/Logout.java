@@ -41,8 +41,8 @@ public class Logout extends HttpServlet {
         logger.debug("Request Get Remote User: " + request.getRemoteUser());
 
         // Invalidate the session and removes any attribute related to it
-        // session.invalidate();
-        request.logout();
+        session.invalidate();
+        // request.logout();
 
         logger.debug("AFTER session.invalidate() and request.logout()");
         logger.debug("Session Attribute Names: " + session.getAttributeNames());
@@ -56,11 +56,11 @@ public class Logout extends HttpServlet {
         // Get an HttpSession related to this request, if no session exist don't
         // create a new one. This is just a check to see after invalidation the
         // session will be null.
-        session = request.getSession(false);
-        logger.debug("Session: " + session);
+//        session = request.getSession(false);
+//        logger.debug("Session: " + session);
 
-        //RequestDispatcher dispatcher = request.getRequestDispatcher("/logout.jsp");
-        // dispatcher.forward(request, response);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/logout.jsp");
+        dispatcher.forward(request, response);
         response.sendRedirect("/index.jsp");
     }
 

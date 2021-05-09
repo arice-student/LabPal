@@ -458,3 +458,23 @@
 [DEBUG] 2021-05-06 23:05:34.258 [http-nio-8080-exec-6] Logout - Session Attribute Names: java.util.Collections$3@674773ca
 [DEBUG] 2021-05-06 23:05:34.258 [http-nio-8080-exec-6] Logout - Request Get Auth Type:null
 [DEBUG] 2021-05-06 23:05:34.258 [http-nio-8080-exec-6] Logout - Request Get User Principal:null
+[DEBUG] 2021-05-08 21:40:46.287 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 21:40:46.557 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 21:40:47.387 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 21:40:47.461 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 21:40:47.988 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 21:40:48.049 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 21:40:48.351 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 21:40:48.402 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 21:40:48.818 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 21:40:48.867 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 21:40:49.182 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 21:40:49.232 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 21:43:15.835 [http-nio-8080-exec-7] Logout - Session Attribute Names: java.util.Collections$3@23b7c672
+[DEBUG] 2021-05-08 21:43:15.846 [http-nio-8080-exec-7] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 21:43:15.847 [http-nio-8080-exec-7] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 21:43:15.848 [http-nio-8080-exec-7] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 21:43:15.848 [http-nio-8080-exec-7] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 21:43:15.849 [http-nio-8080-exec-7] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 21:43:15.850 [http-nio-8080-exec-7] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 21:43:15.851 [http-nio-8080-exec-7] Logout - AFTER session.invalidate() and request.logout()
