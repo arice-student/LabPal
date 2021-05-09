@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -51,7 +54,9 @@ public class SearchTerm extends HttpServlet {
                     workingDao = new GenericDao(Method.class);
                     int methodID = Integer.parseInt(getSearchTerm);
                     Method retrievedMethod = (Method) workingDao.getById(methodID);
-                    req.setAttribute("methods", retrievedMethod);
+                    List<Method> methods = new ArrayList<Method>();
+                    methods.add(retrievedMethod);
+                    req.setAttribute("methods", methods);
                     break;
                 case "method_title":
                     workingDao = new GenericDao(Method.class);
@@ -65,7 +70,9 @@ public class SearchTerm extends HttpServlet {
                     workingDao = new GenericDao(Project.class);
                     int projectID = Integer.parseInt(getSearchTerm);
                     Project retrievedProject = (Project) workingDao.getById(projectID);
-                    req.setAttribute("projects", retrievedProject);
+                    List<Project> projects = new ArrayList<Project>();
+                    projects.add(retrievedProject);
+                    req.setAttribute("projects", projects);
                     break;
                 case "project_client":
                     workingDao = new GenericDao(Project.class);

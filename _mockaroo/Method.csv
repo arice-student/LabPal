@@ -1,0 +1,26 @@
+id,version,title,client,status,effective_date
+1,2.13,Method A,Publix Super Markets Inc,Draft,2021-04-05
+2,0.50,Method B,KMART CORPORATION,In-Progress,2020-12-22
+3,0.7.6,Method C,Apotheca Company,Active,2020-07-02
+4,1.7.0,Method D,3M ESPE Dental Products,Active,2020-12-11
+5,0.99,Method E,3M ESPE Dental Products,In-Progress,2020-08-13
+6,0.2.1,Method F,"International Nature Nutraceuticals, Inc.",In-Progress,2021-04-07
+7,0.44,Method G,"Nelco Laboratories, Inc.",Active,2020-08-02
+8,4.5.0,Method H,A-S Medication Solutions LLC,In-Progress,2020-07-30
+9,0.42,Method I,Sanum Kehlbeck GmbH & Co. KG,Draft,2021-04-28
+10,2.9.4,Method J,"International Nature Nutraceuticals, Inc.",In-Progress,2020-06-21
+11,2.1,Method K,A-S Medication Solutions LLC,Active,2020-09-13
+12,4.58,Method L,"ALK-Abello, Inc.",In-Progress,2020-10-13
+13,7.2,Method M,A-S Medication Solutions LLC,Draft,2021-03-03
+14,0.40,Method N,"ALK-Abello, Inc.",In-Progress,2021-03-03
+15,0.63,Method O,Amerisource Bergen,In-Progress,2020-07-27
+16,0.17,Method P,"ZymoGenetics, Inc.",Active,2020-09-03
+17,0.9.1,Method Q,Carilion Materials Management,Active,2020-07-13
+18,0.9.9,Method R,HyVee Inc,In-Progress,2021-01-15
+19,0.9.3,Method S,Cardinal Health,Draft,2020-05-15
+20,0.9.2,Method T,A-S Medication Solutions LLC,Active,2021-05-02
+21,0.58,Method U,HyVee Inc,Draft,2020-06-18
+22,9.8,Method V,HyVee Inc,Draft,2021-04-01
+23,0.28,Method W,Midlothian Laboratories,Draft,2020-12-28
+24,0.60,Method X,Virtus Pharmaceuticals LLC,Draft,2021-01-22
+25,4.5,Method Y,Virtus Pharmaceuticals LLC,Draft,2020-05-16

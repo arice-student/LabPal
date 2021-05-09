@@ -963,3 +963,147 @@
 [DEBUG] 2021-05-09 01:37:28.575 [http-nio-8080-exec-5] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
 [DEBUG] 2021-05-09 01:37:28.575 [http-nio-8080-exec-5] Logout - Request Get Remote Host:127.0.0.1
 [DEBUG] 2021-05-09 01:37:28.575 [http-nio-8080-exec-5] Logout - Request Get Remote User: arice
+[ERROR] 2021-05-09 13:21:51.038 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-05-09 13:22:24.072 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-05-09 13:22:54.980 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[ERROR] 2021-05-09 13:23:25.851 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specific time zone value if you want to utilize time zone support.
+[DEBUG] 2021-05-09 13:24:19.971 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 13:24:20.429 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 13:24:21.166 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 13:24:21.216 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 13:24:21.614 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 13:24:21.669 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 13:24:21.977 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 13:24:22.022 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 13:24:22.374 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 13:24:22.438 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 13:24:22.801 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 13:24:22.842 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 13:27:22.628 [http-nio-8080-exec-5] Logout - Session Attribute Names: java.util.Collections$3@5699349
+[DEBUG] 2021-05-09 13:27:22.631 [http-nio-8080-exec-5] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-09 13:27:22.631 [http-nio-8080-exec-5] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-09 13:27:22.631 [http-nio-8080-exec-5] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-09 13:27:22.631 [http-nio-8080-exec-5] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-09 13:27:22.631 [http-nio-8080-exec-5] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-09 13:27:22.632 [http-nio-8080-exec-5] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-09 13:27:22.632 [http-nio-8080-exec-5] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-09 13:27:22.632 [http-nio-8080-exec-5] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-09 13:27:22.632 [http-nio-8080-exec-5] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-09 13:27:22.632 [http-nio-8080-exec-5] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-09 13:27:22.632 [http-nio-8080-exec-5] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-09 13:27:22.633 [http-nio-8080-exec-5] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-09 13:27:22.633 [http-nio-8080-exec-5] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-09 13:27:57.773 [http-nio-8080-exec-10] SignUp - User Information: User{firstName='hailey', lastName='rice', userName='hailey_rice', id=0, dateOfBirth=2016-03-25, age=5}
+[DEBUG] 2021-05-09 13:27:57.907 [http-nio-8080-exec-10] SignUp - Was User Inserted: 49
+[DEBUG] 2021-05-09 13:28:21.063 [http-nio-8080-exec-6] Logout - Session Attribute Names: java.util.Collections$3@6c629ae2
+[DEBUG] 2021-05-09 13:28:21.064 [http-nio-8080-exec-6] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-09 13:28:21.064 [http-nio-8080-exec-6] Logout - Request Get User Principal:GenericPrincipal[hailey_rice()]
+[DEBUG] 2021-05-09 13:28:21.064 [http-nio-8080-exec-6] Logout - Request Get User Principal Name:hailey_rice
+[DEBUG] 2021-05-09 13:28:21.064 [http-nio-8080-exec-6] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-09 13:28:21.064 [http-nio-8080-exec-6] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-09 13:28:21.064 [http-nio-8080-exec-6] Logout - Request Get Remote User: hailey_rice
+[DEBUG] 2021-05-09 13:28:21.064 [http-nio-8080-exec-6] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-09 13:28:21.064 [http-nio-8080-exec-6] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-09 13:28:21.065 [http-nio-8080-exec-6] Logout - Request Get User Principal:GenericPrincipal[hailey_rice()]
+[DEBUG] 2021-05-09 13:28:21.065 [http-nio-8080-exec-6] Logout - Request Get User Principal Name:hailey_rice
+[DEBUG] 2021-05-09 13:28:21.065 [http-nio-8080-exec-6] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-09 13:28:21.065 [http-nio-8080-exec-6] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-09 13:28:21.065 [http-nio-8080-exec-6] Logout - Request Get Remote User: hailey_rice
+[DEBUG] 2021-05-09 13:28:32.304 [http-nio-8080-exec-3] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:28:32.305 [http-nio-8080-exec-3] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:28:52.704 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:28:52.704 [http-nio-8080-exec-5] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:29:03.412 [http-nio-8080-exec-3] GenericDao - Searching for order with name = c
+[DEBUG] 2021-05-09 13:29:03.518 [http-nio-8080-exec-3] SearchTerm - The value of clients is: [Client(id=31, name=  cvbcvbcvb), Client(id=51, name=Aphena Pharma Solutions - Tennessee, LLC), Client(id=61, name=Bayer HealthCare Consumer Care), Client(id=8, name=client_name), Client(id=1, name=Company A), Client(id=2, name=Company B), Client(id=4, name=Company D), Client(id=5, name=Company E), Client(id=6, name=Company F), Client(id=75, name=Culvers), Client(id=49, name=cvbcbcbcbcvbccccc), Client(id=58, name=Dolgencorp, LLC), Client(id=67, name=Golden State Medical Supply, Inc.), Client(id=71, name=Goodier Cosmetics LP), Client(id=63, name=HyVee Inc), Client(id=57, name=L. Perrigo Company), Client(id=53, name=Meda Pharmaceuticals Inc.), Client(id=52, name=NARS COSMETICS), Client(id=54, name=Nelco Laboratories, Inc.), Client(id=60, name=Neutrogena Corporation), Client(id=56, name=OMP, INC.), Client(id=59, name=Par Pharmaceutical, Inc.), Client(id=66, name=PD-Rx Pharmaceuticals, Inc.), Client(id=65, name=Procter & Gamble Manufacturing Company), Client(id=55, name=Proficient Rx LP), Client(id=64, name=REMEDYREPACK INC.), Client(id=70, name=Rij Pharmaceutical Corporation), Client(id=72, name=Sandoz Inc), Client(id=69, name=The Mentholatum Company), Client(id=68, name=Zydus Pharmaceuticals (USA) Inc.)]
+[DEBUG] 2021-05-09 13:29:14.409 [http-nio-8080-exec-9] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 13:29:14.414 [http-nio-8080-exec-9] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 13:29:17.418 [http-nio-8080-exec-6] UpdateEntity - The User ID from myProfile.jsp is:7
+[DEBUG] 2021-05-09 13:29:17.436 [http-nio-8080-exec-6] UpdateEntity - The User ID is:7
+[DEBUG] 2021-05-09 13:29:17.436 [http-nio-8080-exec-6] UpdateEntity - The DOB is: 1986-05-02
+[DEBUG] 2021-05-09 13:29:20.310 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:29:20.310 [http-nio-8080-exec-10] ViewAll - Search Type is.users
+[DEBUG] 2021-05-09 13:29:38.195 [http-nio-8080-exec-2] ProcessForm - Current Date:2021-05-09
+[DEBUG] 2021-05-09 13:29:49.259 [http-nio-8080-exec-1] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 13:29:49.260 [http-nio-8080-exec-1] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 13:29:59.367 [http-nio-8080-exec-2] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:29:59.367 [http-nio-8080-exec-2] ViewAll - Search Type is.testDescriptions
+[DEBUG] 2021-05-09 13:29:59.367 [http-nio-8080-exec-2] ViewAll - The value of description is: null
+[DEBUG] 2021-05-09 13:30:32.696 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:30:32.696 [http-nio-8080-exec-7] ViewAll - Search Type is.methods
+[DEBUG] 2021-05-09 13:30:36.672 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:30:36.674 [http-nio-8080-exec-8] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:30:46.542 [http-nio-8080-exec-4] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:30:49.593 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:30:49.593 [http-nio-8080-exec-9] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:30:52.388 [http-nio-8080-exec-6] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:30:53.400 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:30:53.400 [http-nio-8080-exec-10] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:30:55.801 [http-nio-8080-exec-5] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:30:56.836 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:30:56.836 [http-nio-8080-exec-7] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:30:58.094 [http-nio-8080-exec-8] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:30:59.003 [http-nio-8080-exec-3] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:30:59.003 [http-nio-8080-exec-3] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:00.900 [http-nio-8080-exec-4] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:01.872 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:01.872 [http-nio-8080-exec-9] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:03.027 [http-nio-8080-exec-1] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:03.742 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:03.742 [http-nio-8080-exec-10] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:05.276 [http-nio-8080-exec-5] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:06.062 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:06.062 [http-nio-8080-exec-7] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:07.466 [http-nio-8080-exec-2] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:08.390 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:08.390 [http-nio-8080-exec-8] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:09.586 [http-nio-8080-exec-4] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:10.723 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:10.724 [http-nio-8080-exec-9] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:11.893 [http-nio-8080-exec-6] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:12.662 [http-nio-8080-exec-1] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:12.662 [http-nio-8080-exec-1] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:14.517 [http-nio-8080-exec-5] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:15.192 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:15.193 [http-nio-8080-exec-7] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:16.545 [http-nio-8080-exec-2] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:17.651 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:17.651 [http-nio-8080-exec-8] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:19.640 [http-nio-8080-exec-3] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:20.433 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:20.433 [http-nio-8080-exec-9] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:21.400 [http-nio-8080-exec-6] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:22.164 [http-nio-8080-exec-1] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:22.164 [http-nio-8080-exec-1] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:25.377 [http-nio-8080-exec-5] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:26.673 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:26.674 [http-nio-8080-exec-7] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:27.938 [http-nio-8080-exec-2] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:29.049 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:29.049 [http-nio-8080-exec-8] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:30.799 [http-nio-8080-exec-3] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:31.511 [http-nio-8080-exec-4] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:31.511 [http-nio-8080-exec-4] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:32.968 [http-nio-8080-exec-6] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:33.723 [http-nio-8080-exec-1] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:33.723 [http-nio-8080-exec-1] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:35.917 [http-nio-8080-exec-10] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:37.023 [http-nio-8080-exec-5] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:37.023 [http-nio-8080-exec-5] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:38.266 [http-nio-8080-exec-2] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:40.030 [http-nio-8080-exec-8] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:40.030 [http-nio-8080-exec-8] ViewAll - Search Type is.clients
+[DEBUG] 2021-05-09 13:31:44.467 [http-nio-8080-exec-9] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:44.468 [http-nio-8080-exec-9] ViewAll - Search Type is.users
+[DEBUG] 2021-05-09 13:31:46.867 [http-nio-8080-exec-6] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:46.867 [http-nio-8080-exec-6] DeleteItemServlet - The user ID to be deleted: 17
+[DEBUG] 2021-05-09 13:31:46.881 [http-nio-8080-exec-6] DeleteItemServlet - The user ID after deletion: 17
+[DEBUG] 2021-05-09 13:31:47.925 [http-nio-8080-exec-1] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:47.925 [http-nio-8080-exec-1] ViewAll - Search Type is.users
+[DEBUG] 2021-05-09 13:31:49.374 [http-nio-8080-exec-10] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:49.374 [http-nio-8080-exec-10] DeleteItemServlet - The user ID to be deleted: 18
+[DEBUG] 2021-05-09 13:31:49.385 [http-nio-8080-exec-10] DeleteItemServlet - The user ID after deletion: 18
+[DEBUG] 2021-05-09 13:31:50.535 [http-nio-8080-exec-7] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 13:31:50.535 [http-nio-8080-exec-7] ViewAll - Search Type is.users
+[DEBUG] 2021-05-09 13:31:51.904 [http-nio-8080-exec-2] DeleteItemServlet - In the doGet method of DeleteItem.
+[DEBUG] 2021-05-09 13:31:51.904 [http-nio-8080-exec-2] DeleteItemServlet - The user ID to be deleted: 20
+[DEBUG] 2021-05-09 13:31:51.915 [http-nio-8080-exec-2] DeleteItemServlet - The user ID after deletion: 20
