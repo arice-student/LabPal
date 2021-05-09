@@ -11,6 +11,8 @@ edu/matc/entity/Role.class
 edu/matc/entity/User.class
 edu/matc/entity/Method.class
 edu/matc/controller/SearchTerm.class
+edu/matc/controller/MyProfile.class
+edu/matc/controller/UpdateEntity.class
 edu/matc/controller/ProcessForm.class
 edu/matc/persistence/SessionFactoryProvider.class
 edu/matc/entity/Client.class

@@ -17,6 +17,7 @@
                 <a class="nav-link" href="/contact.jsp">Contact</a>
 
                 <c:if test="${not empty pageContext.request.remoteUser}">
+                    <a class="nav-link ml-5" href="/myProfile">My Profile</a>
                     <a class="nav-link" href="/logout">Sign Out</a>
                 </c:if>
 <%--                <c:if test="${!sessionScope.size() != null}">--%>

@@ -478,3 +478,488 @@
 [DEBUG] 2021-05-08 21:43:15.849 [http-nio-8080-exec-7] Logout - Request Get Remote Host:127.0.0.1
 [DEBUG] 2021-05-08 21:43:15.850 [http-nio-8080-exec-7] Logout - Request Get Remote User: arice
 [DEBUG] 2021-05-08 21:43:15.851 [http-nio-8080-exec-7] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-08 21:46:09.476 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 21:46:09.957 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 21:46:10.977 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 21:46:11.078 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 21:46:11.625 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 21:46:11.677 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 21:46:11.975 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 21:46:12.038 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 21:46:12.478 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 21:46:12.532 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 21:46:12.902 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 21:46:12.943 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 21:46:50.621 [http-nio-8080-exec-3] Logout - Session Attribute Names: java.util.Collections$3@13979fc8
+[DEBUG] 2021-05-08 21:46:50.633 [http-nio-8080-exec-3] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 21:46:50.633 [http-nio-8080-exec-3] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 21:46:50.633 [http-nio-8080-exec-3] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 21:46:50.634 [http-nio-8080-exec-3] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 21:46:50.635 [http-nio-8080-exec-3] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 21:46:50.636 [http-nio-8080-exec-3] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 21:46:50.637 [http-nio-8080-exec-3] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-08 21:48:21.416 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 21:48:21.693 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 21:48:22.525 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 21:48:22.661 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 21:48:23.154 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 21:48:23.225 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 21:48:23.590 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 21:48:23.639 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 21:48:23.945 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 21:48:23.987 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 21:48:24.276 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 21:48:24.319 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 21:49:02.574 [http-nio-8080-exec-4] Logout - Session Attribute Names: java.util.Collections$3@4a1dd8ce
+[DEBUG] 2021-05-08 21:49:02.589 [http-nio-8080-exec-4] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 21:49:02.589 [http-nio-8080-exec-4] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 21:49:02.590 [http-nio-8080-exec-4] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 21:49:02.590 [http-nio-8080-exec-4] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 21:49:02.591 [http-nio-8080-exec-4] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 21:49:02.591 [http-nio-8080-exec-4] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 21:49:02.591 [http-nio-8080-exec-4] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-08 21:49:02.592 [http-nio-8080-exec-4] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 21:49:02.592 [http-nio-8080-exec-4] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 21:49:02.592 [http-nio-8080-exec-4] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 21:49:02.593 [http-nio-8080-exec-4] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 21:49:02.593 [http-nio-8080-exec-4] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 21:49:02.593 [http-nio-8080-exec-4] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 21:49:13.683 [http-nio-8080-exec-5] Logout - Session Attribute Names: java.util.Collections$3@189f11a1
+[DEBUG] 2021-05-08 21:49:13.685 [http-nio-8080-exec-5] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 21:49:13.685 [http-nio-8080-exec-5] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 21:49:13.685 [http-nio-8080-exec-5] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 21:49:13.685 [http-nio-8080-exec-5] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 21:49:13.685 [http-nio-8080-exec-5] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 21:49:13.685 [http-nio-8080-exec-5] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 21:49:13.687 [http-nio-8080-exec-5] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-08 21:49:13.687 [http-nio-8080-exec-5] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 21:49:13.687 [http-nio-8080-exec-5] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 21:49:13.688 [http-nio-8080-exec-5] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 21:49:13.688 [http-nio-8080-exec-5] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 21:49:13.688 [http-nio-8080-exec-5] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 21:49:13.688 [http-nio-8080-exec-5] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 21:49:24.709 [http-nio-8080-exec-7] Logout - Session Attribute Names: java.util.Collections$3@ab710ea
+[DEBUG] 2021-05-08 21:49:24.709 [http-nio-8080-exec-7] Logout - Request Get Auth Type:null
+[DEBUG] 2021-05-08 21:49:24.709 [http-nio-8080-exec-7] Logout - Request Get User Principal:null
+[DEBUG] 2021-05-08 21:50:09.206 [http-nio-8080-exec-1] Logout - Session Attribute Names: java.util.Collections$3@26c98cda
+[DEBUG] 2021-05-08 21:50:09.207 [http-nio-8080-exec-1] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 21:50:09.207 [http-nio-8080-exec-1] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 21:50:09.207 [http-nio-8080-exec-1] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 21:50:09.207 [http-nio-8080-exec-1] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 21:50:09.207 [http-nio-8080-exec-1] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 21:50:09.207 [http-nio-8080-exec-1] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 21:50:09.207 [http-nio-8080-exec-1] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-08 21:50:09.208 [http-nio-8080-exec-1] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 21:50:09.208 [http-nio-8080-exec-1] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 21:50:09.208 [http-nio-8080-exec-1] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 21:50:09.208 [http-nio-8080-exec-1] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 21:50:09.208 [http-nio-8080-exec-1] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 21:50:09.208 [http-nio-8080-exec-1] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 21:51:55.982 [http-nio-8080-exec-4] Logout - Session Attribute Names: java.util.Collections$3@674a9ce1
+[DEBUG] 2021-05-08 21:51:55.983 [http-nio-8080-exec-4] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 21:51:55.983 [http-nio-8080-exec-4] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 21:51:55.984 [http-nio-8080-exec-4] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 21:51:55.984 [http-nio-8080-exec-4] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 21:51:55.984 [http-nio-8080-exec-4] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 21:51:55.984 [http-nio-8080-exec-4] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 21:51:55.984 [http-nio-8080-exec-4] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-08 21:51:55.984 [http-nio-8080-exec-4] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 21:51:55.984 [http-nio-8080-exec-4] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 21:51:55.984 [http-nio-8080-exec-4] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 21:51:55.984 [http-nio-8080-exec-4] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 21:51:55.984 [http-nio-8080-exec-4] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 21:51:55.984 [http-nio-8080-exec-4] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 21:51:57.073 [http-nio-8080-exec-5] Logout - Session Attribute Names: java.util.Collections$3@6c8a23c5
+[DEBUG] 2021-05-08 21:51:57.073 [http-nio-8080-exec-5] Logout - Request Get Auth Type:null
+[DEBUG] 2021-05-08 21:51:57.073 [http-nio-8080-exec-5] Logout - Request Get User Principal:null
+[DEBUG] 2021-05-08 22:08:51.396 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 22:08:51.699 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 22:08:52.904 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 22:08:52.996 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 22:08:54.488 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 22:08:54.753 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 22:08:55.656 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 22:08:55.821 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 22:08:56.817 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 22:08:56.882 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 22:08:57.471 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 22:08:57.552 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 22:10:29.924 [http-nio-8080-exec-6] Logout - Session Attribute Names: java.util.Collections$3@6ab76cdf
+[DEBUG] 2021-05-08 22:10:29.938 [http-nio-8080-exec-6] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 22:10:29.938 [http-nio-8080-exec-6] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 22:10:29.938 [http-nio-8080-exec-6] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 22:10:29.939 [http-nio-8080-exec-6] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 22:10:29.939 [http-nio-8080-exec-6] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 22:10:29.939 [http-nio-8080-exec-6] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 22:10:29.940 [http-nio-8080-exec-6] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-08 22:10:29.940 [http-nio-8080-exec-6] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 22:10:29.940 [http-nio-8080-exec-6] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 22:10:29.941 [http-nio-8080-exec-6] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 22:10:29.941 [http-nio-8080-exec-6] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 22:10:29.941 [http-nio-8080-exec-6] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 22:10:29.942 [http-nio-8080-exec-6] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 22:10:30.067 [http-nio-8080-exec-7] Logout - Session Attribute Names: java.util.Collections$3@36664afc
+[DEBUG] 2021-05-08 22:10:30.068 [http-nio-8080-exec-7] Logout - Request Get Auth Type:null
+[DEBUG] 2021-05-08 22:10:30.068 [http-nio-8080-exec-7] Logout - Request Get User Principal:null
+[DEBUG] 2021-05-08 22:11:21.983 [http-nio-8080-exec-6] Logout - Session Attribute Names: java.util.Collections$3@6fec8d96
+[DEBUG] 2021-05-08 22:11:21.983 [http-nio-8080-exec-6] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 22:11:21.983 [http-nio-8080-exec-6] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 22:11:21.983 [http-nio-8080-exec-6] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 22:11:21.984 [http-nio-8080-exec-6] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 22:11:21.984 [http-nio-8080-exec-6] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 22:11:21.984 [http-nio-8080-exec-6] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 22:11:21.984 [http-nio-8080-exec-6] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-08 22:11:21.984 [http-nio-8080-exec-6] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 22:11:21.984 [http-nio-8080-exec-6] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 22:11:21.984 [http-nio-8080-exec-6] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 22:11:21.984 [http-nio-8080-exec-6] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 22:11:21.984 [http-nio-8080-exec-6] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 22:11:21.984 [http-nio-8080-exec-6] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 22:31:49.329 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 22:31:49.591 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 22:31:50.165 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 22:31:50.227 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 22:31:50.561 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 22:31:50.611 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 22:31:50.933 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 22:31:50.971 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 22:31:51.274 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 22:31:51.312 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 22:31:51.591 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 22:31:51.631 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 22:33:06.539 [http-nio-8080-exec-2] Logout - Session Attribute Names: java.util.Collections$3@455bc166
+[DEBUG] 2021-05-08 22:33:06.553 [http-nio-8080-exec-2] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 22:33:06.553 [http-nio-8080-exec-2] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 22:33:06.553 [http-nio-8080-exec-2] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 22:33:06.554 [http-nio-8080-exec-2] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 22:33:06.554 [http-nio-8080-exec-2] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 22:33:06.554 [http-nio-8080-exec-2] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 22:33:06.554 [http-nio-8080-exec-2] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-08 22:33:06.555 [http-nio-8080-exec-2] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-08 22:33:06.555 [http-nio-8080-exec-2] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-08 22:33:06.555 [http-nio-8080-exec-2] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-08 22:33:06.555 [http-nio-8080-exec-2] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-08 22:33:06.555 [http-nio-8080-exec-2] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-08 22:33:06.555 [http-nio-8080-exec-2] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-08 22:37:10.369 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 22:37:10.622 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 22:37:11.185 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 22:37:11.245 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 22:37:11.669 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 22:37:11.709 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 22:37:12.028 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 22:37:12.071 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 22:37:12.364 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 22:37:12.408 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 22:37:12.734 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 22:37:12.772 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 22:42:11.432 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 22:42:11.706 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 22:42:12.380 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 22:42:12.443 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 22:42:12.899 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 22:42:12.958 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 22:42:13.330 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 22:42:13.397 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 22:42:13.696 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 22:42:13.743 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 22:42:14.018 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 22:42:14.063 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 22:42:50.566 [http-nio-8080-exec-5] MyProfile - The username is: arice
+[DEBUG] 2021-05-08 22:42:56.627 [http-nio-8080-exec-5] GenericDao - Searching for order with user_name = arice
+[DEBUG] 2021-05-08 22:43:45.109 [http-nio-8080-exec-9] MyProfile - The username is: arice
+[DEBUG] 2021-05-08 22:43:45.111 [http-nio-8080-exec-9] GenericDao - Searching for order with user_name = arice
+[DEBUG] 2021-05-08 22:44:29.561 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 22:44:29.860 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 22:44:30.929 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 22:44:31.020 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 22:44:31.607 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 22:44:31.674 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 22:44:32.192 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 22:44:32.268 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 22:44:32.653 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 22:44:32.700 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 22:44:33.070 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 22:44:33.125 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 22:45:42.793 [http-nio-8080-exec-4] MyProfile - The username is: arice
+[DEBUG] 2021-05-08 22:47:22.243 [http-nio-8080-exec-4] GenericDao - Searching for order with user_name = arice
+[DEBUG] 2021-05-08 22:53:52.387 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 22:53:52.795 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 22:53:53.885 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 22:53:53.977 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 22:53:54.537 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 22:53:54.599 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 22:53:55.115 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 22:53:55.167 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 22:53:55.482 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 22:53:55.523 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 22:53:55.811 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 22:53:55.862 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 22:54:54.967 [http-nio-8080-exec-7] MyProfile - The username is: arice
+[DEBUG] 2021-05-08 22:54:59.659 [http-nio-8080-exec-7] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-08 23:01:05.193 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 23:01:05.537 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 23:01:06.341 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 23:01:06.417 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 23:01:06.901 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 23:01:06.971 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 23:01:07.310 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 23:01:07.362 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 23:01:07.708 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 23:01:07.752 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 23:01:08.096 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 23:01:08.143 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 23:01:43.120 [http-nio-8080-exec-4] MyProfile - The username is: arice
+[DEBUG] 2021-05-08 23:01:48.126 [http-nio-8080-exec-4] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-08 23:14:03.336 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 23:14:03.584 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 23:14:04.165 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 23:14:04.229 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 23:14:04.612 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 23:14:04.664 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 23:14:04.998 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 23:14:05.039 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 23:14:05.333 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 23:14:05.382 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 23:14:05.702 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 23:14:05.741 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 23:14:48.805 [http-nio-8080-exec-5] MyProfile - The username is: arice
+[DEBUG] 2021-05-08 23:14:54.170 [http-nio-8080-exec-5] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-08 23:36:45.199 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 23:36:45.541 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 23:36:46.195 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 23:36:46.280 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 23:36:46.874 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 23:36:46.932 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 23:36:47.220 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 23:36:47.266 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 23:36:47.550 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 23:36:47.587 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 23:36:47.855 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 23:36:47.895 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 23:39:25.324 [http-nio-8080-exec-8] MyProfile - The username is: arice
+[DEBUG] 2021-05-08 23:39:30.826 [http-nio-8080-exec-8] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-08 23:40:24.502 [http-nio-8080-exec-1] MyProfile - The username is: arice
+[DEBUG] 2021-05-08 23:40:24.504 [http-nio-8080-exec-1] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-08 23:50:34.449 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 23:50:34.727 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 23:50:35.503 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 23:50:35.578 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 23:50:36.046 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 23:50:36.096 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 23:50:36.397 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 23:50:36.435 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 23:50:36.732 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 23:50:36.774 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 23:50:37.074 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 23:50:37.112 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 23:51:14.296 [http-nio-8080-exec-5] MyProfile - The username is: arice
+[DEBUG] 2021-05-08 23:51:20.427 [http-nio-8080-exec-5] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-08 23:54:45.229 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-08 23:54:45.518 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-08 23:54:46.266 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-08 23:54:46.339 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-08 23:54:46.813 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-08 23:54:46.881 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-08 23:54:47.189 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-08 23:54:47.230 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-08 23:54:47.525 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-08 23:54:47.573 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-08 23:54:47.843 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-08 23:54:47.892 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-08 23:55:43.175 [http-nio-8080-exec-6] MyProfile - The username is: arice
+[DEBUG] 2021-05-08 23:55:48.573 [http-nio-8080-exec-6] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:00:11.061 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 00:00:11.574 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 00:00:12.680 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 00:00:12.763 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 00:00:13.344 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 00:00:13.433 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 00:00:13.815 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 00:00:13.873 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 00:00:14.345 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 00:00:14.390 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 00:00:14.746 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 00:00:14.825 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 00:01:26.524 [http-nio-8080-exec-7] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:01:32.261 [http-nio-8080-exec-7] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:36:33.649 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 00:36:33.903 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 00:36:34.489 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 00:36:34.547 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 00:36:34.910 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 00:36:34.973 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 00:36:35.267 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 00:36:35.310 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 00:36:35.614 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 00:36:35.652 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 00:36:35.952 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 00:36:35.989 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 00:37:48.279 [http-nio-8080-exec-7] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:37:53.538 [http-nio-8080-exec-7] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:40:51.795 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 00:40:52.082 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 00:40:52.662 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 00:40:52.707 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 00:40:53.076 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 00:40:53.126 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 00:40:53.405 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 00:40:53.464 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 00:40:53.753 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 00:40:53.792 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 00:40:54.073 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 00:40:54.118 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 00:41:26.310 [http-nio-8080-exec-5] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:41:31.630 [http-nio-8080-exec-5] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:42:37.988 [http-nio-8080-exec-9] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:42:37.993 [http-nio-8080-exec-9] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:42:38.772 [http-nio-8080-exec-10] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:42:38.773 [http-nio-8080-exec-10] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:42:39.008 [http-nio-8080-exec-1] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:42:39.008 [http-nio-8080-exec-1] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:42:39.220 [http-nio-8080-exec-2] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:42:39.222 [http-nio-8080-exec-2] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:42:39.604 [http-nio-8080-exec-3] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:42:39.605 [http-nio-8080-exec-3] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:46:19.235 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 00:46:19.502 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 00:46:20.118 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 00:46:20.189 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 00:46:20.524 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 00:46:20.575 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 00:46:20.916 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 00:46:20.973 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 00:46:21.271 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 00:46:21.309 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 00:46:21.605 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 00:46:21.642 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 00:47:00.419 [http-nio-8080-exec-4] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:47:06.736 [http-nio-8080-exec-4] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:51:29.244 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 00:51:29.487 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 00:51:30.032 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 00:51:30.094 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 00:51:30.397 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 00:51:30.439 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 00:51:30.765 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 00:51:30.805 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 00:51:31.094 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 00:51:31.144 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 00:51:31.420 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 00:51:31.459 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 00:52:05.767 [http-nio-8080-exec-4] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:52:11.333 [http-nio-8080-exec-4] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:54:24.385 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 00:54:24.642 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 00:54:25.335 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 00:54:25.387 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 00:54:25.767 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 00:54:25.815 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 00:54:26.204 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 00:54:26.262 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 00:54:26.554 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 00:54:26.600 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 00:54:27.116 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 00:54:27.162 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 00:55:01.063 [http-nio-8080-exec-4] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:55:12.086 [http-nio-8080-exec-4] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:57:27.292 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 00:57:27.547 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 00:57:28.244 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 00:57:28.321 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 00:57:28.705 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 00:57:28.769 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 00:57:29.075 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 00:57:29.121 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 00:57:29.430 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 00:57:29.484 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 00:57:29.816 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 00:57:29.855 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 00:58:03.215 [http-nio-8080-exec-4] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 00:58:08.920 [http-nio-8080-exec-4] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 00:58:12.497 [http-nio-8080-exec-7] UpdateEntity - The DOB is: 1986-05-02
+[DEBUG] 2021-05-09 01:13:05.109 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 01:13:05.397 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 01:13:06.193 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 01:13:06.270 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 01:13:06.683 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 01:13:06.727 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 01:13:07.016 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 01:13:07.060 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 01:13:07.362 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 01:13:07.399 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 01:13:07.671 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 01:13:07.732 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 01:13:44.129 [http-nio-8080-exec-3] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 01:13:44.149 [http-nio-8080-exec-3] ViewAll - Search Type is.tests
+[DEBUG] 2021-05-09 01:13:55.238 [http-nio-8080-exec-6] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 01:13:55.239 [http-nio-8080-exec-6] ViewAll - Search Type is.projects
+[DEBUG] 2021-05-09 01:14:03.539 [http-nio-8080-exec-8] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 01:14:03.548 [http-nio-8080-exec-8] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 01:14:06.781 [http-nio-8080-exec-9] UpdateEntity - The User ID from myProfile.jsp is:null
+[DEBUG] 2021-05-09 01:14:45.517 [http-nio-8080-exec-1] UpdateEntity - The User ID from myProfile.jsp is:null
+[DEBUG] 2021-05-09 01:22:54.534 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 01:22:54.792 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 01:22:55.504 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 01:22:55.569 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 01:22:55.968 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 01:22:56.032 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 01:22:56.534 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 01:22:56.633 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 01:22:56.931 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 01:22:56.991 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 01:22:57.413 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 01:22:57.466 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 01:23:35.707 [http-nio-8080-exec-5] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 01:23:41.397 [http-nio-8080-exec-5] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 01:23:45.033 [http-nio-8080-exec-8] UpdateEntity - The User ID from myProfile.jsp is:null
+[DEBUG] 2021-05-09 01:27:11.949 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 01:27:12.275 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 01:27:13.075 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 01:27:13.141 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 01:27:13.543 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 01:27:13.608 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 01:27:13.926 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 01:27:13.974 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 01:27:14.267 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 01:27:14.305 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 01:27:14.600 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 01:27:14.644 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 01:27:49.139 [http-nio-8080-exec-5] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 01:27:58.651 [http-nio-8080-exec-5] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 01:28:09.677 [http-nio-8080-exec-8] UpdateEntity - The User ID from myProfile.jsp is:null
+[DEBUG] 2021-05-09 01:28:09.705 [http-nio-8080-exec-8] UpdateEntity - The User ID is:7
+[DEBUG] 2021-05-09 01:28:09.711 [http-nio-8080-exec-8] UpdateEntity - The DOB is: 1986-05-02
+[DEBUG] 2021-05-09 01:33:31.774 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 01:33:32.026 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 01:33:32.717 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 01:33:32.791 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 01:33:33.194 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 01:33:33.257 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 01:33:33.654 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 01:33:33.737 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 01:33:34.119 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 01:33:34.159 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 01:33:34.448 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 01:33:34.488 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 01:34:24.091 [http-nio-8080-exec-7] MyProfile - The username is: arice
+[DEBUG] 2021-05-09 01:34:29.157 [http-nio-8080-exec-7] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 01:34:36.449 [http-nio-8080-exec-9] UpdateEntity - The User ID from myProfile.jsp is:7
+[DEBUG] 2021-05-09 01:34:36.473 [http-nio-8080-exec-9] UpdateEntity - The User ID is:7
+[DEBUG] 2021-05-09 01:34:36.477 [http-nio-8080-exec-9] UpdateEntity - The DOB is: 1986-05-02
+[DEBUG] 2021-05-09 01:34:41.122 [http-nio-8080-exec-10] ViewAll - In the doGet method of ViewAll.
+[DEBUG] 2021-05-09 01:34:41.123 [http-nio-8080-exec-10] ViewAll - Search Type is.users
+[DEBUG] 2021-05-09 01:37:28.570 [http-nio-8080-exec-5] Logout - Session Attribute Names: java.util.Collections$3@74ba2a89
+[DEBUG] 2021-05-09 01:37:28.572 [http-nio-8080-exec-5] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-09 01:37:28.572 [http-nio-8080-exec-5] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-09 01:37:28.572 [http-nio-8080-exec-5] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-09 01:37:28.572 [http-nio-8080-exec-5] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-09 01:37:28.573 [http-nio-8080-exec-5] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-09 01:37:28.573 [http-nio-8080-exec-5] Logout - Request Get Remote User: arice
+[DEBUG] 2021-05-09 01:37:28.573 [http-nio-8080-exec-5] Logout - AFTER session.invalidate() and request.logout()
+[DEBUG] 2021-05-09 01:37:28.574 [http-nio-8080-exec-5] Logout - Request Get Auth Type:FORM
+[DEBUG] 2021-05-09 01:37:28.574 [http-nio-8080-exec-5] Logout - Request Get User Principal:GenericPrincipal[arice(admin,)]
+[DEBUG] 2021-05-09 01:37:28.575 [http-nio-8080-exec-5] Logout - Request Get User Principal Name:arice
+[DEBUG] 2021-05-09 01:37:28.575 [http-nio-8080-exec-5] Logout - Request Get User Principal Class:class org.apache.catalina.realm.GenericPrincipal
+[DEBUG] 2021-05-09 01:37:28.575 [http-nio-8080-exec-5] Logout - Request Get Remote Host:127.0.0.1
+[DEBUG] 2021-05-09 01:37:28.575 [http-nio-8080-exec-5] Logout - Request Get Remote User: arice

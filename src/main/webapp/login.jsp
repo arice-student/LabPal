@@ -12,6 +12,9 @@
 <div class="content container-fluid bg-light px-5 pb-5">
     <main class="bg-white w-75 pt-4 m-auto border">
         <h3 class="pb-2 text-center">Login to the Dashboard</h3>
+        <c:if test="${not empty param.error}" >
+            <h4 class="text-danger text-center">Login Failed.  Please Try Again.</h4>
+        </c:if>
         <section class="text-center pt-2 pb-2 w-75 m-auto">
             <form action="j_security_check" method="post">
 

@@ -45,7 +45,6 @@ public class Logout extends HttpServlet {
         // request.logout();
 
         logger.debug("AFTER session.invalidate() and request.logout()");
-        logger.debug("Session Attribute Names: " + session.getAttributeNames());
         logger.debug("Request Get Auth Type:" + request.getAuthType());
         logger.debug("Request Get User Principal:" + request.getUserPrincipal());
         logger.debug("Request Get User Principal Name:" + request.getUserPrincipal().getName());

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: edu.matc.persistence.TestDescriptionDaoTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.406 sec - in edu.matc.persistence.TestDescriptionDaoTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.341 sec - in edu.matc.persistence.TestDescriptionDaoTest
