@@ -10,4 +10,8 @@
     <c:if test="${not empty success}">
         <h4 class="text-center text-success bg-white">${success}</h4>
     </c:if>
+
+    <c:if test="${not empty logout}">
+        <h4 class="text-center text-success bg-white">${logout}</h4>
+    </c:if>
 </div>

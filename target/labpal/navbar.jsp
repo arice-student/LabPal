@@ -17,12 +17,18 @@
                 <a class="nav-link" href="/contact.jsp">Contact</a>
 
                 <c:if test="${not empty pageContext.request.remoteUser}">
-                    <a class="nav-link ml-5" href="/myProfile">My Profile</a>
+
+                    <c:if test="${pageContext.request.isUserInRole(\"admin\")}">
+                        <a class="nav-link" href="/admin.jsp">Admin</a>
+                    </c:if>
+
+                    <%--request.isUserInRole("admin");--%>
+                    <%-- <c:if test="${not empty logout}">--%>
+                    <a class="nav-link" href="/myProfile">My Profile</a>
                     <a class="nav-link" href="/logout">Sign Out</a>
+                    <%--<c:remove var="logout"/>--%>
                 </c:if>
-<%--                <c:if test="${!sessionScope.size() != null}">--%>
-<%--                    <a class="nav-link" href="/labpal/logout.jsp">Sign Out</a>--%>
-<%--                </c:if>--%>
+
 
             </div>
         </div>

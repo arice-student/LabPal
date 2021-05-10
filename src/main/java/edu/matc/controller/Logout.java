@@ -51,16 +51,15 @@ public class Logout extends HttpServlet {
         logger.debug("Request Get User Principal Class:" + request.getUserPrincipal().getClass());
         logger.debug("Request Get Remote Host:" + request.getRemoteHost());
         logger.debug("Request Get Remote User: " + request.getRemoteUser());
+        request.isUserInRole("admin");
 
         // Get an HttpSession related to this request, if no session exist don't
         // create a new one. This is just a check to see after invalidation the
         // session will be null.
 //        session = request.getSession(false);
 //        logger.debug("Session: " + session);
-
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/logout.jsp");
-        dispatcher.forward(request, response);
-        response.sendRedirect("/index.jsp");
+        request.setAttribute("logout", "yes");
+        response.sendRedirect("/logout.jsp");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)

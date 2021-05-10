@@ -1,6 +1,7 @@
 package edu.matc.controller;
 
 
+import edu.matc.entity.Role;
 import edu.matc.entity.User;
 import edu.matc.persistence.GenericDao;
 
@@ -51,6 +52,9 @@ public class SignUp extends HttpServlet {
                 String dateOfBirth = req.getParameter("dateOfBirth");
                 LocalDate localDate = LocalDate.parse(dateOfBirth);
                 newUser.setDateOfBirth(localDate);
+
+                Role role = new Role(newUser,"user", newUser.getUserName());
+                newUser.addRole(role);
 
                 logger.debug("User Information: " + newUser);
 

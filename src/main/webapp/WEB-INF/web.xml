@@ -17,7 +17,7 @@
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <!-- Protect the user display page. -->
+  <!-- Protect user pages. -->
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>myDashboard</web-resource-name>
@@ -29,6 +29,19 @@
     <auth-constraint>
       <role-name>admin</role-name>
       <role-name>user</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+  <!-- Protect admin pages. -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>adminPage</web-resource-name>
+      <url-pattern>/admin.jsp</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>admin</role-name>
     </auth-constraint>
   </security-constraint>
 

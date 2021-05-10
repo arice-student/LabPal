@@ -3,14 +3,14 @@
 <%@include file="head.jsp"%>
 
 <!DOCTYPE html>
-<title>LabPal - Dashboard</title>
+<title>LabPal - 404 Error</title>
 
 <html>
 <body role="document">
 <jsp:include page="navbar.jsp" />
 
 <main>
-    <h1>Welcome to the Dashboard</h1>
+    <h1>404 Error - Page not found.</h1>
 </main>
 
 <jsp:include page="footer.jsp" />
