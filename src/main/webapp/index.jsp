@@ -14,38 +14,20 @@
             <section>
                 <h2>Implemented Features So Far</h2>
                 <ul>
-                    <li>Deployed the web site to AWS.</li>
-                    <li>Create the user sign up page (In-Progress).</li>
+                    <ul>General Pages</ul>
+                        <li>Create New User</li>
+                        <li>Contact Us</li>
+                        <li>About Us</li>
+                    <ul>Dashboard</ul>
+                        <li>Search functionality</li>
+                        <li>Cards setup</li>
+                        <li>View functionality</li>
+                        <li>Delete functionality</li>
+                        <li>Add functionality (Clients and Users only)</li>
+                    <ul>Account Information</ul>
+                        <li>My Profile page</li>
+                        <li>Admin page</li>
                 </ul>
-            </section>
-            <section>
-                <ul>
-                    <li>Testing pageContext.request.remoteUser: ${pageContext.request.remoteUser}</li>
-                    <li>Testing request.remoteUser: ${request.remoteUser}</li>
-                    <li>Testing </li>
-
-                    <li>Testing new date - Current time: <%= new java.util.Date() %></li>
-                    <li>Testing application.getServerInfo() - Server: <%= application.getServerInfo() %></li>
-                    <li>Testing session.getId() - Session ID: <%= session.getId() %></li>
-                    <li>Testing request.getParameter - The <code>testParam</code> form parameter:<%= request.getParameter("testParam") %></li>
-                    <li>Testing response.getStatus(): <%= response.getStatus() %></li>
-                    <li>Testing application.getAttributeNames(): <%= application.getAttributeNames() %></li>
-                    <li>Testing request.getMethod(): <%= request.getMethod()  %></li>
-                    <li>Testing request.getRequestedSessionId(): <%= request.getRequestedSessionId()  %></li>
-                    <li>Testing session.getAttributeNames(): <%= session.getAttributeNames()  %></li>
-                    <li>Testing request.getSession(false): <%= request.getSession(false)  %></li>
-                    <li>Testing request.getSession(false): <%= request.getSession(false)  %></li>
-                </ul>
-
-                <ul>
-                    <c:forEach items="${requestScope}" var="p">
-                        <li>${p.key} -> ${p.value}</li>
-                    </c:forEach>
-                </ul>
-            </section>
-            <section>
-                <h2>Template Information</h2>
-                <p><a href="/search.jsp">Click here to perform a search.</a></p>
             </section>
         </main>
         <jsp:include page="footer.jsp" />

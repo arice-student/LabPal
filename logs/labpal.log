@@ -49,3 +49,4 @@
 [DEBUG] 2021-05-09 22:40:31.940 [main] GenericDao - Searching for order with testName = pear
 [DEBUG] 2021-05-09 22:40:32.208 [main] GenericDao - Searching for order with temperature = 25C
 [DEBUG] 2021-05-09 22:40:32.245 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-09 22:55:11.995 [http-nio-8080-exec-4] GenericDao - Searching for order with userName = arice
