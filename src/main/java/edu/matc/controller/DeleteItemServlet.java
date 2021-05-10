@@ -17,9 +17,9 @@ import org.apache.logging.log4j.Logger;
 
 /**
  * A simple servlet to welcome the user.
+ *
  * @author pwaite
  */
-
 @WebServlet(
         urlPatterns = {"/deleteItem"}
 )

@@ -36,7 +36,6 @@ public class MyProfile extends HttpServlet {
         GenericDao userDao = new GenericDao(User.class);
 
         String userName = req.getUserPrincipal().getName();
-        logger.debug("The username is: " + userName);
 
         List<User> user = userDao.getByPropertyEqual("userName", userName);
         User thisUser = user.get(0);

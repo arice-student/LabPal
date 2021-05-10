@@ -17,9 +17,7 @@ import java.io.IOException;
 
 /**
  * Invalidate a user session to log them out of the application.
- * Source code obtained from https://kodejava.org/how-do-i-invalidate-users-session/
  */
-
 @WebServlet(
         urlPatterns = {"/logout"}
 )
@@ -31,34 +29,10 @@ public class Logout extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        HttpSession session = request.getSession();
-        logger.debug("Session Attribute Names: " + session.getAttributeNames());
-        logger.debug("Request Get Auth Type:" + request.getAuthType());
-        logger.debug("Request Get User Principal:" + request.getUserPrincipal());
-        logger.debug("Request Get User Principal Name:" + request.getUserPrincipal().getName());
-        logger.debug("Request Get User Principal Class:" + request.getUserPrincipal().getClass());
-        logger.debug("Request Get Remote Host:" + request.getRemoteHost());
-        logger.debug("Request Get Remote User: " + request.getRemoteUser());
-
         // Invalidate the session and removes any attribute related to it
+        HttpSession session = request.getSession();
         session.invalidate();
-        // request.logout();
 
-        logger.debug("AFTER session.invalidate() and request.logout()");
-        logger.debug("Request Get Auth Type:" + request.getAuthType());
-        logger.debug("Request Get User Principal:" + request.getUserPrincipal());
-        logger.debug("Request Get User Principal Name:" + request.getUserPrincipal().getName());
-        logger.debug("Request Get User Principal Class:" + request.getUserPrincipal().getClass());
-        logger.debug("Request Get Remote Host:" + request.getRemoteHost());
-        logger.debug("Request Get Remote User: " + request.getRemoteUser());
-        request.isUserInRole("admin");
-
-        // Get an HttpSession related to this request, if no session exist don't
-        // create a new one. This is just a check to see after invalidation the
-        // session will be null.
-//        session = request.getSession(false);
-//        logger.debug("Session: " + session);
-        request.setAttribute("logout", "yes");
         response.sendRedirect("/logout.jsp");
     }
 
