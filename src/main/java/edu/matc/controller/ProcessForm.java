@@ -47,9 +47,7 @@ public class ProcessForm extends HttpServlet {
             switch (getSubmitType) {
                 //<editor-fold desc="Process Client">
                 case "process_client":
-                    // redirectURL = "/clientform.jsp";
                     workingDao = new GenericDao(Client.class);
-
                     Client newClient = new Client();
                     newClient.setName(req.getParameter("clientName"));
 
