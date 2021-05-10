@@ -14,7 +14,7 @@
             <div class="navbar-nav ml-auto">
                 <a class="nav-link mr-2" aria-current="page" href="/myDashboard.jsp">My Dashboard</a>
                 <a class="nav-link mr-2" href="/aboutUs.jsp">About Us</a>
-                <a class="nav-link" href="/contact.jsp">Contact</a>
+                <a class="nav-link mr-5" href="/contact.jsp">Contact</a>
 
                 <c:if test="${not empty pageContext.request.remoteUser}">
 

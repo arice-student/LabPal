@@ -2,6 +2,7 @@
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/Role.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/controller/SignUp.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/persistence/SessionFactoryProvider.java
+/Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/api/LabPalApplication.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/persistence/GenericDao.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/TestDescription.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/User.java
@@ -14,6 +15,7 @@
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/controller/ProcessForm.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/Client.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/Method.java
+/Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/api/ClientService.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/controller/UpdateEntity.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/Test.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/ContactForm.java
