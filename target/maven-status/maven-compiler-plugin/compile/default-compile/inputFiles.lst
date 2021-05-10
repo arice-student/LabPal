@@ -9,7 +9,6 @@
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/controller/DeleteItemServlet.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/controller/SearchTerm.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/controller/ViewAll.java
-/Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/controller/ProcessClient.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/controller/Logout.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/controller/ProcessForm.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/Client.java
@@ -18,4 +17,3 @@
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/Test.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/ContactForm.java
 /Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/entity/Sample.java
-/Users/Tony/Documents/gitHubRepos/LabPal/src/main/java/edu/matc/controller/SearchUsers.java

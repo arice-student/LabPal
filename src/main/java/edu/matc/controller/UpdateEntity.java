@@ -43,22 +43,18 @@ public class UpdateEntity extends HttpServlet {
             GenericDao workingDao;
 
             switch (getSubmitType) {
+
                 //<editor-fold desc="Update Profile">
                 case "updateProfile":
                     workingDao = new GenericDao(User.class);
-
-                    logger.debug("The User ID from myProfile.jsp is:" + req.getParameter("userID"));
 
                     String id = req.getParameter("userID");
                     int userID = Integer.parseInt(id);
                     User userToUpdate = (User) workingDao.getById(userID);
 
-                    logger.debug("The User ID is:" + userID);
-
                     String dateOfBirth = req.getParameter("dateOfBirth");
                     LocalDate localDate = LocalDate.parse(dateOfBirth);
                     userToUpdate.setDateOfBirth(localDate);
-                    logger.debug("The DOB is: " + userToUpdate.getDateOfBirth());
 
                     userToUpdate.setFirstName(req.getParameter("firstName"));
                     userToUpdate.setLastName(req.getParameter("lastName"));

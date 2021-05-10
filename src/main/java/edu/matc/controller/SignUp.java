@@ -56,12 +56,8 @@ public class SignUp extends HttpServlet {
                 Role role = new Role(newUser,"user", newUser.getUserName());
                 newUser.addRole(role);
 
-                logger.debug("User Information: " + newUser);
-
                 // Add the User to the database
                 int insertStatus = userDao.insert(newUser);
-
-                logger.debug("Was User Inserted: " + insertStatus);
 
                 // Confirm that the User was added to the database
                 if (insertStatus != 0) {
