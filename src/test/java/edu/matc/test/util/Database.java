@@ -46,7 +46,6 @@ public class Database {
             log.error("Stack Trace: " + ioe);
         } catch (Exception e) {
             log.error("Database.loadProperties()..." + e);
-            e.printStackTrace();
         }
 
     }
