@@ -43,6 +43,6 @@
 |May 06|9:00 pm - 11:00 pm, 2.0|Got the delete functions to work on all entities.  Tried to figure out how to search for method and project IDs.  Still having issues.|
 |May 07|9:30 pm - 1:30 am, 4.0|Created a page for editing my profile and got the logout page to redirect properly.  Created more Mockaroo tables.|
 |May 09|1:15 pm - 2:30 pm, 1.25|Finalizing site.|
-|May 09|8:00 pm - 11:00 pm, 3.0|Polishing code.|
+|May 09|8:00 pm - 11:45 pm, 3.75|Polishing code.|
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.

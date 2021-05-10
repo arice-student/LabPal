@@ -30,7 +30,6 @@ public class DeleteItemServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        logger.debug("In the doGet method of DeleteItem.");
 
         if (req.getParameterMap().containsKey("deleteItem")) {
 
@@ -46,31 +45,23 @@ public class DeleteItemServlet extends HttpServlet {
                     break;
                 case "user":
                     int userID = Integer.parseInt(req.getParameter("userID"));
-                    logger.debug("The user ID to be deleted: " + userID);
                     workingDao = new GenericDao(User.class);
                     workingDao.delete(workingDao.getById(userID));
-                    logger.debug("The user ID after deletion: " + userID);
                     break;
                 case "testDescription":
                     int testDescriptionID = Integer.parseInt(req.getParameter("testDescriptionID"));
-                    logger.debug("The testDescription ID to be deleted: " + testDescriptionID);
                     workingDao = new GenericDao(TestDescription.class);
                     workingDao.delete(workingDao.getById(testDescriptionID));
-                    logger.debug("The testDescription ID after deletion: " + testDescriptionID);
                     break;
                 case "method":
                     int methodID = Integer.parseInt(req.getParameter("methodID"));
-                    logger.debug("The testDescription ID to be deleted: " + methodID);
                     workingDao = new GenericDao(Method.class);
                     workingDao.delete(workingDao.getById(methodID));
-                    logger.debug("The method ID after deletion: " + methodID);
                     break;
                 case "sample":
                     int sampleID = Integer.parseInt(req.getParameter("sampleID"));
-                    logger.debug("The sample ID to be deleted: " + sampleID);
                     workingDao = new GenericDao(Sample.class);
                     workingDao.delete(workingDao.getById(sampleID));
-                    logger.debug("The method ID after deletion: " + sampleID);
                     break;
                 case "project":
                     int projectID = Integer.parseInt(req.getParameter("projectID"));
