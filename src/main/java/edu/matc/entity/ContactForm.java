@@ -7,6 +7,9 @@ import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+/**
+ * The type Contact form.
+ */
 @Entity(name = "ContactForm")
 @Table(name = "contact_form")
 @NoArgsConstructor

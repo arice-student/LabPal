@@ -6,6 +6,9 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.time.LocalDate;
 
+/**
+ * The type Project.
+ */
 @Entity(name = "Project")
 @Table(name = "project")
 @NoArgsConstructor

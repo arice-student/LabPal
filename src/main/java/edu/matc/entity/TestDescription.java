@@ -5,6 +5,9 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
+/**
+ * The type Test description.
+ */
 @Entity(name = "TestDescription")
 @Table(name = "test_description")
 @NoArgsConstructor

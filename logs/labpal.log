@@ -37,3 +37,15 @@
 [DEBUG] 2021-05-09 22:36:12.874 [main] GenericDao - Searching for order with temperature = 25C
 [DEBUG] 2021-05-09 22:36:12.911 [main] GenericDao - Searching for order with temperature = C
 [DEBUG] 2021-05-09 22:36:59.974 [http-nio-8080-exec-2] GenericDao - Searching for order with userName = arice
+[DEBUG] 2021-05-09 22:40:29.993 [main] GenericDao - Searching for order with lastName = Curry
+[DEBUG] 2021-05-09 22:40:30.256 [main] GenericDao - Searching for order with lastName = c
+[DEBUG] 2021-05-09 22:40:30.855 [main] GenericDao - Searching for order with email = jcoyne@email.com
+[DEBUG] 2021-05-09 22:40:30.924 [main] GenericDao - Searching for order with email = @
+[DEBUG] 2021-05-09 22:40:31.231 [main] GenericDao - Searching for order with name = fruit
+[DEBUG] 2021-05-09 22:40:31.274 [main] GenericDao - Searching for order with name = v
+[DEBUG] 2021-05-09 22:40:31.582 [main] GenericDao - Searching for order with title = HPLC Method
+[DEBUG] 2021-05-09 22:40:31.627 [main] GenericDao - Searching for order with title = hod
+[DEBUG] 2021-05-09 22:40:31.903 [main] GenericDao - Searching for order with testName = FTIR
+[DEBUG] 2021-05-09 22:40:31.940 [main] GenericDao - Searching for order with testName = pear
+[DEBUG] 2021-05-09 22:40:32.208 [main] GenericDao - Searching for order with temperature = 25C
+[DEBUG] 2021-05-09 22:40:32.245 [main] GenericDao - Searching for order with temperature = C
