@@ -42,6 +42,7 @@
 |May 04|9:30 pm - 1:30 am, 4.0|Got DataTables to work.  Updated the formatting and visuals throughout the site.  Got the logout page to work, but still need to figure out how to get it to redirect to the logout.jsp page.|
 |May 06|9:00 pm - 11:00 pm, 2.0|Got the delete functions to work on all entities.  Tried to figure out how to search for method and project IDs.  Still having issues.|
 |May 07|9:30 pm - 1:30 am, 4.0|Created a page for editing my profile and got the logout page to redirect properly.  Created more Mockaroo tables.|
-|May 09|1:15 pm - ||
+|May 09|1:15 pm - 2:30 pm, 1.25|Finalizing site.|
+|May 09|8:00 pm - 11:00 pm, 3.0|Polishing code.|
 
 Note: A weekly reflection file will also be used in cases where the time log is not sufficient for explaining the tasks that were performed.
