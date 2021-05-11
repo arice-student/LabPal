@@ -53,3 +53,45 @@ Choose a format that works for you, or create your own.
 #### [Weekly Refelection](WeeklyReflection.md)
 #### [Journal](Journal.md)
 
+-------------------------------------------------------------------------
+
+### Final Project Presentation
+
+* Project Motivation
+  * Create a application that can be used for tracking sample testing in a laboratory.
+  
+* Application Demonstration
+  * Home Page
+  * Sign Up
+  * Contact Us
+  * My Dashboard
+    * User Roles
+      * Admin (arice)
+      * User (user)
+    * Search Functionality
+    * View Functionality
+    * Add Functionality (Clients)
+    * My Profile
+  
+* Code Talk
+  * Validation of Data: HTML Validation
+  * Log Statements: Show labpal.log.  Only used when implementing features
+  * Error Handling: Minimal
+  * Unit Testing: Created Test Daos for all Entities except Test and Role.
+    * Coverage: Entities had 61% method coverage.
+  
+* Video Link: TODO
+  
+* Mockaroo: Realistic data sets
+
+* Project Improvements (if continuing)
+  * Dashboard
+    * Create forms for each Entity
+    * Allow any item in an Entity to be edited
+    * Implement REST functionality for logged in users
+  * Security
+    * Error Handling for incorrect inputs (adding text to the ID search)
+    * Redirect to 404 error pages
+    * Code Coverage improvement
+    * Allow users to create a password at login
+    * Hash passwords
