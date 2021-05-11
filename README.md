@@ -80,7 +80,7 @@ Choose a format that works for you, or create your own.
   * Unit Testing: Created Test Daos for all Entities except Test and Role.
     * Coverage: Entities had 61% method coverage.
   
-* Video Link: TODO
+* Video Link: https://youtu.be/HN2s0eqoB9c
   
 * Mockaroo: Realistic data sets
 
