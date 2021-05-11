@@ -294,3 +294,4 @@
 [DEBUG] 2021-05-10 23:10:25.014 [main] GenericDao - Searching for order with testName = pear
 [DEBUG] 2021-05-10 23:10:25.330 [main] GenericDao - Searching for order with temperature = 25C
 [DEBUG] 2021-05-10 23:10:25.372 [main] GenericDao - Searching for order with temperature = C
+[DEBUG] 2021-05-10 23:12:39.584 [http-nio-8080-exec-10] ViewAll - The value of description is: null

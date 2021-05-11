@@ -97,7 +97,7 @@
                             <img src="images/descriptionIcon.png" class=" m-auto w-75 height:auto w-75 p-3" alt="Test Description Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Test Description</h5>
-                                <p class="card-text"><a href="/testDescriptionForm.jsp">Add Test Description</a></p>
+                                <p class="card-text"><a href="testDescriptionForm.jsp">Add Test Description</a></p>
                                 <p class="card-text"><a href="viewAllServlet?viewAll=testDescriptions">View Test Descriptions</a></p>
                             </div>
                         </div>
@@ -109,7 +109,7 @@
                             <img src="images/methodIcon.png" class=" m-auto w-75 height:auto w-75 p-3" alt="Method Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Method</h5>
-                                <p class="card-text"><a href="/methodForm.jsp">Add Method</a></p>
+                                <p class="card-text"><a href="methodForm.jsp">Add Method</a></p>
                                 <p class="card-text"><a href="viewAllServlet?viewAll=methods">View Methods</a></p>
                             </div>
                         </div>
@@ -121,7 +121,7 @@
                             <img src="images/sampleIcon.png" class=" m-auto w-75 height:auto w-75 p-3" alt="Sample Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Sample</h5>
-                                <p class="card-text"><a href="/sampleForm.jsp">Add Sample</a></p>
+                                <p class="card-text"><a href="sampleForm.jsp">Add Sample</a></p>
                                 <p class="card-text"><a href="viewAllServlet?viewAll=samples">View Samples</a></p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                             <img src="images/projectIcon.png" class=" m-auto w-75 height:auto w-75 p-3" alt="Project Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Project</h5>
-                                <p class="card-text"><a href="/sampleForm.jsp">Add Project</a></p>
+                                <p class="card-text"><a href="projectForm.jsp">Add Project</a></p>
                                 <p class="card-text"><a href="viewAllServlet?viewAll=projects">View Projects</a></p>
                             </div>
                         </div>
@@ -145,7 +145,7 @@
                             <img src="images/testIcon.png" class=" m-auto w-75 height:auto w-75 p-3" alt="Test Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Test</h5>
-                                <p class="card-text"><a href="/sampleForm.jsp">Add Test</a></p>
+                                <p class="card-text"><a href="testForm.jsp">Add Test</a></p>
                                 <p class="card-text"><a href="viewAllServlet?viewAll=tests">View Tests</a></p>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                             <img src="images/contactIcon.png" class=" m-auto w-75 height:auto w-75 p-3" alt="Contact Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Contact Info</h5>
-                                <p class="card-text"><a href="/contact.jsp">Contact Us</a></p>
+                                <p class="card-text"><a href="contact.jsp">Contact Us</a></p>
                                 <p class="card-text"><a href="viewAllServlet?viewAll=contacts">View Contact Submissions</a></p>
                             </div>
                         </div>
