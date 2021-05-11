@@ -73,7 +73,7 @@
                             <img src="images/customer.svg" class=" m-auto w-75 height:auto w-75 p-3" alt="Customer Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Clients</h5>
-                                <p class="card-text"><a href="/clientform.jsp">Add Client</a></p>
+                                <p class="card-text"><a href="clientform.jsp">Add Client</a></p>
                                 <p class="card-text"><a href="viewAllServlet?viewAll=clients">View Clients</a></p>
                             </div>
                         </div>
@@ -85,7 +85,7 @@
                             <img src="images/userIcon.png" class=" m-auto w-75 height:auto w-75 p-3" alt="User Icon">
                             <div class="card-body">
                                 <h5 class="card-title">Users</h5>
-                                <p class="card-text"><a href="/signup.jsp">Add User</a></p>
+                                <p class="card-text"><a href="signup.jsp">Add User</a></p>
                                 <p class="card-text"><a href="viewAllServlet?viewAll=users">View Users</a></p>
                             </div>
                         </div>

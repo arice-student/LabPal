@@ -89,7 +89,7 @@ public class DeleteItemServlet extends HttpServlet {
 
         req.setAttribute("message", "The item has been successfully deleted.");
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/myDashboard.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("myDashboard.jsp");
         dispatcher.forward(req, resp);
     }
 }

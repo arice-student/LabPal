@@ -32,8 +32,8 @@
                         <tr>
                             <td>${client.id}</td>
                             <td>${client.name}</td>
-                            <td><a href="/editEntity"></a>Edit</td>
-                            <td><a href="/deleteItem?deleteItem=client&clientID=${client.id}">Delete</a></td>
+                            <td><a href="editEntity"></a>Edit</td>
+                            <td><a href="deleteItem?deleteItem=client&clientID=${client.id}">Delete</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>
@@ -62,8 +62,8 @@
                             <c:forEach var="role" items="${user.roles}">
                                 ${role.id} ${role.roleName}<br/>
                             </c:forEach>
-                            <td><a href="/editEntity?editItem=user&userID=${user.id}"></a>Edit User</td>
-                            <td><a href="/deleteItem?deleteItem=user&userID=${user.id}">Delete User</a></td>
+                            <td><a href="editEntity?editItem=user&userID=${user.id}"></a>Edit User</td>
+                            <td><a href="deleteItem?deleteItem=user&userID=${user.id}">Delete User</a></td>
                             </td>
                         </tr>
 
@@ -86,8 +86,8 @@
                         <tr>
                             <td>${testDescription.id}</td>
                             <td>${testDescription.testName}</td>
-                            <td><a href="/editEntity?editItem=testDescription&testDescriptionID=${testDescription.id}"></a>Edit User</td>
-                            <td><a href="/deleteItem?deleteItem=testDescription&testDescriptionID=${testDescription.id}">Delete User</a></td>
+                            <td><a href="editEntity?editItem=testDescription&testDescriptionID=${testDescription.id}"></a>Edit User</td>
+                            <td><a href="deleteItem?deleteItem=testDescription&testDescriptionID=${testDescription.id}">Delete User</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>
@@ -115,8 +115,8 @@
                             <td>${method.client}</td>
                             <td>${method.status}</td>
                             <td>${method.date}</td>
-                            <td><a href="/editEntity?editItem=method&methodID=${method.id}"></a>Edit</td>
-                            <td><a href="/deleteItem?deleteItem=method&methodID=${method.id}">Delete</a></td>
+                            <td><a href="editEntity?editItem=method&methodID=${method.id}"></a>Edit</td>
+                            <td><a href="deleteItem?deleteItem=method&methodID=${method.id}">Delete</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>
@@ -146,8 +146,8 @@
                             <td>${sample.lot}</td>
                             <td>${sample.concentration}</td>
                             <td>${sample.manufactureDate}</td>
-                            <td><a href="/editEntity?editItem=sample&sampleID=${sample.id}"></a>Edit</td>
-                            <td><a href="/deleteItem?deleteItem=sample&sampleID=${sample.id}">Delete</a></td>
+                            <td><a href="editEntity?editItem=sample&sampleID=${sample.id}"></a>Edit</td>
+                            <td><a href="deleteItem?deleteItem=sample&sampleID=${sample.id}">Delete</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>
@@ -171,8 +171,8 @@
                             <td>${project.clientName}</td>
                             <td>${project.startDate}</td>
                             <td>${project.closureDate}</td>
-                            <td><a href="/editEntity?editItem=project&projectID=${project.id}"></a>Edit</td>
-                            <td><a href="/deleteItem?deleteItem=project&projectID=${project.id}">Delete</a></td>
+                            <td><a href="editEntity?editItem=project&projectID=${project.id}"></a>Edit</td>
+                            <td><a href="deleteItem?deleteItem=project&projectID=${project.id}">Delete</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>
@@ -200,8 +200,8 @@
                             <td>${test.testDescription}</td>
                             <td>${test.methodId}</td>
                             <td>${test.analyst}</td>
-                            <td><a href="/editEntity?editItem=test&testID=${test.id}"></a>Edit</td>
-                            <td><a href="/deleteItem?deleteItem=test&testID=${test.id}">Delete</a></td>
+                            <td><a href="editEntity?editItem=test&testID=${test.id}"></a>Edit</td>
+                            <td><a href="deleteItem?deleteItem=test&testID=${test.id}">Delete</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>
@@ -225,8 +225,8 @@
                             <td>${contact.email}</td>
                             <td>${contact.message}</td>
                             <td>${contact.date}</td>
-                            <td><a href="/editEntity?editItem=contact&contactID=${contact.id}"></a>Edit</td>
-                            <td><a href="/deleteItem?deleteItem=contact&contactID=${contact.id}">Delete</a></td>
+                            <td><a href="editEntity?editItem=contact&contactID=${contact.id}"></a>Edit</td>
+                            <td><a href="deleteItem?deleteItem=contact&contactID=${contact.id}">Delete</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>

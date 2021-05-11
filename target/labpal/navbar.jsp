@@ -12,20 +12,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-link mr-2" aria-current="page" href="/myDashboard.jsp">My Dashboard</a>
-                <a class="nav-link mr-2" href="/aboutUs.jsp">About Us</a>
-                <a class="nav-link mr-5" href="/contact.jsp">Contact</a>
+                <a class="nav-link mr-2" aria-current="page" href="myDashboard.jsp">My Dashboard</a>
+                <a class="nav-link mr-2" href="aboutUs.jsp">About Us</a>
+                <a class="nav-link mr-5" href="contact.jsp">Contact</a>
 
                 <c:if test="${not empty pageContext.request.remoteUser}">
 
                     <c:if test="${pageContext.request.isUserInRole(\"admin\")}">
-                        <a class="nav-link" href="/admin.jsp">Admin</a>
+                        <a class="nav-link" href="admin.jsp">Admin</a>
                     </c:if>
 
                     <%--request.isUserInRole("admin");--%>
                     <%-- <c:if test="${not empty logout}">--%>
-                    <a class="nav-link" href="/myProfile">My Profile</a>
-                    <a class="nav-link" href="/logout">Sign Out</a>
+                    <a class="nav-link" href="myProfile">My Profile</a>
+                    <a class="nav-link" href="logout">Sign Out</a>
                     <%--<c:remove var="logout"/>--%>
                 </c:if>
 

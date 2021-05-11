@@ -41,7 +41,7 @@ public class MyProfile extends HttpServlet {
         User thisUser = user.get(0);
         req.setAttribute("userInfo", thisUser);
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/myProfile.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("myProfile.jsp");
         dispatcher.forward(req, resp);
     }
 }

@@ -66,7 +66,7 @@ public class SignUp extends HttpServlet {
                     req.setAttribute("newUser", newUser);
 
                     // Forward to the dashboard page
-                    RequestDispatcher dispatcher = req.getRequestDispatcher("/signup.jsp");
+                    RequestDispatcher dispatcher = req.getRequestDispatcher("signup.jsp");
                     dispatcher.forward(req, resp);
                 }
 
@@ -74,7 +74,7 @@ public class SignUp extends HttpServlet {
                 logger.debug("The entire form was not filled out?");
                 // Return the user back to the form since it was not fully completed
                 req.setAttribute("error", "There was an issue with the form completion.  Please try again.");
-                RequestDispatcher dispatcher = req.getRequestDispatcher("/signup.jsp");
+                RequestDispatcher dispatcher = req.getRequestDispatcher("signup.jsp");
                 dispatcher.forward(req, resp);
             }
 
